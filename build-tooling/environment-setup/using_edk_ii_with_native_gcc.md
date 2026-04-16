@@ -1,9 +1,11 @@
-# Using EDK Ii With Native GCC
+# Using EDK II With Native GCC
 
-`Note: New build instructions are available. It is recommended to start with the new instructions if learning how to`
-`build edk2 for the first time. This page is retained for reference.`
+``` admonish note "Note: New instructions"
+New build instructions are available. It is recommended to start with the new instructions if learning how to
+build edk2 for the first time. This page is retained for reference.
 
 New instructions: [Build Instructions](../build-workflows/build_instructions.md)
+```
 
 This page provides *step-by-step instructions* for setting up a [EDK
 II](http://www.tianocore.org/edk2/) build environment on Linux using a
@@ -17,7 +19,9 @@ These instructions will be written as a series of commands executed from
 a command terminal.Often these instructions will contain a command which
 needs to be executed in the terminal window. For example:
 
-    bash$ echo this text is a sample command
+```bash
+bash$ echo this text is a sample command
+```
 
 To execute this command, highlight the text of the command in your web
 browser. (Note that the 'bash\$' text is not part of the command!) Most
@@ -32,15 +36,17 @@ the terminal which are specific to the windowing environment and
 applications that you are using. If all else fails, however, you can
 type the command by hand.
 
-Some commands are very long, and we use the backslash character (\\ to
+Some commands are very long, and we use the backslash character (\\) to
 tell the shell program that the command is not finished. For example:
 
-    bash$ echo this bold text is a sample command \
-            which is broken into two lines
+```bash
+bash$ echo this bold text is a sample command \
+        which is broken into two lines
+```
 
 When you copy and paste, make sure you include all lines of the command
-(including the backslash (\\ characters). If you are typing the command,
-you can remove the backslash character (\\ and combine the lines into a
+(including the backslash (\\) characters). If you are typing the command,
+you can remove the backslash character (\\) and combine the lines into a
 single line if you prefer.
 
 If a command starts with the sudo command, then you may be prompted for
@@ -69,8 +75,10 @@ administrator to find out the computer name and port to use for proxy
 setup. The following commands are common examples of how you would
 configure your proxy by setting an environment variable:
 
-    bash$ export http_proxy=http://proxy.domain.com:proxy_port
-    bash$ export ftp_proxy=$http_proxy
+```bash
+bash$ export http_proxy=http://proxy.domain.com:proxy_port
+bash$ export ftp_proxy=$http_proxy
+```
 
 To utilize the subversion source control command behind an internet
 firewall with a web proxy, you should configure the
@@ -93,19 +101,21 @@ locate it under the Applications menu and the Accessories sub-menu.
 Several Ubuntu packages will be needed to set up the build environment
 for EDK II. The following command will install all required packages:
 
-    bash$ sudo apt install build-essential uuid-dev iasl git  nasm  python-is-python3
+```bash
+bash$ sudo apt install build-essential uuid-dev iasl git  nasm  python-is-python3
+```
 
-build-essential - Informational list of build-essential packages
+`build-essential` - Informational list of build-essential packages
 
-uuid-dev - Universally Unique ID library (headers and static libraries)
+`uuid-dev` - Universally Unique ID library (headers and static libraries)
 
-iasl - Intel ASL compiler/decompiler (also provided by acpica-tools)
+`iasl` - Intel ASL compiler/decompiler (also provided by acpica-tools)
 
-git - support for git revision control system
+`git` - support for git revision control system
 
-nasm - General-purpose x86 assembler
+`nasm` - General-purpose x86 assembler
 
-python-is-python3 - Ubuntu 20.04 python command is 'python3' but edk2
+`python-is-python3` - Ubuntu 20.04 python command is 'python3' but edk2
 tools use 'python'
 
 ### Continue with common instructions
@@ -130,21 +140,23 @@ locate it under the Applications menu and the Accessories sub-menu.
 Several Ubuntu packages will be needed to set up the build environment
 for EDK II. The following command will install all required packages:
 
-    bash$ sudo apt-get install build-essential uuid-dev iasl git gcc-5 nasm python3-distutils
+```bash
+bash$ sudo apt-get install build-essential uuid-dev iasl git gcc-5 nasm python3-distutils
+```
 
-build-essential - Informational list of build-essential packages
+`build-essential` - Informational list of build-essential packages
 
-uuid-dev - Universally Unique ID library (headers and static libraries)
+`uuid-dev` - Universally Unique ID library (headers and static libraries)
 
-iasl - Intel ASL compiler/decompiler (also provided by acpica-tools)
+`iasl` - Intel ASL compiler/decompiler (also provided by acpica-tools)
 
-git - support for git revision control system
+`git` - support for git revision control system
 
-gcc-5 - GNU C compiler (v5.4.0 as of Ubuntu 16.04 LTS)
+`gcc-5` - GNU C compiler (v5.4.0 as of Ubuntu 16.04 LTS)
 
-nasm - General-purpose x86 assembler
+`nasm` - General-purpose x86 assembler
 
-python3-distutils - distutils module from the Python standard library
+`python3-distutils` - distutils module from the Python standard library
 
 ### Continue with common instructions
 
@@ -184,11 +196,13 @@ sub-menu.
 To install the required packages, you must be root. Therefore we use
 'su' to become the root user.
 
-    bash$ su -
-    bash$ pacman -S base-devel glibc iasl python2 subversion
-    bash$ exit
+```bash
+bash$ su -
+bash$ pacman -S base-devel glibc iasl python2 subversion
+bash$ exit
+```
 
- Continue with common instructions
+Continue with common instructions
 
 The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
@@ -212,12 +226,14 @@ locate it under the Applications menu and the System Tools sub-menu.
 To install the required packages, you must be root. Therefore we use
 'su' to become the root user.
 
-    bash$ su -
-    bash$ yum groupinstall development-tools
-    bash$ yum install iasl libuuid-devel
-    bash$ exit
+```bash
+bash$ su -
+bash$ yum groupinstall development-tools
+bash$ yum install iasl libuuid-devel
+bash$ exit
+```
 
- Continue with common instructions
+Continue with common instructions
 
 The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
@@ -241,11 +257,13 @@ it under the Applications menu and the Tools sub-menu.
 To install the required packages, you must be root. Therefore we use
 'su' to become the root user.
 
-    bash$ su -
-    bash$ urpmi task-c++-devel iasl libuuid-devel subversion
-    bash$ exit
+```bash
+bash$ su -
+bash$ urpmi task-c++-devel iasl libuuid-devel subversion
+bash$ exit
+```
 
- Continue with common instructions
+Continue with common instructions
 
 The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
@@ -268,9 +286,11 @@ Several openSUSE packages will be needed to fully set up an edk2 build
 environment. In order to easily install all the requirements, you need
 to run this command.
 
-    bash> sudo zypper in -t pattern devel_basis
+```bash
+bash$ sudo zypper in -t pattern devel_basis
+```
 
- Continue with common instructions
+Continue with common instructions
 
 The [remaining instructions](../build-workflows/common_instructions.md) are common for
 most UNIX-like systems.
@@ -298,7 +318,9 @@ Several ubuntu packages will be needed to fully set up an edk2 build
 environment. In order to easily install all the requirements, you need
 to run this command.
 
-    bash$ sudo apt-get install build-essential subversion uuid-dev iasl
+```bash
+bash$ sudo apt-get install build-essential subversion uuid-dev iasl
+```
 
 ### Continue with common instructions
 

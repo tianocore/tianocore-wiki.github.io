@@ -30,7 +30,7 @@ II](development/tutorials-howto/getting_started_with_edk_ii.md) page. This provi
 [EmulatorPkg](platforms-packages/platform-ports/emulator_pkg.md),
 [MdePkg](platforms-packages/core-packages/mde_pkg.md), ...). There are multiple
 [hardware platforms](platforms-packages/platform-ports/edk_ii_platforms.md) using EDK II open source UEFI firmware,
-including MinnowBoard Max/Turbot, Aaeon UpSquared, and Intel® Galileo Gen 2. This allows you to experiment and develop
+including the ADLINK Ampere Altra Dev Kit and ASRock Rack ALTRAD8UD-1L2T. This allows you to experiment and develop
 UEFI features on real hardware.
 
 TianoCore uses github issues to track issues and feature requests. Please review [Reporting

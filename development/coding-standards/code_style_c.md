@@ -10,10 +10,10 @@ Details on how to install and run uncrustify for EDK II can be found at
 
 The official C Coding Standards specification can be found at:
 
-- EDK II C Coding Standards 2.2
-  [HTML](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/)
+- EDK II C Coding Standards 2.4
+  [HTML](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.40/)
   \|
-  [.PDF](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.20/edk2-CCodingStandardsSpecification-release-2.20.pdf)
+  [.PDF](https://tianocore-docs.github.io/edk2-CCodingStandardsSpecification/release-2.40/edk2-CCodingStandardsSpecification-release-2.40.pdf)
 
 ## Overview
 

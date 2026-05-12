@@ -75,7 +75,7 @@
 
 [CVE-2023-45237](https://nvd.nist.gov/vuln/detail/CVE-2023-45237)
 
-* Bugzilla: [BZ 4542](https://bugzilla.tianocore.org/show_bug.cgi?id=4542)
+* Bugzilla: [BZ 4542](https://bugzilla.tianocore.org/show_bug.cgi?id=4542) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204542%22))
 * [GHSA-hc6x-cw6p-gj7h](https://github.com/tianocore/edk2/security/advisories/GHSA-hc6x-cw6p-gj7h)
 * Stable Tag where fixed: [202405](https://github.com/tianocore/edk2/releases/tag/edk2-stable202405)
 * Commit(s) where fixed: [Push #5582](https://github.com/tianocore/edk2/pull/5582): available WW21 (12 applicable
@@ -92,7 +92,7 @@
 
 [CVE-2023-45236](https://nvd.nist.gov/vuln/detail/CVE-2023-45236)
 
-* Bugzilla: [BZ 4541](https://bugzilla.tianocore.org/show_bug.cgi?id=4541)
+* Bugzilla: [BZ 4541](https://bugzilla.tianocore.org/show_bug.cgi?id=4541) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204541%22))
 * [GHSA-hc6x-cw6p-gj7h](https://github.com/tianocore/edk2/security/advisories/GHSA-hc6x-cw6p-gj7h)
 * Stable Tag where fixed: [202405](https://github.com/tianocore/edk2/releases/tag/edk2-stable202405)
 * Commit(s) where fixed: [Push #5582](https://github.com/tianocore/edk2/pull/5582): available WW21 (12 applicable
@@ -109,7 +109,7 @@
 
 [CVE-2023-45235](https://nvd.nist.gov/vuln/detail/CVE-2023-45235)
 
-* Bugzilla: [BZ 4540](https://bugzilla.tianocore.org/show_bug.cgi?id=4540)
+* Bugzilla: [BZ 4540](https://bugzilla.tianocore.org/show_bug.cgi?id=4540) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204540%22))
 * [GHSA-hc6x-cw6p-gj7h](https://github.com/tianocore/edk2/security/advisories/GHSA-hc6x-cw6p-gj7h)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: [Push #5352](https://github.com/tianocore/edk2/pull/5352): available WW06
@@ -119,7 +119,7 @@
 
 [CVE-2023-45234](https://nvd.nist.gov/vuln/detail/CVE-2023-45234)
 
-* Bugzilla: [BZ 4539](https://bugzilla.tianocore.org/show_bug.cgi?id=4539)
+* Bugzilla: [BZ 4539](https://bugzilla.tianocore.org/show_bug.cgi?id=4539) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204539%22))
 * [GHSA-hc6x-cw6p-gj7h](https://github.com/tianocore/edk2/security/advisories/GHSA-hc6x-cw6p-gj7h)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: [Push #5352](https://github.com/tianocore/edk2/pull/5352): available WW06
@@ -129,7 +129,7 @@
 
 [CVE-2023-45233](https://nvd.nist.gov/vuln/detail/CVE-2023-45233)
 
-* Bugzilla: [BZ 4538](https://bugzilla.tianocore.org/show_bug.cgi?id=4538)
+* Bugzilla: [BZ 4538](https://bugzilla.tianocore.org/show_bug.cgi?id=4538) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204538%22))
 * [GHSA-hc6x-cw6p-gj7h](https://github.com/tianocore/edk2/security/advisories/GHSA-hc6x-cw6p-gj7h)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: [Push #5352](https://github.com/tianocore/edk2/pull/5352): available WW06
@@ -139,7 +139,7 @@
 
 [CVE-2023-45232](https://nvd.nist.gov/vuln/detail/CVE-2023-45232)
 
-* Bugzilla: [BZ 4537](https://bugzilla.tianocore.org/show_bug.cgi?id=4537)
+* Bugzilla: [BZ 4537](https://bugzilla.tianocore.org/show_bug.cgi?id=4537) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204537%22))
 * [GHSA-hc6x-cw6p-gj7h](https://github.com/tianocore/edk2/security/advisories/GHSA-hc6x-cw6p-gj7h)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: [Push #5352](https://github.com/tianocore/edk2/pull/5352): available WW06
@@ -149,7 +149,7 @@
 
 [CVE-2023-45231](https://nvd.nist.gov/vuln/detail/CVE-2023-45231)
 
-* Bugzilla: [BZ 4536](https://bugzilla.tianocore.org/show_bug.cgi?id=4536)
+* Bugzilla: [BZ 4536](https://bugzilla.tianocore.org/show_bug.cgi?id=4536) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204536%22))
 * [GHSA-hc6x-cw6p-gj7h](https://github.com/tianocore/edk2/security/advisories/GHSA-hc6x-cw6p-gj7h)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: [Push #5352](https://github.com/tianocore/edk2/pull/5352): available WW06
@@ -159,7 +159,7 @@
 
 [CVE-2023-45230](https://nvd.nist.gov/vuln/detail/CVE-2023-45230)
 
-* Bugzilla: [BZ 4535](https://bugzilla.tianocore.org/show_bug.cgi?id=4535)
+* Bugzilla: [BZ 4535](https://bugzilla.tianocore.org/show_bug.cgi?id=4535) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204535%22))
 * [GHSA-hc6x-cw6p-gj7h](https://github.com/tianocore/edk2/security/advisories/GHSA-hc6x-cw6p-gj7h)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: [Push #5352](https://github.com/tianocore/edk2/pull/5352): available WW06
@@ -169,7 +169,7 @@
 
 [CVE-2023-45229](https://nvd.nist.gov/vuln/detail/CVE-2023-45229)
 
-* Bugzilla: [BZ 4534](https://bugzilla.tianocore.org/show_bug.cgi?id=4534)
+* Bugzilla: [BZ 4534](https://bugzilla.tianocore.org/show_bug.cgi?id=4534) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204534%22))
 * [GHSA-hc6x-cw6p-gj7h](https://github.com/tianocore/edk2/security/advisories/GHSA-hc6x-cw6p-gj7h)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: [Push #5352](https://github.com/tianocore/edk2/pull/5352): available WW06
@@ -179,7 +179,7 @@
 
 [CVE-2022-36765](https://nvd.nist.gov/vuln/detail/CVE-2022-36765)
 
-* Bugzilla: [BZ 4166](https://bugzilla.tianocore.org/show_bug.cgi?id=4166)
+* Bugzilla: [BZ 4166](https://bugzilla.tianocore.org/show_bug.cgi?id=4166) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204166%22))
 * [GHSA-ch4w-v7m3-g8wx](https://github.com/tianocore/edk2/security/advisories/GHSA-ch4w-v7m3-g8wx)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: [Push #5252](https://github.com/tianocore/edk2/pull/5252): available January 16
@@ -189,7 +189,7 @@
 
 [CVE-2022-36764](https://nvd.nist.gov/vuln/detail/CVE-2022-36764)
 
-* Bugzilla: [BZ 4118](https://bugzilla.tianocore.org/show_bug.cgi?id=4118)
+* Bugzilla: [BZ 4118](https://bugzilla.tianocore.org/show_bug.cgi?id=4118) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204118%22))
 * [GHSA-4hcq-p8q8-hj8j](https://github.com/tianocore/edk2/security/advisories/GHSA-4hcq-p8q8-hj8j)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: Both [Push #5264](https://github.com/tianocore/edk2/pull/5264) and [Push
@@ -200,7 +200,7 @@
 
 [CVE-2022-36763](https://nvd.nist.gov/vuln/detail/CVE-2022-36763)
 
-* Bugzilla: [BZ 4117](https://bugzilla.tianocore.org/show_bug.cgi?id=4117)
+* Bugzilla: [BZ 4117](https://bugzilla.tianocore.org/show_bug.cgi?id=4117) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%204117%22))
 * [GHSA-xvv8-66cq-prwr](https://github.com/tianocore/edk2/security/advisories/GHSA-xvv8-66cq-prwr)
 * Stable Tag where fixed: [202402](https://github.com/tianocore/edk2/releases/tag/edk2-stable202402)
 * Commit(s) where fixed: Both [Push #5264](https://github.com/tianocore/edk2/pull/5264) and [Push
@@ -211,7 +211,7 @@
 
 [CVE-2021-38578](https://nvd.nist.gov/vuln/detail/CVE-2021-38578)
 
-* Bugzilla: [BZ 3387](https://bugzilla.tianocore.org/show_bug.cgi?id=3387)
+* Bugzilla: [BZ 3387](https://bugzilla.tianocore.org/show_bug.cgi?id=3387) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%203387%22))
 * Stable Tag where fixed: [202211](https://github.com/tianocore/edk2/releases/tag/edk2-stable202211)
 * Commit(s) where fixed:
   [cab1f02565d3b29081dd21afb074f35fdb4e1fd6](https://github.com/tianocore/edk2/commit/cab1f02565d3b29081dd21afb074f35fdb4e1fd6)
@@ -220,7 +220,7 @@
 
 [CVE-2021-38576](https://nvd.nist.gov/vuln/detail/CVE-2021-38576)
 
-* Bugzilla: [BZ 3499](https://bugzilla.tianocore.org/show_bug.cgi?id=3499)
+* Bugzilla: [BZ 3499](https://bugzilla.tianocore.org/show_bug.cgi?id=3499) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%203499%22))
 * Stable Tag where fixed: [202302](https://github.com/tianocore/edk2/releases/tag/edk2-stable202302)
 * Commit(s) where fixed: 1. [Push #1968](https://github.com/tianocore/edk2/pull/1968): sample code in SecurityPkg for
 TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034): OvmfPkg support for disabling the TPM
@@ -230,7 +230,7 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2021-38575](https://nvd.nist.gov/vuln/detail/CVE-2021-38575)
 
-* Bugzilla: [BZ 3356](https://bugzilla.tianocore.org/show_bug.cgi?id=3356)
+* Bugzilla: [BZ 3356](https://bugzilla.tianocore.org/show_bug.cgi?id=3356) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%203356%22))
 * Stable Tag where fixed: [202108](https://github.com/tianocore/edk2/releases/tag/edk2-stable202108)
 * Commit(s) where fixed: [Push #1698](https://github.com/tianocore/edk2/pull/1698)
 
@@ -238,17 +238,17 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2021-28213](https://nvd.nist.gov/vuln/detail/CVE-2021-28213)
 
-* Bugzilla: [BZ 1866](https://bugzilla.tianocore.org/show_bug.cgi?id=1866)
+* Bugzilla: [BZ 1866](https://bugzilla.tianocore.org/show_bug.cgi?id=1866) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%201866%22))
 * Stable Tag where fixed: [201905](https://github.com/tianocore/edk2/releases/tag/edk2-stable201905)
 * Commit(s) where fixed:
   [d55d9d0664366efe731db461e14c6fc380fca776](https://github.com/tianocore/edk2/commit/d55d9d0664366efe731db461e14c6fc380fca776)
-  (removed NetworkPkg/IpSecDxe driver per [BZ 1697](https://bugzilla.tianocore.org/show_bug.cgi?id=1697))
+  (removed NetworkPkg/IpSecDxe driver per [BZ 1697](https://bugzilla.tianocore.org/show_bug.cgi?id=1697) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%201697%22)))
 
 ***
 
 [CVE-2021-28211](https://nvd.nist.gov/vuln/detail/CVE-2021-28211)
 
-* Bugzilla: [BZ 1816](https://bugzilla.tianocore.org/show_bug.cgi?id=1816)
+* Bugzilla: [BZ 1816](https://bugzilla.tianocore.org/show_bug.cgi?id=1816) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%201816%22))
 * Stable Tag where fixed: [202011](https://github.com/tianocore/edk2/releases/tag/edk2-stable202011)
 * Commit(s) where fixed:
   [6aeaea14e97f2a36f07ccd4fd2ffb971d68b3b0a](https://github.com/tianocore/edk2/pull/1138/commits/6aeaea14e97f2a36f07ccd4fd2ffb971d68b3b0a)
@@ -257,7 +257,7 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2021-28210](https://nvd.nist.gov/vuln/detail/CVE-2021-28210)
 
-* Bugzilla: [BZ 1743](https://bugzilla.tianocore.org/show_bug.cgi?id=1743)
+* Bugzilla: [BZ 1743](https://bugzilla.tianocore.org/show_bug.cgi?id=1743) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%201743%22))
 * Stable Tag where fixed: [202011](https://github.com/tianocore/edk2/releases/tag/edk2-stable202011)
 * Commit(s) where fixed: [Push #1137](https://github.com/tianocore/edk2/pull/1137)
 
@@ -265,7 +265,7 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2019-14587](https://nvd.nist.gov/vuln/detail/CVE-2019-14587)
 
-* Bugzilla: [BZ 1989](https://bugzilla.tianocore.org/show_bug.cgi?id=1989)
+* Bugzilla: [BZ 1989](https://bugzilla.tianocore.org/show_bug.cgi?id=1989) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%201989%22))
 * Stable Tag where fixed: [202002](https://github.com/tianocore/edk2/releases/tag/edk2-stable202002)
 * Commit(s) where fixed:
   [e36d5ac7d10a6ff5becb0f52fdfd69a1752b0d14](https://github.com/tianocore/edk2/commit/e36d5ac7d10a6ff5becb0f52fdfd69a1752b0d14)
@@ -274,7 +274,7 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2019-14586](https://nvd.nist.gov/vuln/detail/CVE-2019-14586)
 
-* Bugzilla: [BZ 1995](https://bugzilla.tianocore.org/show_bug.cgi?id=1995)
+* Bugzilla: [BZ 1995](https://bugzilla.tianocore.org/show_bug.cgi?id=1995) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%201995%22))
 * Stable Tag where fixed: [202002](https://github.com/tianocore/edk2/releases/tag/edk2-stable202002)
 * Commit(s) where fixed:
   [c32be82e99ef272e7fa742c2f06ff9a4c3756613](https://github.com/tianocore/edk2/commit/c32be82e99ef272e7fa742c2f06ff9a4c3756613)
@@ -283,7 +283,7 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2019-14584](https://nvd.nist.gov/vuln/detail/CVE-2019-14584)
 
-* Bugzilla: [BZ 1914](https://bugzilla.tianocore.org/show_bug.cgi?id=1914)
+* Bugzilla: [BZ 1914](https://bugzilla.tianocore.org/show_bug.cgi?id=1914) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%201914%22))
 * Stable Tag where fixed: [202011](https://github.com/tianocore/edk2/releases/tag/edk2-stable202011)
 * Commit(s) where fixed:
   [26442d11e620a9e81c019a24a4ff38441c64ba10](https://github.com/tianocore/edk2/commit/26442d11e620a9e81c019a24a4ff38441c64ba10)
@@ -292,9 +292,9 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2019-14575](https://nvd.nist.gov/vuln/detail/CVE-2019-14575)
 
-* Bugzilla: [BZ 1608](https://bugzilla.tianocore.org/show_bug.cgi?id=1608)
+* Bugzilla: [BZ 1608](https://bugzilla.tianocore.org/show_bug.cgi?id=1608) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%201608%22))
 * Stable Tag where fixed: [202002](https://github.com/tianocore/edk2/releases/tag/edk2-stable202002)
-* Commit(s) where fixed: BZ [Comment 60](https://bugzilla.tianocore.org/show_bug.cgi?id=1608#c60) is “Pushed
+* Commit(s) where fixed: BZ [Comment 60](https://bugzilla.tianocore.org/show_bug.cgi?id=1608#c60) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%201608%22)) is “Pushed
   fbb9607223...c230c002ac” with [10
   results](https://github.com/search?q=repo%3Atianocore%2Fedk2+CVE-2019-14575&type=commits) from search:
 
@@ -323,7 +323,7 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2019-14563](https://nvd.nist.gov/vuln/detail/CVE-2019-14563)
 
-* Bugzilla: [BZ 2001](https://bugzilla.tianocore.org/show_bug.cgi?id=2001)
+* Bugzilla: [BZ 2001](https://bugzilla.tianocore.org/show_bug.cgi?id=2001) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%202001%22))
 * Stable Tag where fixed: [202011](https://github.com/tianocore/edk2/releases/tag/edk2-stable202011)
 * Commit(s) where fixed:
   [322ac05f8bbc1bce066af1dabd1b70ccdbe28891](https://github.com/tianocore/edk2/commit/322ac05f8bbc1bce066af1dabd1b70ccdbe28891)
@@ -332,7 +332,7 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2019-14562](https://nvd.nist.gov/vuln/detail/CVE-2019-14562)
 
-* Bugzilla: [BZ 2215](https://bugzilla.tianocore.org/show_bug.cgi?id=2215)
+* Bugzilla: [BZ 2215](https://bugzilla.tianocore.org/show_bug.cgi?id=2215) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%202215%22))
 * Stable Tag where fixed: [202008](https://github.com/tianocore/edk2/releases/tag/edk2-stable202008)
 * Commit(s) where fixed:
   [0b143fa43e92be15d11e22f80773bcb1b2b0608f](https://github.com/tianocore/edk2/commit/0b143fa43e92be15d11e22f80773bcb1b2b0608f)
@@ -341,7 +341,7 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2019-14559](https://nvd.nist.gov/vuln/detail/CVE-2019-14559)
 
-* Bugzilla: [BZ 2031](https://bugzilla.tianocore.org/show_bug.cgi?id=2031)
+* Bugzilla: [BZ 2031](https://bugzilla.tianocore.org/show_bug.cgi?id=2031) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%202031%22))
 * Stable Tag where fixed: [202002](https://github.com/tianocore/edk2/releases/tag/edk2-stable202002)
 * Commit(s) where fixed:
   [1d3215fd24f47eaa4877542a59b4bbf5afc0cfe8](https://github.com/tianocore/edk2/commit/1d3215fd24f47eaa4877542a59b4bbf5afc0cfe8)
@@ -350,9 +350,9 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2019-14553](https://nvd.nist.gov/vuln/detail/CVE-2019-14553)
 
-* Bugzilla: [BZ 960](https://bugzilla.tianocore.org/show_bug.cgi?id=960)
+* Bugzilla: [BZ 960](https://bugzilla.tianocore.org/show_bug.cgi?id=960) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%20960%22))
 * Stable Tag where fixed: [201911](https://github.com/tianocore/edk2/releases/tag/edk2-stable201911)
-* Commit(s) where fixed: BZ [Comment 47](https://bugzilla.tianocore.org/show_bug.cgi?id=960#c47) is “Pushed as commit
+* Commit(s) where fixed: BZ [Comment 47](https://bugzilla.tianocore.org/show_bug.cgi?id=960#c47) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%20960%22)) is “Pushed as commit
   range b15646484eaf..e2fc50812895” with [8
   results](https://github.com/search?q=repo%3Atianocore%2Fedk2+CVE-2019-14553&type=commits) from search:
 
@@ -377,9 +377,9 @@ TcgPlatformDxe/PEI, 2. [Push #2034](https://github.com/tianocore/edk2/pull/2034)
 
 [CVE-2017-5731](https://nvd.nist.gov/vuln/detail/CVE-2017-5731)
 
-* Bugzilla: [BZ 686](https://bugzilla.tianocore.org/show_bug.cgi?id=686)
+* Bugzilla: [BZ 686](https://bugzilla.tianocore.org/show_bug.cgi?id=686) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%20686%22))
 * Stable Tag where fixed: Pre-Stable Tags: Edk2-master (2018), UDK2018, UDK2017, UDK2015
-* Commit(s) where fixed: BZ [Comment 10](https://bugzilla.tianocore.org/show_bug.cgi?id=686#c10) is “Fix it in
+* Commit(s) where fixed: BZ [Comment 10](https://bugzilla.tianocore.org/show_bug.cgi?id=686#c10) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%20686%22)) is “Fix it in
    edk2 master
          2ec7953d49677142c5f7552e9e3d96fb406ba0c4..041d89bc0f0119df37a5fce1d0f16495ff905089
    edk2 UDK2018

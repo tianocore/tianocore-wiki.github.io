@@ -89,121 +89,121 @@ Updates and clarifications related to UEFI Spec conformance regarding KEK and DB
 See [SecurityPkg](../../platforms-packages/core-packages/security_pkg.md) for more documentation on security
 features with UDK2010 and UEFI.
 
-## [July 24, 2012](http://www.tianocore.org/news/2012/07/24/news.html)
+## [July 24, 2012](https://www.tianocore.org/news/2012/07/24/news.html)
 
 The [UDK2010 IHV Driver Developer
 Release](https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=UDK2010.SR1.IHV_Setup_Guide) used with the
 [UEFI Driver Wizard](../../platforms-packages/tooling-utilities/uefi_driver_wizard.md) has been updated
-([UDK2010.SR1.UP1.IHV](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.IHV.zip/download)).
+([UDK2010.SR1.UP1.IHV](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.IHV.zip/download)).
 Refer to the [Release
-Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.IHV-ReleaseNotes.txt/download)
+Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.IHV-ReleaseNotes.txt/download)
 for more information.
 
-## [July 17, 2012](http://www.tianocore.org/news/2012/07/17/news.html)
+## [July 17, 2012](https://www.tianocore.org/news/2012/07/17/news.html)
 
 Update to the Documentation on Signing UEFI Applications and Drivers for UEFI Secure Boot. [Signing UEFI Images.pdf
-V1.2.1](http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot21.pdf/download)
+V1.2.1](https://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot21.pdf/download)
 This document describes how to sign UEFI images for the development and test of UEFI Secure Boot feature using the
 UDK2010.SR1.UP1 release and also provides an overview of the UEFI Secure Boot featue of UEFI 2.3.1C \
 See [SecurityPkg](../../platforms-packages/core-packages/security_pkg.md) for more documentation on security
 features with UDK2010 and UEFI.
 
-## [July 11, 2012](http://www.tianocore.org/news/2012/07/11/news.html)
+## [July 11, 2012](https://www.tianocore.org/news/2012/07/11/news.html)
 
 The following section has been added to support for Authenticode-signed UEFI images with multiple signatures, references
 sample certificates and images and also describes patches to enable this support
 
-[SecurityPkg Multiple Signatures](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=SecurityPkg#Images_with_Multiple_Signatures)
+[SecurityPkg Multiple Signatures](https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=SecurityPkg#Images_with_Multiple_Signatures)
 
-## [June 26, 2012](http://www.tianocore.org/news/2012/06/26/news.html)
+## [June 26, 2012](https://www.tianocore.org/news/2012/06/26/news.html)
 
 Updates to the EDK II specifications Errata B \*[BUILD v1.22 Errata
-B](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_B.pdf/download) \*[DEC v1.22 Errata
-B](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download) \*[DSC v1.22 Errata
-B](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_B.pdf/download) \*[FDF v1.22 Errata
-B](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_B.pdf/download) \*[INF v1.22 Errata
-B](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download)
+B](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_B.pdf/download) \*[DEC v1.22 Errata
+B](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download) \*[DSC v1.22 Errata
+B](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_B.pdf/download) \*[FDF v1.22 Errata
+B](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_B.pdf/download) \*[INF v1.22 Errata
+B](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download)
 
-## [June 25, 2012](http://www.tianocore.org/news/2012/06/25/news.html)
+## [June 25, 2012](https://www.tianocore.org/news/2012/06/25/news.html)
 
 Announcing the latest UDK2010 Release UDK2010.SR1.UP1. Goto
 [Download](../../releases-history/archives/udk2010.md) the release and documentation. UDK2010.SR1.UP1
 release will deliver the remaining UEFI 2.3.1 support that was deferred from UDK2010.SR1 release because of no logo
 requirement need. In addition, any logo requirements which have been clarified, deleted, changed, or added between
 November 1st and December 22, 2011 have been incorporated. Specific details of what is new is contained in the [Release
-Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download).
+Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download).
 
-## [June 11, 2012](http://www.tianocore.org/news/2012/06/11/news.html)
+## [June 11, 2012](https://www.tianocore.org/news/2012/06/11/news.html)
 
 Update to the VFR specification reference manual for developers adopting the VFR language to create products compliant
 with UEFI 2.3.1. It offers examples of how to export setup-related information to the Human Interface Infrastructure
 (HII) programming interface. [VFR Programming Language v
 1.7](https://sourceforge.net/projects/edk2/files/Specifications/VFR_V1.7.pdf/download)
 
-## [May 23, 2012](http://www.tianocore.org/news/2012/05/23/news.html)
+## [May 23, 2012](https://www.tianocore.org/news/2012/05/23/news.html)
 
 New Online web-based training available on the [UEFI EDK II Learning and Development
 page](../../development/tutorials-howto/uefi_edkii_learning_dev.md) These courses are provided to help
 you increase your knowledge of UEFI and EDK II and to aid you in performing UEFI- and EDK II-related tasks.
 
-## [March 6, 2012](http://www.tianocore.org/news/2012/03/06/news.html)
+## [March 6, 2012](https://www.tianocore.org/news/2012/03/06/news.html)
 
 Check out the new [UEFI Driver Developer Resources with EDK
 II](../../development/tutorials-howto/driver_developer.md) page, including the latest [UEFI Driver
 Writer’s
-Guide](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UEFI%20Driver_Writer_Guide_V1.0.1_120308.pdf/download)
+Guide](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UEFI%20Driver_Writer_Guide_V1.0.1_120308.pdf/download)
 (v1.01) and the new [UEFI Driver
-Wizard](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UefiDriverWizard.msi/download).
+Wizard](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/Driver_Developer/UefiDriverWizard.msi/download).
 
-## [March 5, 2012](http://www.tianocore.org/news/2012/03/05/news.html)
+## [March 5, 2012](https://www.tianocore.org/news/2012/03/05/news.html)
 
 We are applying to participate in the [Google Summer of
 Code](../events-outreach/gsoc2012.md) program again this year!
 
 For more information, visit the [GSoC2012](../events-outreach/gsoc2012.md) page or join
-in on our discussion on [edk2-devel](https://lists.sourceforge.net/lists/listinfo/edk2-devel).
+in on our discussion on [edk2-devel](https://edk2.groups.io/g/devel).
 
-## [January 2, 2012](http://www.tianocore.org/news/2012/01/02/news.html)
+## [January 2, 2012](https://www.tianocore.org/news/2012/01/02/news.html)
 
 UDK2010.SR1 Release is now available at [Download](../../releases-history/archives/udk2010.md) This
 is the latest UEFI Development Kit 2010 SR1 that supports UEFI 2.3.1 and PI 1.2 Specifications. Added Work Space
 Expanded version January 4, 2012
 
-## [December 19, 2011](http://www.tianocore.org/news/2011/12/19/news.html)
+## [December 19, 2011](https://www.tianocore.org/news/2011/12/19/news.html)
 
 EDK II Build specifications update Final release for UDK2010.SR1
 [Download](../../reference/specs-standards/edk_ii_specifications.md)
 
-## [November 9, 2011](http://www.tianocore.org/news/2011/11/09/news.html)
+## [November 9, 2011](https://www.tianocore.org/news/2011/11/09/news.html)
 
 ’'’UDK2010 [RoadMap](https://github.com/tianocore/tianocore.github.io/wiki/RoadMap) Update’’’ - Look for the upcoming
 UDK2010.SR1 Release to be available after ‘'’January 3, 2012’’’. This release will support the Microsoft® Windows® 8
 Secure Boot feature. Also look for EDK II Build System updates and updates to the Build Specifications.
 [Details](https://github.com/tianocore/tianocore.github.io/wiki/RoadMap)
 
-[Intel® UPT.zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download)
+[Intel® UPT.zip](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download)
 
 Intel® UEFI Packaging Tool Release with Quick Start guide .PDF
 
-[Quick Start Guide only](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/UEFI-PackagingToolQuickStartGuide_1.0.pdf/download)
+[Quick Start Guide only](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/UEFI-PackagingToolQuickStartGuide_1.0.pdf/download)
 
-## [May 17, 2011](http://www.tianocore.org/news/2011/05/17/news.html)
+## [May 17, 2011](https://www.tianocore.org/news/2011/05/17/news.html)
 
 [Edk II Application Development Kit (EADK) -
-A2](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release.zip/download) EDK II Application
+A2](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release.zip/download) EDK II Application
 Development Kit for include the Standard C Libraries in UEFI Shell Applications
 
-## [April 21, 2011](http://www.tianocore.org/news/2011/04/21/news.html)
+## [April 21, 2011](https://www.tianocore.org/news/2011/04/21/news.html)
 
 [UEFI Shell 2.0 Spec package
-Sources](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
+Sources](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
 EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 - Verified and tested
 
-## [April 11, 2011](http://www.tianocore.org/news/2011/04/11/news.html)
+## [April 11, 2011](https://www.tianocore.org/news/2011/04/11/news.html)
 
-The [UEFI Specification](http://www.uefi.org/specs) 2.3.1 is now available.
+The [UEFI Specification](https://uefi.org/specs/) 2.3.1 is now available.
 
-## [April 23, 2010](http://www.tianocore.org/news/2010/04/23/news.html)
+## [April 23, 2010](https://www.tianocore.org/news/2010/04/23/news.html)
 
 The transition of the UEFI Open Source Community Website to the new hosting (via Sourceforge), has settled down in the
 past weeks, and for all intents and purposes the move is complete.

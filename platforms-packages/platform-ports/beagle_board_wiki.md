@@ -17,7 +17,7 @@ If you use the command line version of subversion, then you can easily
 checkout the edk2 and source to the FAT32 driver to the /cygdrive/c/edk2
 directory with the following commands:
 
-    /cygdrive/c$ svn co https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2 edk2 --username guest
+    /cygdrive/c$ svn co https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2 edk2 --username guest
     /cygdrive/c$ cd edk2
 /cygdrive/c/edk2$ svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg
 --username guest
@@ -73,7 +73,7 @@ simpler as binary versions of all the tools are checked in.
 If you use the command line version of subversion, then you can easily
 checkout the edk2 to the C:\edk2 directory with the following command:
 
-    C:\> svn co     https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2 C:\edk2 --username guest
+    C:\> svn co     https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2 C:\edk2 --username guest
     C:\> cd C:\edk2
     C:\edk2> svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
 
@@ -258,9 +258,9 @@ image should be copied. On the Beagle Board the image is copied to
 0x80008208.
 ![](OMAP_ROM_Boot.key.jpg)
 The values used to initialize clocks and DRAM come from the
-[ConfigurationHeader.dat](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BeagleBoardPkg/ConfigurationHeader.dat)
+[ConfigurationHeader.dat](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/BeagleBoardPkg/ConfigurationHeader.dat)
 text file. The build process uses the
-[GenerateImage](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BeagleBoardPkg/Tools/generate_image.c)
+[GenerateImage](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/BeagleBoardPkg/Tools/generate_image.c)
 utility to parse the ConfigurationHeader.dat file and patch the
 information required by the OMPA3530 mask ROM into the beginning of the
 image.
@@ -269,7 +269,7 @@ The edk2 build process creates a Firmware Device (FD) image that has
 space reserved for the OMAP3530 configuration headers. In the edk2 the
 FD layout is controlled by a Flash Description File (.fdf). The Flash
 Description file for the Beagle Board is called
-[BeagleBoardPkg.fdf](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BeagleBoardPkg/BeagleBoardPkg.fdf).
+[BeagleBoardPkg.fdf](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/BeagleBoardPkg/BeagleBoardPkg.fdf).
 The Beagle Board FD contains 512 (0x200) bytes of OMAP3530 configuration
 headers followed by 8 bytes of the OMAP3530 image header. The OMAP3530
 image header contains the size of the Software Image and the location
@@ -418,9 +418,9 @@ The first line of edk2 source code that is executed is the symbol
 \_ModuleEntryPoint in the SEC. The edk2 has ARMASM compatible assembler
 files that have a .asm extension, and gcc compatible assembler files
 that have a .S extension.
-[ModuleEntryPoint.asm](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BeagleBoardPkg/Sec/Arm/ModuleEntryPoint.asm)
+[ModuleEntryPoint.asm](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/BeagleBoardPkg/Sec/Arm/ModuleEntryPoint.asm)
 and
-[ModuleEntryPoint.S](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BeagleBoardPkg/Sec/Arm/ModuleEntryPoint.S)
+[ModuleEntryPoint.S](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/BeagleBoardPkg/Sec/Arm/ModuleEntryPoint.S)
 contain \_ModuleEntryPoint.
 The primary job of the SEC is to load the DXE Core. The DXE Core can be
 thought of as the EFI mini-kernel, as it produces the EFI boot and
@@ -473,7 +473,7 @@ section contains the byte codes of the dependency grammar. However, the
 dependency sections are generated from the \[Depex\] section of the
 drivers .inf file. The .inf file is the build control file for the
 driver.
-[TimerDxe.inf](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/Omap35xxPkg/TimerDxe/TimerDxe.inf)
+[TimerDxe.inf](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/Omap35xxPkg/TimerDxe/TimerDxe.inf)
 is an example of an .inf file for a driver that depends on the
 gHardwareInterruptProtocolGuid to be present before it gets
 dispatched.
@@ -560,7 +560,7 @@ As an example of how to utilize the EFI debug Support Table the Beagle
 Board port has an extra EBL shell command to dump the symbol table
 information contained in the EFI Debug Support Table. This extra EBL
 shell command is called symboltable and the source code can be found in
-[EblCmdLib.c](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BeagleBoardPkg/Library/EblCmdLib/EblCmdLib.c).
+[EblCmdLib.c](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/BeagleBoardPkg/Library/EblCmdLib/EblCmdLib.c).
 The symboltable (sync commands can be shortened as long as they are
 unique, we will use sym as a synonym for symboltable) command parses the
 EFI Debug Support Table and dumps out a set of commands that can be used

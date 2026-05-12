@@ -41,9 +41,9 @@ Description
 **BUILD**-EDK II BUILD
 Spec v1.26
 -2016-01-01 -
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/Build_Spec_1_26.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/Build_Spec_1_26.pdf)
 \|
-[ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/Build_Spec_1_26.zip)
+[ZIP](https://github.com/tianocore-docs/Docs/blob/main/Specifications/Build_Spec_1_26.zip)
 Spec v1.25
 -2015-08-01 - [Errata A
 PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.25A.pdf/download)
@@ -99,35 +99,35 @@ details in the Revision History in the document for more details.
 **DEC**- EDK II DEC File
 Spec v1.25
 -2016-01-01 -
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/DEC_Spec_1_25.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/DEC_Spec_1_25.pdf)
 \|
-[ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/DEC_Spec_1_25.zip)
+[ZIP](https://github.com/tianocore-docs/Docs/blob/main/Specifications/DEC_Spec_1_25.zip)
 
 Spec v1.24
 -2015-08-01 - [Errata C
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24C.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24C.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24C.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24C.zip/download)
 
 -2015-03-01 - [Errata B
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24B.zip/download)
 
 -2015-01-11 - [Errata A
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24A.zip/download)
 -2014-08-11 -
-[PDF](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download)
+[PDF](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.24.zip/download)
 
 Spec v1.22
 -2013-08-30 - [Errata C
 PDF](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_1.22_Errata_C.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_C.zip/download)
 -2012-06-26 - [Errata B
 PDF](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download)
 -2011-12-19 - [Errata A
@@ -155,9 +155,9 @@ the Revision History in the document for more details.
 **DSC**- EDK II DSC File
 Spec v1.26
 -2016-01-01 -
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/DSC_Spec_1_26.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/DSC_Spec_1_26.pdf)
 \|
-[ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/DSC_Spec_1_26.zip)
+[ZIP](https://github.com/tianocore-docs/Docs/blob/main/Specifications/DSC_Spec_1_26.zip)
 
 Spec v1.25
 -2015-07-01 -
@@ -209,9 +209,9 @@ in the Revision History in the document for more details.
 **FDF**- EDK II FDF File
 Spec v1.26
 -2016-01-01 -
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/FDF_Spec_1_26.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/FDF_Spec_1_26.pdf)
 \|
-[ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/FDF_Spec_1_26.zip)
+[ZIP](https://github.com/tianocore-docs/Docs/blob/main/Specifications/FDF_Spec_1_26.zip)
 
 Spec v1.25
 -2015-07-01 -
@@ -267,36 +267,36 @@ document for more details.
 **INF**- EDK II INF File
 Spec v1.25
 -2015-08-01 -
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/INF_Spec_1_25.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/INF_Spec_1_25.pdf)
 \|
-[ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/INF_Spec_1_25.zip)
+[ZIP](https://github.com/tianocore-docs/Docs/blob/main/Specifications/INF_Spec_1_25.zip)
 
 Spec v1.24
 -2015-08-01 - [Errata C
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24C.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24C.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24C.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24C.zip/download)
 
 -2015-03-01 - [Errata B
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24B.zip/download)
 
 -2015-01-01 - [Errata A
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24A.zip/download)
 
 -2014-08-11 -
-[PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.pdf/download)
+[PDF](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.24.zip/download)
 
 Spec v1.22
 -2014-01-01 - [Errata D
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_D.zip/download)
 
 -2013-08-30 - [Errata
 C](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_1.22_Errata_C.pdf/download)
@@ -326,9 +326,9 @@ the Revision History in the document for more details.
 
 **Meta-Data** EDK II data
 Spec v1.1 Jan 2015 -
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/ExpressionSyntax_1.1.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/ExpressionSyntax_1.1.pdf)
 \|
-[ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/ExpressionSyntax_1.1.zip)
+[ZIP](https://github.com/tianocore-docs/Docs/blob/main/Specifications/ExpressionSyntax_1.1.zip)
 
 </td>
 
@@ -349,7 +349,7 @@ conditional directive statements
 
 **PCD** EDK II PCD Variables
 Spec v0.55 April 2009 - [PCD
-PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/PCD_Infrastructure.pdf)
+PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/PCD_Infrastructure.pdf)
 
 </td>
 
@@ -370,13 +370,13 @@ the Framework from platform to platform.
 
 **UNI** Unicode File
 Spec v1.3 - March 2016 -
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1.3.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/UNI_File_Spec_v1.3.pdf)
 \|
-[ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1.3.zip)
+[ZIP](https://github.com/tianocore-docs/Docs/blob/main/Specifications/UNI_File_Spec_v1.3.zip)
 Spec v1.2 - March 2015 - [Errata
-A](https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1_2_Errata_A.pdf)
+A](https://github.com/tianocore-docs/Docs/blob/main/Specifications/UNI_File_Spec_v1_2_Errata_A.pdf)
 \|
-[ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/UNI_File_Spec_v1_2_Errata_A.zip)
+[ZIP](https://github.com/tianocore-docs/Docs/blob/main/Specifications/UNI_File_Spec_v1_2_Errata_A.zip)
 
 </td>
 
@@ -397,9 +397,9 @@ details.
 
 **VFR** Visual Forms Rep File
 Spec v1.9 July 2015 -
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/VFR_1_9.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/VFR_1_9.pdf)
 \|
-[ZIP](https://github.com/tianocore-docs/Docs/raw/master/Specifications/VFR_1_9.zip)
+[ZIP](https://github.com/tianocore-docs/Docs/blob/main/Specifications/VFR_1_9.zip)
 
 Spec v1.7 June 2012 -
 [PDF](https://sourceforge.net/projects/edk2/files/Specifications/VFR_V1.7.pdf/download)
@@ -431,7 +431,7 @@ described in this document.
 
 **C Coding Standards** for EDK II
 Spec v2.1 Draft Oct 2015 -
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/Specifications/CCS_2_1_Draft.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/Specifications/CCS_2_1_Draft.pdf)
 
 </td>
 

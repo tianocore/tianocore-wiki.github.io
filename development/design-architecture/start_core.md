@@ -4,4 +4,4 @@
 historical purposes and will be archived in an upcoming site
 revision.**
 
-Demo EDK II project StartCore [http://edk2-startcore.sourceforge.net/](http://edk2-startcore.sourceforge.net/)
+Demo EDK II project StartCore [https://sourceforge.net/projects/edk2-startcore/](https://sourceforge.net/projects/edk2-startcore/)

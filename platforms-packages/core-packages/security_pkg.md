@@ -8,16 +8,16 @@ There are 4 security related features in SecurityPkg including
 
 More information:
 
-- [ReadMe_Security.txt](https://github.com/tianocore-docs/Docs/blob/master/UDK/UDK2010.SR1/Readme_Security.txt)
+- [ReadMe_Security.txt](https://github.com/tianocore-docs/Docs/blob/main/UDK/UDK2010.SR1/Readme_Security.txt)
 - [How to enable Security](../../development/tutorials-howto/how_to_enable_security.md) with EDK
   II
 - PDF on [How to Sign UEFI Drivers & Applications
-  V1.31.pdf](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf)
+  V1.31.pdf](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/SigningUefiImages%20-v1dot31.pdf)
 - [Secure Boot Ecosystem Challenges
   PDF](https://docs.google.com/file/d/0BxgB4JDywk3MWnM0WmNXMHBTcm8/edit?pli=1)-From
   ToorCamp 2012, Presentation by Vincent Zimmer
 - White Paper : [A Tour Beyond BIOS into UEFI Secure Boot
-  PDF](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf)
+  PDF](https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf)
 
 ## TPM
 
@@ -470,9 +470,9 @@ WIN_CERTIFICATE header found in the image
 Rev1 only supported 2 certificates in an image.
 
 - Rev2 - patch
-  [DxeImageVerificationLib-MultipleCertPOC-rev2-r13505.patch](https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2010.SR1.UP1/DxeImageVerificationLib-%20MultipleCertPOC-rev2-r13505.patch)
+  [DxeImageVerificationLib-MultipleCertPOC-rev2-r13505.patch](https://github.com/tianocore-docs/Docs/blob/main/UDK/UDK2010.SR1.UP1/DxeImageVerificationLib-%20MultipleCertPOC-rev2-r13505.patch)
 - Rev1 – patch
-  [DxeImageVerificationLib-MultipleCertPOC-r13505.patch](https://github.com/tianocore-docs/Docs/raw/master/UDK/UDK2010.SR1.UP1/DxeImageVerificationLib-MultipleCertPOC-r13505.patch)
+  [DxeImageVerificationLib-MultipleCertPOC-r13505.patch](https://github.com/tianocore-docs/Docs/blob/main/UDK/UDK2010.SR1.UP1/DxeImageVerificationLib-MultipleCertPOC-r13505.patch)
 
 ### 4. Scenarios
 

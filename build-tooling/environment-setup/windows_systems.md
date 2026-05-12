@@ -6,7 +6,7 @@
 New instructions: [Build Instructions](../build-workflows/build_instructions.md)
 
 This page provides step-by-step instructions or setting up a [EDK
-II](http://www.tianocore.org/edk2/) build environment on Windows
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) build environment on Windows
 systems.
 
 ## Table of Contents

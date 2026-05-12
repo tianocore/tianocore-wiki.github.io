@@ -35,12 +35,12 @@ Serial Adapter.
 
 Ideally, this project should enable a driver that will attach to the USB
 Serial Adapter and produce the
-[SerialIo](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/MdePkg/Include/Protocol/SerialIo.h)
+[SerialIo](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/MdePkg/Include/Protocol/SerialIo.h)
 protocol to enable the UEFI terminal to become available through the USB
 Serial adapter.
 
 The
-[MdeModulePkg/Bus/Usb/UsbKbDxe](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/MdeModulePkg/Bus/Usb/UsbKbDxe)
+[MdeModulePkg/Bus/Usb/UsbKbDxe](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/MdeModulePkg/Bus/Usb/UsbKbDxe)
 (USB Keyboard) driver may provide a useful starting point for your
 project.
 

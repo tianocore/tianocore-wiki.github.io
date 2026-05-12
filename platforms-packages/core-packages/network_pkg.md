@@ -7,7 +7,7 @@ and necessary shell applications for network configuration
 More information: [NetworkPkg Getting Started
 Guide](networkpkg_getting_started_guide.md)
 
-| Network Package Details [Readme_NetworkPkg.txt](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/Readme_NetworkPkg.txt) |
+| Network Package Details [Readme_NetworkPkg.txt](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/Readme_NetworkPkg.txt) |
 | --- |
 | 1\. IPv6 network stack - NetworkPkg/Ip6Dxe - Ip6 driver, which produces EFI_IP6_PROTOCOL EFI_IP6_CONFIG_PROTOCOL - NetworkPkg/Udp6Dxe Udp6 driver, which produces EFI_UDP6_PROTOCOL - NetworkPkg/TcpDxe - TCP combo driver, which produces EFI_TCP4_PROTOCOL EFI_TCP6_PROTOCOL - NetworkPkg/Dhcp6Dxe - DHCP6 driver, which produces EFI_DHCP6_PROTOCOL - NetworkPkg/Mtftp6Dxe - MTFTP6 driver, which produces EFI_MTFTP6_PROTOCOL |
 | 2\. IPsec - NetworkPkg/IpSecDxe - Ipsec driver, which produces EFI_IPSEC2_PROTOCOL EFI_IPSEC_CONFIG_PROTOCOL |

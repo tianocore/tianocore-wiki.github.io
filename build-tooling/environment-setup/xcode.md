@@ -134,7 +134,7 @@ Type r to run emulator. SecLldbScriptBreak armed. EFI modules should now get sou
 (lldb) run
 Process 12155 launched: '/Users/bcran/src/edk2/Build/EmulatorX64/DEBUG_XCODE5/X64/Host' (x86_64)
 
-EDK II UNIX Host Emulation Environment from http://www.tianocore.org/edk2/
+EDK II UNIX Host Emulation Environment from https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/
   BootMode 0x00
   OS Emulator passing in 128 KB of temp RAM at 0x102000000 to SEC
   FD loaded from ../FV/FV_RECOVERY.fd at 0x102020000 contains SEC Core

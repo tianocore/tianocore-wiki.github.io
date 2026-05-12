@@ -1,7 +1,7 @@
 # Install Some External Tools
 
 Getting and Installing the Required Tools for Building [EDK
-II](http://www.tianocore.org/edk2/).
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/).
 
 Note: The **step-by-step** instructions also cover installing
 pre-requisite build tools for some build environments.

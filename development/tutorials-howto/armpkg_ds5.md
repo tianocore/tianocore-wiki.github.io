@@ -12,16 +12,16 @@ Even if this tutorial is based on Linux; it should also work on Windows
 your target (hardware or RTSM model).
 Help can be found here to add your RTSM model to DS-5 if not already
 done:
-[http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0446i/CIHECHJE.html](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0446i/CIHECHJE.html)
+[https://developer.arm.com/documentation](https://developer.arm.com/documentation)
 
 2\. Import the Tianocore project from the Sourceforge repository
 
 **Note:** To install the Eclipse Git plugin in DS-5, see:
-[http://www.eclipse.org/egit/](http://www.eclipse.org/egit/)
+[https://www.eclipse.org/egit/](https://www.eclipse.org/egit/)
 Before installing the git (or svn) plugin, check your Eclipse version
 (Help \> About Eclipse Platform). *Example, Eclipse 3.7 = Indigo*
 The list of plugins for this Eclipse Platform version is available at
-[http://download.eclipse.org/releases/indigo](http://download.eclipse.org/releases/indigo)
+[https://download.eclipse.org/releases/indigo](https://download.eclipse.org/releases/indigo)
 
 `- File > Import ...`
 `- Git > Projects from GIT`

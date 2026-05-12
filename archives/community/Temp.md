@@ -1,7 +1,7 @@
 # Temp
 
 **UDK2010** is a stable release of portions of the
-[EDK II](http://www.tianocore.org/edk2/) project.
+[EDK II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) project.
 
 What are the
 [Differences between UDK2010 and EDK II](../../reference/faqs-glossaries/differences_between_udk2010_and_edk_ii.md)?
@@ -9,16 +9,16 @@ What are the
 If you have questions please email the
 [Edk2 Devel Mail list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2010.SR1%20Question)
 — to join the email list go to
-[Join Edk2 Devel Mail list](http://lists.sourceforge.net/lists/listinfo/edk2-devel).
+[Join Edk2 Devel Mail list](https://edk2.groups.io/g/devel).
 
 ## UDK2010 Releases
 
 ### UDK2010.SR1.UP1.P1 (Complete Workspace)
 
 - Download:
-  [UDK2010.SR1.UP1.P1 Complete Workspace](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1.Complete.MyWorkSpace.zip/download)
+  [UDK2010.SR1.UP1.P1 Complete Workspace](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1.Complete.MyWorkSpace.zip/download)
 - Release notes:
-  [UDK2010.SR1.UP1.P1 Release Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-ReleaseNotes-MyWorkSpace.txt/download)
+  [UDK2010.SR1.UP1.P1 Release Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-ReleaseNotes-MyWorkSpace.txt/download)
 - Release date: July 28, 2013
 - Source revisions:
   `https://svn.code.sf.net/p/edk2/code/branches/UDK2010.SR1` r14385;

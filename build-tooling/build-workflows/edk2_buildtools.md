@@ -3,7 +3,7 @@
 This project is for development of the
 [EDK II](../../reference/external-resources/edk_ii.md) Build Tools.
 This is the primary set of tools for processing [EDK
-II](http://www.tianocore.org/edk2/) content. It contains configuration
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) content. It contains configuration
 templates and source files. The tools support a Makefile based EDK II
 build with no additional packages required--the compiler tool chain, an
 assembler and optional ACPI assembler are the only additional tools need
@@ -64,7 +64,7 @@ each tool.
 [UDK2017](../../releases-history/archives/udk2017.md):
 
 - Changes for UDK2017 [BaseTools
-  Notes](https://github.com/tianocore-docs/Docs/blob/master/UDK/UDK2017/BaseToolsNotes.md)
+  Notes](https://github.com/tianocore-docs/Docs/blob/main/UDK/UDK2017/BaseToolsNotes.md)
 - Please see
   [UDK2017](../../releases-history/archives/udk2017.md) wiki
   page for more information on the latest release of Build Tools

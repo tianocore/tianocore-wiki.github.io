@@ -27,7 +27,7 @@ GitHub
 
 ## Compiler
 
-For both the BuildTools and [EDK II](http://www.tianocore.org/edk2/)
+For both the BuildTools and [EDK II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/)
 projects, you will need to obtain a compiler from somewhere else. These
 instructions do not cover obtaining or installation of a compiler tools
 chain. The BaseTools build requires a C compiler; an assembler or ACPI

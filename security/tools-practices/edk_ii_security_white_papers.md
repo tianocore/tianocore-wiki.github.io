@@ -4,24 +4,24 @@ A list of White Papers and information for EDK II Security from multiple sources
 
 * [https://uefi.org](https://uefi.org)
 * [https://software.intel.com/en-us/firmware/](https://software.intel.com/en-us/firmware/)
-* [https://tianocore.org](https://tianocore.org)
+* [https://www.tianocore.org](https://www.tianocore.org)
 * Industry standard:
   * NIST: [https://csrc.nist.gov/publications/sp800](https://csrc.nist.gov/publications/sp800)
-  * TCG: [http://trusted.computinggroup.com/](http://trusted.computinggroup.com/)
+  * TCG: [https://trusted.computinggroup.com/](https://trusted.computinggroup.com/)
 * SideChannel: [Intel Software Developer Zone -firmware speculative
-  execution](https://software.intel.com/security-software-guidance/insights/host-firmware-speculative-execution-side-channel-mitigation)
+  execution](https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/host-firmware-speculative-side-channel-mitigation.html)
 * MDS: [Intel Software Developer Zone - microarchitectural data
-  sampling](https://software.intel.com/security-software-guidance/insights/deep-dive-intel-analysis-microarchitectural-data-sampling)
+  sampling](https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/technical-documentation/intel-analysis-microarchitectural-data-sampling.html)
 
 **General:**
 
 * [Book - building secure firmware](https://www.amazon.com/Building-Secure-Firmware-Armoring-Foundation/dp/1484261054)
   (October 2020)
 * [uefi.org - An Introduction to Platform
-  Security](http://www.uefi.org/sites/default/files/resources/Intel_An%20Introduction%20to%20Platform%20.pdf) (Spring
+  Security](https://www.uefi.org/sites/default/files/resources/Intel_An%20Introduction%20to%20Platform%20.pdf) (Spring
   2018)
 * [uefi.org - Threat Modeling for Modern System
-  FW.pdf](http://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf) (July 2013)
+  FW.pdf](https://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf) (July 2013)
 
 **EDK II Code:**
 
@@ -66,14 +66,14 @@ A list of White Papers and information for EDK II Security from multiple sources
   Implementation](https://tianocore-docs.github.io/edk2-TrustedBootChain/release-1.00/edk2-TrustedBootChain-release-1.00.pdf)
   (Nov 2020)
 * [A Tour Beyond BIOS - with the UEFI TPM2 Support in EDK
-  II](https://pdfslide.net/documents/white-paper-a-tour-beyond-bios-with-the-uefi-tpm2-support-paper-a-tour-beyond.html)
+  II](https://www.intel.com/content/www/us/en/content-details/671464/a-tour-beyond-bios-with-the-uefi-tpm2-support-in-edk-ii.html)
   (Sept 2014)
 * [FSP2 Measurement and Attestation](https://cdrdv2.intel.com/v1/dl/getContent/644001) (July 2021)
 * [uefi.org - Traceable Firmware Bill of Materials
   Overview](https://uefi.org/sites/default/files/resources/Traceable%20Firmware%20Bill%20of%20Materials%20-%2020211207%20-%20007.pdf)
 
 **DMA:**
-[A Tour Beyond BIOS - Using IOMMU for DMA Protection in UEFI firmware](https://software.intel.com/sites/default/files/managed/8d/88/intel-whitepaper-using-iommu-for-dma-protection-in-uefi.pdf)
+[A Tour Beyond BIOS - Using IOMMU for DMA Protection in UEFI firmware](https://www.intel.com/content/dam/develop/external/us/en/documents/intel-whitepaper-using-iommu-for-dma-protection-in-uefi-820238.pdf)
 (Oct 2017)
 
 **Capsule/Recovery:**
@@ -97,7 +97,7 @@ A list of White Papers and information for EDK II Security from multiple sources
   II](https://www.intel.com/content/dam/develop/external/us/en/documents/a-tour-beyond-bios-launching-vmm-in-efi-developer-kit-ii-0-819978.pdf)
   (Oct 2015)
 * [A Tour Beyond BIOS - Supporting SMM Resource Monitor using EDK
-  II](https://docplayer.net/18646000-A-tour-beyond-bios-supporting-an-smm-resource-monitor-using-the-efi-developer-kit-ii.html)
+  II](https://www.intel.com/content/dam/develop/external/us/en/documents/a-tour-beyond-bios-launching-stm-to-monitor-smm-in-efi-developer-kit-ii-819978.pdf)
   (June 2015)
 
 **StandaloneMM:**

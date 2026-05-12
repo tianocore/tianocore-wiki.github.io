@@ -424,7 +424,7 @@ starts in Secure World. But enabling Secure and Non-Secure worlds is not
 enough to have a Secure Platform, you must have Secure and Non-Secure
 memory. One way to have Secure and Non-Secure Memory regions is to use
 Trustzone controllers (see:
-[http://www.arm.com/products/system-ip/controllers/trustzone-controllers.php](http://www.arm.com/products/system-ip/controllers/trustzone-controllers.php)).
+[https://developer.arm.com/products/system-ip/system-controllers/other-system-controllers](https://developer.arm.com/products/system-ip/system-controllers/other-system-controllers)).
 The Fast Model VExpress does not have Secure memory (this memory cannot
 be read from Non-Secure world).
 

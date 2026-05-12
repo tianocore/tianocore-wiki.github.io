@@ -341,10 +341,10 @@ Packages Included in zip
 
 EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 -
 Verified and tested SVN Rersion:
-[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg)
+[https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg)
 r11566
 This release is the implmentation sources for the UEFI Shell
-Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
+Specification 2.0. Please see [https://www.uefi.org](https://www.uefi.org) to download this
 specification
 See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/shell_faq.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
 
@@ -416,7 +416,7 @@ UEFI development Kit 2010 Specification Release \#1 (UDK2010.SR1.UP1)
 (Complete zip of all packages and documentation where packages are
 expanded to MyWorkSpace Directory)
 Based on svn version:
-[https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1](https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1):
+[https://sourceforge.net/p/edk2/code/HEAD/tree/branches/UDK2010.SR1](https://sourceforge.net/p/edk2/code/HEAD/tree/branches/UDK2010.SR1):
 r13452
 [https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg](https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg):
 r67
@@ -660,7 +660,7 @@ r67
 (UDK2010.SR1)
 
 [File
-List](http://iweb.dl.sourceforge.net/project/edk2/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-FileList-MyWorkSpace.txt)
+List](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt)
 Of Entire Release .zip
 
 ------------------------------------------------------------------------

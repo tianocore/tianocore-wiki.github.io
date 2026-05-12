@@ -1,7 +1,7 @@
 # [EDK](../archives/reference/efidevkit.md)
 
 ```admonish note "Historical Reference"
-This is the older development environment; Pre-[EDK II](http://www.tianocore.org/edk2/). See the [Differences
+This is the older development environment; Pre-[EDK II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/). See the [Differences
 between EDK and EDK II](../reference/faqs-glossaries/differences_between_edk_and_edk_ii.md)
 ```
 

@@ -6,7 +6,7 @@
 New instructions: [Build Instructions](../build-workflows/build_instructions.md)
 
 This page provides *step-by-step instructions* for setting up a [EDK
-II](http://www.tianocore.org/edk2/) build environment on various
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) build environment on various
 Unix-like systems.
 
 ```admonish note "Recommended Alternative"
@@ -90,7 +90,7 @@ Notes:
 
 - Cygwin is not officially supported or tested by the edk2 project at
   this time.
-- Building of [EDK II](http://www.tianocore.org/edk2/) components will
+- Building of [EDK II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) components will
   be done using bash.
 
 Prerequisites:

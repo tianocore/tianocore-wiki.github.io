@@ -1150,7 +1150,7 @@ EDK II project home page
 
 <td>
 
-[http://edk2.sourceforge.net/](http://edk2.sourceforge.net/)
+[https://github.com/tianocore/edk2](https://github.com/tianocore/edk2)
 
 </td>
 
@@ -1182,7 +1182,7 @@ EDK II source code changes mailing list
 
 <td>
 
-[http://lists.sourceforge.net/lists/listinfo/edk2-commits](http://lists.sourceforge.net/lists/listinfo/edk2-commits)
+[https://sourceforge.net/projects/edk2/lists/edk2-commits](https://sourceforge.net/projects/edk2/lists/edk2-commits)
 
 </td>
 
@@ -1198,7 +1198,7 @@ EDK II developer discussion mailing list
 
 <td>
 
-[http://lists.sourceforge.net/mailman/listinfo/edk2-devel](http://lists.sourceforge.net/mailman/listinfo/edk2-devel)
+[https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel)
 
 </td>
 
@@ -1260,7 +1260,7 @@ StartCore
 
 <td>
 
-[http://edk2-startcore.sourceforge.net/](http://edk2-startcore.sourceforge.net/)
+[https://sourceforge.net/projects/edk2-startcore/](https://sourceforge.net/projects/edk2-startcore/)
 
 </td>
 

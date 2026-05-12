@@ -165,10 +165,10 @@ Eclipse Public License
 Interface](Wikipedia:Extensible_Firmware_Interface) (EFI)**
 EFI is a specification that defines the interface between an operating
 system, option ROMs, and platform firmware. EFI was originally invented
-by Intel as the [Intel(R) Itainum](http://en.wikipedia.org/wiki/Itainum)
+by Intel as the [Intel(R) Itainum](https://en.wikipedia.org/wiki/Itanium)
 BIOS replacement. EFI is now owned by a industry non-profit
 collaborative trade organization called [The UEFI
-Forum](http://www.uefi.org).
+Forum](https://www.uefi.org).
 
 **FAT**
 File Allocation Table

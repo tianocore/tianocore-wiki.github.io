@@ -32,7 +32,7 @@ Description
 
 <td>
 
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/UEFI-PackagingToolQuickStartGuideRev_1_2.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/UEFI-PackagingToolQuickStartGuideRev_1_2.pdf)
 
 </td>
 
@@ -54,9 +54,9 @@ environments.
 
 <td>
 
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/SigningUefiImages%20-v1dot31.pdf)
 or
-[Zip](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.zip)
+[Zip](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/SigningUefiImages%20-v1dot31.zip)
 
 </td>
 
@@ -118,7 +118,7 @@ source project as a development environment. Please refer to the
 
 <td>
 
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDK_II_UserManual_0_7.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/EDK_II_UserManual_0_7.pdf)
 
 </td>
 
@@ -139,7 +139,7 @@ Emulation Environments.
 
 <td>
 
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDK_II%20Module%20Writer_s%20Guide_0_7.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/EDK_II%20Module%20Writer_s%20Guide_0_7.pdf)
 
 </td>
 
@@ -160,7 +160,7 @@ and how to release with a package.
 
 <td>
 
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/PerformanceOptimization_1_0.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/PerformanceOptimization_1_0.pdf)
 
 </td>
 
@@ -179,7 +179,7 @@ Technical documentation for Performance Optimization for EDK II
 
 <td>
 
-[PDF](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/UEFI%20SCT%20Case%20Writers%20Guide_0_91.pdf)
+[PDF](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/UEFI%20SCT%20Case%20Writers%20Guide_0_91.pdf)
 
 </td>
 

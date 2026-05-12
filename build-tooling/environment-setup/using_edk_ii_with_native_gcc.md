@@ -6,7 +6,7 @@
 New instructions: [Build Instructions](../build-workflows/build_instructions.md)
 
 This page provides *step-by-step instructions* for setting up a [EDK
-II](http://www.tianocore.org/edk2/) build environment on Linux using a
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) build environment on Linux using a
 native GCC installation (4.4+). This EDK II setup does not require the
 Mingw version of GCC to be built, and therefore can be much faster to
 setup.

@@ -362,7 +362,7 @@ If your application is linked to the ShellLib then you will get a global
 called gEfiShellParametersProtocol. This is the replacement for gSPP.
 
 [ShellLib
-header](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg/Include/Library/ShellLib.h)
+header](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg/Include/Library/ShellLib.h)
 
 #### gSP
 
@@ -370,4 +370,4 @@ If your application is linked to the ShellLib then you will get a global
 called gEfiShellProtocol. This is the replacement for gSP.
 
 [ShellLib
-header](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg/Include/Library/ShellLib.h)
+header](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg/Include/Library/ShellLib.h)

@@ -29,7 +29,7 @@ consistent boot flow and well-defined interfaces to support board functions.
 
 #### Resources
 
-- [Open Source Firmware Conference (OSFC)](https://osfc.io/) Presentation on [Minimum Platform Architecture (Sept
+- [Open Source Firmware Conference (OSFC)](https://www.osfc.io/) Presentation on [Minimum Platform Architecture (Sept
   2019)](https://software.intel.com/sites/default/files/Open%20Source%20UEFI%20Firmware%20for%20Intel%20Platforms.pdf)
 - [EDK II Minimum Platform Architecture
   Specification](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/)

@@ -328,7 +328,7 @@ It is illegal!
 ![](RuntimeUseCase-6.PNG "RuntimeUseCase-6.PNG")
 
 0x0c00_0000 is actually the NOR Flash address (see:
-[http://infocenter.arm.com/help/topic/com.arm.doc.dui0677c/BBACIHDC.html](http://infocenter.arm.com/help/topic/com.arm.doc.dui0677c/BBACIHDC.html)).
+[https://developer.arm.com/documentation/dui0677/c/BBACIHDC](https://developer.arm.com/documentation/dui0677/c/BBACIHDC)).
 The UEFI Runtime NOR Flash driver accessed the hardware region without
 updating the base address into the Linux Virtual Memory Map.
 

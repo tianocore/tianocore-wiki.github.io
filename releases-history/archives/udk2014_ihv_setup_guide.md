@@ -30,9 +30,9 @@ This subset of packages is designed to be used with the
 ## Setup and Configuration
 
 1. Download the UDK2014 IHV package
-    ([UDK2014.IHV](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UDK2014.IHV.zip)).
+    ([UDK2014.IHV](https://github.com/tianocore-docs/Docs/blob/main/Driver_Developer/UDK2014.IHV.zip)).
 2. Unzip
-    [UDK2014.IHV](https://github.com/tianocore-docs/Docs/raw/master/Driver_Developer/UDK2014.IHV.zip)
+    [UDK2014.IHV](https://github.com/tianocore-docs/Docs/blob/main/Driver_Developer/UDK2014.IHV.zip)
     into a workspace directory (example: C:\FW\UDK2014.IHV)
 3. Unzip the BaseTools ZIP file into the workspace directory
 4. Open a Visual Studio Command Prompt and run edksetup.bat in the

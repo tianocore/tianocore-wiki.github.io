@@ -1,6 +1,6 @@
 # EDK2 Libraries
 
-This page gives an overview of [EDK II](http://www.tianocore.org/edk2/)
+This page gives an overview of [EDK II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/)
 libraries.
 
 ## Classes vs. Implementation

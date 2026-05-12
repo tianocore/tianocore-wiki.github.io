@@ -11,8 +11,8 @@ the EDK II development.
 
 Also with this release, the online help system for the MdePkg version
 1.01 is now working and available,
-**[here](http://edk2.sourceforge.net/dox/)**, for use directly from the
-Open Source Community Website.(using [http://doxygen.sourceforge.net](http://doxygen.sourceforge.net))
+**[here](https://github.com/tianocore/edk2)**, for use directly from the
+Open Source Community Website.(using [https://www.doxygen.org/](https://www.doxygen.org/))
 
 The release contains the following components:
 

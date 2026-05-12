@@ -16,7 +16,7 @@ If you use the command line version of subversion, then you can easily
 checkout the edk2 and source to the FAT32 driver to the /cygdrive/c/edk2
 directory with the following commands:
 
-    /cygdrive/c$ svn co https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2 edk2 --username guest
+    /cygdrive/c$ svn co https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2 edk2 --username guest
     /cygdrive/c$ cd edk2
 /cygdrive/c/edk2$ svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg
 --username guest
@@ -260,7 +260,7 @@ created.
 If you use the command line version of subversion, then you can easily
 checkout the edk2 to the C:\edk2 directory with the following command:
 
-    C:\> svn co     https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2 C:\edk2 --username guest
+    C:\> svn co     https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2 C:\edk2 --username guest
     C:\> cd C:\edk2
     C:\edk2> svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
 

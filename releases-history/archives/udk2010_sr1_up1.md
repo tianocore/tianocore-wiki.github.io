@@ -1,7 +1,7 @@
 # Udk2010.Sr1.UP1
 
 **UDK2010** is a stable release of portions of the [EDK
-II](http://www.tianocore.org/edk2/) project
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) project
 
 What are the
 [Differences between
@@ -10,7 +10,7 @@ UDK2010 and EDK II](../../reference/faqs-glossaries/differences_between_udk2010_
 If you have questions please email the [Edk2 Devel Mail
 list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2010.SR1%20Question) -
 To join the email list goto: [Join Edk2 Devel Mail
-list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
+list](https://edk2.groups.io/g/devel)
 
 <table width="100%" >
 
@@ -89,7 +89,7 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-[https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1](https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1):
+[https://sourceforge.net/p/edk2/code/HEAD/tree/branches/UDK2010.SR1](https://sourceforge.net/p/edk2/code/HEAD/tree/branches/UDK2010.SR1):
 r13452
 
 [https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg](https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg):
@@ -692,11 +692,11 @@ Packages Included in zip
 
 EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 -
 Verified and tested SVN Rersion:
-[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg)
+[https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg)
 r11566
 
 This release is the implmentation sources for the UEFI Shell
-Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
+Specification 2.0. Please see [https://www.uefi.org](https://www.uefi.org) to download this
 specification
 
 See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/shell_faq.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)

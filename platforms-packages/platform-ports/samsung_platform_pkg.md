@@ -17,7 +17,7 @@ Tested on the revisions:
 1\. The EDK2 Samsung repository is currently located in a third-party
 repository. To get the sources:
 
-    svn co https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2 edk2 --username guest
+    svn co https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2 edk2 --username guest
     cd $(WORKROOT)/edk2
     svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
     git clone git://github.com/girishks/Origen-EDK-II-Package.git

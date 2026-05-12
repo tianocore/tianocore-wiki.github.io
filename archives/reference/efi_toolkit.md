@@ -38,7 +38,7 @@ This project is no longer maintained.
 
 | Release | What is it? | Documents |
 |---------|-------------|-----------|
-| [EFI_Toolkit-2.0.0.1.zip](http://sourceforge.net/projects/efi-toolkit/files/Official%20Releases/EFI_Toolkit_2.0.0.1.zip/download) | Contains sample EFI applications and utilities source code to aid in EFI development. | Readme<br>[EFI Application Toolkit Release Notes](https://efi-toolkit.svn.sourceforge.net/svnroot/efi-toolkit/trunk/efi-toolkit/doc/RELNOTE.pdf)<br>General documentation<br>Specifications<br>Technical information |
+| [EFI_Toolkit-2.0.0.1.zip](https://sourceforge.net/projects/efi-toolkit/files/Official%20Releases/EFI_Toolkit_2.0.0.1.zip/download) | Contains sample EFI applications and utilities source code to aid in EFI development. | Readme<br>[EFI Application Toolkit Release Notes](https://sourceforge.net/projects/efi-toolkit/)<br>General documentation<br>Specifications<br>Technical information |
 
 ### What's in the package
 

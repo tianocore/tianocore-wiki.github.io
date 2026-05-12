@@ -439,7 +439,7 @@ A standard defining an association between numeric values known as
 languages. See the Unicode specification for more information.
 
 **USB**
-Universal Serial Bus. See [http://www.usb.org](http://www.usb.org) for more information
+Universal Serial Bus. See [https://www.usb.org](https://www.usb.org) for more information
 
 **VFR**
 Visual Forms Representation. A high-level language representation of IFR

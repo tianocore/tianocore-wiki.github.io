@@ -4,7 +4,7 @@
 
 [UEFI](../../reference/specs-standards/uefi.md)
 
-[Community News](http://www.tianocore.org/news/)
+[Community News](https://www.tianocore.org/news/)
 
 [Contact Us](../communications/contact_us.md)
 

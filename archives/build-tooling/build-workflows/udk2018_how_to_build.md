@@ -19,7 +19,7 @@ The steps below are verified on Microsoft Windows 10 Enterprise*:
 1. Setup Build Environment
    1. Install Microsoft Visual Studio 2015* in the build machine and make
       sure that AMD64 complier was selected when installing.
-   2. Download NASM 2.12.01 or later from [http://www.nasm.us/](http://www.nasm.us/) and install it to
+   2. Download NASM 2.12.01 or later from [https://www.nasm.us/](https://www.nasm.us/) and install it to
       C:\Nasm. Make sure C:\Nasm is added to system environment variable 'PATH'
    3. Set up for using GitHub for Windows. See:
       [../../../development/tutorials-howto/getting_started_with_edk_ii.md#github-help](../../../development/tutorials-howto/getting_started_with_edk_ii.md#github-help)
@@ -95,7 +95,7 @@ The below steps are verified on Ubuntu 16.04 LTS Desktop*:
    2. Install NASM 2.12.01 or later.
       At Ubuntu, you can type "sudo apt-get install nasm" under terminal to
       install it.
-      You can also download the source package from [http://www.nasm.us/](http://www.nasm.us/) and
+      You can also download the source package from [https://www.nasm.us/](https://www.nasm.us/) and
       install it following the instruction on the website.
    3. Install IASL 20150818 or later.
       At Ubuntu, you can type `"sudo apt-get install iasl"` under terminal to

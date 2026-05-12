@@ -56,20 +56,20 @@ PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.25A
 [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1_25.zip/download)
 Spec v1.24
 -2015-03-01 - [Errata A
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24A.zip/download)
 
 -2015-01-01 -
-[PDF](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download)
+[PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.24.zip/download)
 
 Spec v1.22
 -2014-01-01 - [Errata D
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_D.zip/download)
 -2013-08-30 - [Errata C
 PDF](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_C.pdf/download)
 -2012-06-26 - [Errata B
@@ -167,17 +167,17 @@ Spec v1.25
 Spec v1.24
 
 -2015-03-01 - [Errata A
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24A.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24A.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24A.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24A.zip/download)
 
 -2015-01-11 -
-[PDF](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download)
+[PDF](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_1.24.zip/download)
 Spec v1.22 PDF
 -2014-01-11 - [Errata
-D](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download)
+D](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.pdf/download)
 \|
 [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_D.zip/download)
 -2013-08-30 - [Errata
@@ -220,19 +220,19 @@ Spec v1.25
 [ZIP](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1_25.zip/download)
 Spec v1.24
 -2015-03-01 - [Errata A
-PDF](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24A.pdf/download)
+PDF](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24A.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24A.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24A.zip/download)
 
 -2015-01-01 -
-[PDF](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download)
+[PDF](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.24.zip/download)
 Spec v1.22
 -2014-01-01 - [Errata
-D](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.pdf/download)
+D](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.pdf/download)
 \|
-[ZIP](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.zip/download)
+[ZIP](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec1.22_Errata_D.zip/download)
 -2013-08-30 - [Errata
 C](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_1.22_Errata_C.pdf/download)
 -2012-06-26 - [Errata

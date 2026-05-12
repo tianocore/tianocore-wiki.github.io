@@ -12,7 +12,7 @@ last commit prior to removal (98c7561279) to retrieve the code.
 ***
 
 EDK II platform firmware for the Open Compute Project (OCP) [Intel XSP
-Motherboard](http://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards). Based on the
+Motherboard](https://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards). Based on the
 [Intel Xeon Scalable Processor](https://ark.intel.com/products/series/125191/Intel-Xeon-Scalable-Processors) family
 (formerly codenamed "Purley").
 
@@ -21,4 +21,4 @@ number of EDK II modules. The project uses binaries in the [edk2-non-osi](https:
 repository for platform silicon initialization.
 
 Hardware Information:
-[http://www.opencompute.org/wiki/Server/ProjectOlympus](http://www.opencompute.org/wiki/Server/ProjectOlympus)
+[https://www.opencompute.org/wiki/Server/ProjectOlympus](https://www.opencompute.org/wiki/Server/ProjectOlympus)

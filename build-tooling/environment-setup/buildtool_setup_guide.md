@@ -11,7 +11,7 @@ GitHub
 
 - Setup GitHub for Linux \| Windows \| MAC \| All
   ([https://help.github.com/articles/set-up-git](https://help.github.com/articles/set-up-git))
-- To download and install a Git GUI interface ([http://git-scm.com/](http://git-scm.com/))
+- To download and install a Git GUI interface ([https://git-scm.com/](https://git-scm.com/))
 
 ## GitHub EDK II Project Repositories
 

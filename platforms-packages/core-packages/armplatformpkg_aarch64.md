@@ -133,7 +133,7 @@ model is started from.
 
 A file system example can be downloaded from Linaro:
 
-    wget http://releases.linaro.org/13.06/openembedded/aarch64/vexpress64-openembedded_minimal-armv8_20130623-376.img.gz
+    wget https://releases.linaro.org/13.06/openembedded/aarch64/vexpress64-openembedded_minimal-armv8_20130623-376.img.gz
     gunzip vexpress64-openembedded_minimal-armv8_20130623-376.img.gz
 
 The file-system needs some minimal preparation:

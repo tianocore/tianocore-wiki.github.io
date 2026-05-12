@@ -114,7 +114,7 @@ EFI_HTTP_PROTOCOL
 ```
 
 Note: HttpDxe driver consumes TlsDxe driver to support HTTPS feature. The HTTP instance can be able to determine whether
-to use HTTP or HTTPS feature by according to the different schemes ("http://" or "https://") in the boot file URI.
+to use HTTP or HTTPS feature by according to the different schemes ("https://" or "https://") in the boot file URI.
 
 * **NetworkPkg/HttpUtilitiesDxe** - HTTP utilities driver, which produces
 

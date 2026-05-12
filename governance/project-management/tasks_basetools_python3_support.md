@@ -87,7 +87,7 @@ Python 2.7.x
 Coding Style
 ------------
 
-[Python PEP-8 Coding Style Guidelines](http://www.python.org/dev/peps/pep-0008/ "wikilink")
+[Python PEP-8 Coding Style Guidelines](https://www.python.org/dev/peps/pep-0008/ "wikilink")
 
 [Python PEP-257 Docstring Conventions](https://www.python.org/dev/peps/pep-0257/ "wikilink")
 

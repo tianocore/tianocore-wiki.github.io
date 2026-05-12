@@ -18,7 +18,7 @@ SEC Platform Information PPI or information about the health of the
 processor.
 [UEFI.org -PI VOLUME 1: Platform Initialization Specification 1.2
 Pre-EFI Initialization Core
-Interface](http://uefi.org/specsandtesttools)
+Interface](https://uefi.org/specsandtesttools)
 
 **Pre-EFI Initialization (PEI) Phase**
 The Pre-EFI Initialization
@@ -60,7 +60,7 @@ several parts of the following discussion that note requirements on the
 architecture but are otherwise left architecturally dependent.
 [UEFI.org -PI VOLUME 1: Platform Initialization Specification 1.2
 Pre-EFI Initialization Core
-Interface](http://www.uefi.org/specsandtesttools)
+Interface](https://www.uefi.org/specsandtesttools)
 
 **Driver eXecution Environment (DXE) Phase**
 The Driver Execution Environment
@@ -95,7 +95,7 @@ Dxe Core and services and data structured produced by runtime DXE
 drivers are allowed to persist into the OS runtime environment.
 [UEFI.org -PI VOLUME 2: Platform Initialization Specification 1.2 Driver
 Execution Environment Core
-Interface](http://www.uefi.org/specsandtesttools)
+Interface](https://www.uefi.org/specsandtesttools)
 
 **Boot Device Selection (BDS) Phase**
 The Boot Manager in DXE executes after all the DXE drivers whose
@@ -131,7 +131,7 @@ Dispatcher to see if the dependencies of any additional DXE drivers have
 been satisfied since the last time the DXE Dispatcher was invoked.
 [UEFI.org -PI VOLUME 2: Platform Initialization Specification 1.2 Driver
 Execution Environment Core
-Interface](http://www.uefi.org/specsandtesttools)
+Interface](https://www.uefi.org/specsandtesttools)
 
 **Transient System Load (TSL) Phase**
 [TSL](../../reference/faqs-glossaries/acronyms_and_glossary.md) is the 1st stage of

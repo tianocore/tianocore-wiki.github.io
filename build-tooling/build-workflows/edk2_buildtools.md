@@ -11,9 +11,9 @@ to build the EDK II project.
 
 Source code in this project is divided into two types:
 
-- Tools written in C ([ANSI C](http://www.open-std.org/jtc1/sc22/wg14/))
+- Tools written in C ([ANSI C](https://www.open-std.org/jtc1/sc22/wg14/))
   are primarily for tools that modify binary data structures
-- Tools based on Python ([Python](http://www.python.org)) are primarily
+- Tools based on Python ([Python](https://www.python.org)) are primarily
   for tools that parse or process text files
 
 Tools must adhere to the following requirements:
@@ -84,8 +84,8 @@ Below Table are Releases for Archive purposes only
 
 **Downloads:**
 
-- [TAR](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Unix)_UDK2010.SR1.UP1.tar/download)
-- [.ZIP](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Windows)_UDK2010.SR1.UP1.zip/download)
+- [TAR](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Unix)_UDK2010.SR1.UP1.tar/download)
+- [.ZIP](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Windows)_UDK2010.SR1.UP1.zip/download)
 
 **Description:** Primary set of tools for processing EDK II content.
 
@@ -123,13 +123,13 @@ Below Table are Releases for Archive purposes only
 
 *Readme:*
 
-- [ReadMe.txt (baseTools)](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe.txt/download)
-- [ReadMe.txt (Base Tools–gcc)](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe(Gcc).txt/download)
-- [ReadMe.txt (Base-Tools-config)](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe(Coonf).txt/download)
+- [ReadMe.txt (baseTools)](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe.txt/download)
+- [ReadMe.txt (Base Tools–gcc)](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe(Gcc).txt/download)
+- [ReadMe.txt (Base-Tools-config)](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe(Coonf).txt/download)
 
 *General documentation:*
 
-- [UDK2010.SR1.UP1 User Manuals Zip](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/UDK2010.SR1.UP1.UserManuals.zip/download)
+- [UDK2010.SR1.UP1 User Manuals Zip](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/UDK2010.SR1.UP1.UserManuals.zip/download)
 
 *Specifications:* (None listed)
 
@@ -141,8 +141,8 @@ Below Table are Releases for Archive purposes only
 
 **Downloads:**
 
-- [.TAR](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Unix)_UDK2010.SR1.tar/download)
-- [.ZIP](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Windows)_UDK2010.SR1.zip/download)
+- [.TAR](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Unix)_UDK2010.SR1.tar/download)
+- [.ZIP](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/BaseTools(Windows)_UDK2010.SR1.zip/download)
 
 **Description:** Primary set of tools for processing EDK II content.
 
@@ -150,13 +150,13 @@ Below Table are Releases for Archive purposes only
 
 *Readme:*
 
-- [ReadMe.txt (baseTools)](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe.txt/download)
-- [ReadMe.txt (Base Tools–gcc)](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe(Gcc).txt/download)
-- [ReadMe.txt (Base-Tools-config)](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe(Coonf).txt/download)
+- [ReadMe.txt (baseTools)](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe.txt/download)
+- [ReadMe.txt (Base Tools–gcc)](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe(Gcc).txt/download)
+- [ReadMe.txt (Base-Tools-config)](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/ReadMe(Coonf).txt/download)
 
 *General documentation:*
 
-- [User Manuals Zip](http://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/UserManuals.zip/download)
+- [User Manuals Zip](https://sourceforge.net/projects/edk2-buildtools/files/BuildTools_Source_Packages/UserManuals.zip/download)
 
 *Specifications:* (None listed)
 

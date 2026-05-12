@@ -435,7 +435,7 @@ allows the network share to be mounted as a disk.
 
 #### Network Block Device (NBD) client
 
-[http://nbd.sourceforge.net/](http://nbd.sourceforge.net/)
+[https://nbd.sourceforge.net/](https://nbd.sourceforge.net/)
 
 - Project Size: Medium
 - Difficulty: Medium

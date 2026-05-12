@@ -7,7 +7,7 @@ Shell questions
 ### Can you write a shell app in EBC?
 
 Yes, it is possible. Please check the ULA for the EBC compiler.
-[1](http://software.intel.com/sites/products/documentation/EULA/Intel_SW_Dev_Products_EULA.pdf)
+[1](https://software.intel.com/sites/products/documentation/EULA/Intel_SW_Dev_Products_EULA.pdf)
 I believe that has the specific details on driver/app support. There are
 no known technical issues with using EBC for Shell Applications or UEFI
 Applications. This is mainly a validation issue. Another issue is that

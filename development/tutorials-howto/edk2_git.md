@@ -64,7 +64,7 @@ some of the information from that email thread:
 - ARM uses git
 - Linaro uses git
   - Maintains their own git-svn
-    [repository](http://git.linaro.org/gitweb?p=mirror/edk2/edk2.git;a=summary)
+    [repository](https://git.linaro.org/gitweb?p=mirror/edk2/edk2.git;a=summary)
 - Brian from SGI mentioned they would prefer git
 - Laszlo from Red Hat uses git
 - Several EDK II Google Summer of Code projects used git

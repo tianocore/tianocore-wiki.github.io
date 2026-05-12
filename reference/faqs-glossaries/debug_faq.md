@@ -20,7 +20,7 @@ USB is used for the source debug port then it is possible to use the
 serial port for output of Debug print messages and console output.
 
 B\) For USB source debug you need a special cable: NET20DC which can be
-found at [http://ajaystech.com/net20dc.htm](http://ajaystech.com/net20dc.htm)
+found at [https://ajaystech.com/net20dc.htm](https://ajaystech.com/net20dc.htm)
 
 ===Why do we still get debug print messages output to the serial port
 after changing the Conf\target.txt for “TARGET = RELEASE”? Shouldn’t

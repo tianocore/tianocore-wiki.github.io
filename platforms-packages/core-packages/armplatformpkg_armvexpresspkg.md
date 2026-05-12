@@ -12,7 +12,7 @@ Build and Run on EDK2 Subversion revision 14897
 - Tested with:
   - Versatile Express DVD version 5.2 - [How to get the latest firmware
     for ARM Versatile
-    Express?](http://arminfo.emea.arm.com/help/index.jsp?topic=/com.arm.doc.faqs/ka16308.html)
+    Express?](https://arminfo.emea.arm.com/help/index.jsp?topic=/com.arm.doc.faqs/ka16308.html)
   - Linaro toolchain 2013.08 - [Get the latest
     version](https://launchpad.net/linaro-toolchain-binaries/+download)
 

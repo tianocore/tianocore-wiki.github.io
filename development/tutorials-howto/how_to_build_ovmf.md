@@ -18,9 +18,9 @@ Build Pre-requisites
       - Or, the [Unix-like systems getting started guide](../../build-tooling/environment-setup/unix_like_systems.md) includes details for installing IASL as
         well.
     - For Windows, you can download pre-built version of IASL compiler from
-      [http://www.acpica.org](http://www.acpica.org).
+      [https://www.acpica.org](https://www.acpica.org).
 - For Windows, you can also download a pre-built version of the Microsoft ASL compiler from
-[http://www.acpi.info](http://www.acpi.info).
+[https://www.acpi.info](https://www.acpi.info).
 
 Choosing which version of OVMF to build
 ---------------------------------------

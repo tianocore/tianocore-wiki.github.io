@@ -49,4 +49,4 @@ Implementing MicroPython as a UEFI Test Framework
 * [Intel Evangelists
   Blog](https://software.intel.com/en-us/blogs/2018/03/08/implementing-micropython-as-a-uefi-test-framework)
 * [Spring 2018 UEFI Plugfest
-  Presentation](http://www.uefi.org/sites/default/files/resources/Intel_Implementing%20MicroPython%20as%20a%20UEFI%20Test%20Framework%20.pdf)
+  Presentation](https://www.uefi.org/sites/default/files/resources/Intel_Implementing%20MicroPython%20as%20a%20UEFI%20Test%20Framework%20.pdf)

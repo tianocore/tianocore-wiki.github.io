@@ -20,7 +20,7 @@ consistent boot flow and well-defined interfaces to support board functions.
 - [Project Olympus (Purley MinPlatform)](../../platforms-packages/platform-ports/purley_minplatform.md) - EDK II
   platform firmware for the Open Compute Project
   (OCP) [Intel XSP
-  Motherboard](http://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards).
+  Motherboard](https://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards).
 
     Note: Purley board support is no longer available in the codebase.
 - [Whiskey Lake MinPlatform](../../platforms-packages/platform-ports/whiskey_lake_minplatform.md) - EDK II platform

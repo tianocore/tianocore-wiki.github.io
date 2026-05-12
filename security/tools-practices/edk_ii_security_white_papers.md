@@ -49,7 +49,7 @@ A list of White Papers and information for EDK II Security from multiple sources
   Communication](https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_Secure_SMM_Communication.pdf)
   (April 2016)
 * [uefi.org - SMM Protection in EDK
-  II](http://www.uefi.org/sites/default/files/resources/Jiewen%20Yao%20-%20SMM%20Protection%20in%20%20EDKII_Intel.pdf)
+  II](https://www.uefi.org/sites/default/files/resources/Jiewen%20Yao%20-%20SMM%20Protection%20in%20%20EDKII_Intel.pdf)
   (Spring 2017)
 
 **SecureBoot/AuthVariable:**

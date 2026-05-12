@@ -16,8 +16,8 @@ Support for asynchronous block IO operations.
 
 ### Secure Storage Protocol
 
-Enable [Opal](http://www.trustedcomputinggroup.org/developers/storage) and
-[eDrive](http://msdn.microsoft.com/en-us/library/windows/hardware/br259095.aspx)
+Enable [Opal](https://www.trustedcomputinggroup.org/developers/storage) and
+[eDrive](https://msdn.microsoft.com/en-us/library/windows/hardware/br259095.aspx)
 SATA devices using the EFI_STORAGE_SECURITY_COMMAND_PROTOCOL, ATA-8 Trusted
 Send/Receive, and IEEE1667 Silo (UEFI 2.3.1a specification).
 
@@ -30,7 +30,7 @@ Send/Receive, and IEEE1667 Silo (UEFI 2.3.1a specification).
 
 Based on the Physical Presence Interface Specification Version 1.20, Revision
 1.0. More information at the
-[Trusted Computing Group website](http://www.trustedcomputinggroup.org/resources/tcg_physical_presence_interface_specification).
+[Trusted Computing Group website](https://www.trustedcomputinggroup.org/resources/tcg_physical_presence_interface_specification).
 
 ### USB 3.0 Controller Support (XHCI)
 

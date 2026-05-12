@@ -16,7 +16,7 @@ text editor
 - Completed :heavy_check_mark:
 - Work done by Suyu Yang for
   [GSOC2011](../../community/events-outreach/gsoc2011.md).
-  - Source: [http://code.google.com/p/edk2-editor](http://code.google.com/p/edk2-editor)
+  - Source: [https://code.google.com/p/edk2-editor](https://code.google.com/p/edk2-editor)
 - Available in main edk2 tree
 
 Issues:
@@ -41,7 +41,7 @@ Building
 Testing
 
 - This project can be tested on any PI 1.2 system.
-- [OVMF](http://www.tianocore.org/ovmf/),
+- [OVMF](https://www.tianocore.org/ovmf/),
   [Nt32Pkg](../../archives/platforms-packages/nt32_pkg.md) or
   [UnixPkg](../../archives/platforms-packages/unix_pkg.md) could
   each provide friendly test environments.

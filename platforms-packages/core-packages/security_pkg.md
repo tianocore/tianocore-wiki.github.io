@@ -186,7 +186,7 @@ signing test images with sbsign, updating key databases
 
 <td>
 
-[jk.ozlabs.org](http://jk.ozlabs.org/docs/sbkeysync-maintaing-uefi-key-databases/)
+[jk.ozlabs.org](https://jk.ozlabs.org/docs/sbkeysync-maintaing-uefi-key-databases/)
 
 </td>
 
@@ -261,7 +261,7 @@ MOK description
 
 <td>
 
-[en.opensuse.org](http://en.opensuse.org/openSUSE:UEFI_Secure_boot_using_qemu-kvm)
+[en.opensuse.org](https://en.opensuse.org/openSUSE:UEFI_Secure_boot_using_qemu-kvm)
 
 </td>
 
@@ -277,7 +277,7 @@ Secure Boot in OVMF & lockdown.efi
 
 <td>
 
-[en.opensuse.org](http://en.opensuse.org/SDB:UEFI_EDK2_Build_Howto_On_openSUSE12_1)
+[en.opensuse.org](https://en.opensuse.org/SDB:UEFI_EDK2_Build_Howto_On_openSUSE12_1)
 
 </td>
 
@@ -361,7 +361,7 @@ Images for testing
 
 <td>
 
-[uefi-secure-boot](http://blog.hansenpartnership.com/uefi-secure-boot/)
+[uefi-secure-boot](https://blog.hansenpartnership.com/uefi-secure-boot/)
 
 </td>
 
@@ -383,7 +383,7 @@ using MS UEFI CA to sign images
   successfully secure booted. Fixes are available in <tip:x86/efi>
   branch at:
 
-[http://git.kernel.org/?p=linux/kernel/git/tip/tip.git;a=shortlog;h=refs/heads/x86/efi](http://git.kernel.org/?p=linux/kernel/git/tip/tip.git;a=shortlog;h=refs/heads/x86/efi)
+[https://git.kernel.org/?p=linux/kernel/git/tip/tip.git;a=shortlog;h=refs/heads/x86/efi](https://git.kernel.org/?p=linux/kernel/git/tip/tip.git;a=shortlog;h=refs/heads/x86/efi)
 
 - efilinux Loader - has been signed with the Microsoft\* SignTool and
   successfully secure booted. These fixes have been merged into the
@@ -427,7 +427,7 @@ entries in a UEFI image, but the Authenticode specification does not
 preclude this case of multiple entries.
 
 Currently, both the SignTool from MSFT and the DxeImageVerificationLib
-from the SecurityPkg on [http://www.tianocore.org](http://www.tianocore.org) treat the Attribute
+from the SecurityPkg on [https://www.tianocore.org](https://www.tianocore.org) treat the Attribute
 Certificate Table as a single certificate. So if one re-signs a UEFI
 image with a new certificate, the MSFT SignTool will overwrite the old
 certificate entry with the new one. And the verification library assumes
@@ -440,7 +440,7 @@ multiple signatures.
 ### 2. Sample Images
 
 Some sample UEFI images and their certificates can be found at:
-[http://pjones.fedorapeople.org/multisign/](http://pjones.fedorapeople.org/multisign/)
+[https://pjones.fedorapeople.org/multisign/](https://pjones.fedorapeople.org/multisign/)
 
 They are:
 

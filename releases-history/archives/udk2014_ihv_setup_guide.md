@@ -21,7 +21,7 @@ drivers.
 - [MdeModulePkg](../../platforms-packages/core-packages/mde_module_pkg.md)
 - [MdePkg](../../platforms-packages/core-packages/mde_pkg.md)
 - [Release
-  Notes](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.IHV-ReleaseNotes.txt/download)
+  Notes](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.IHV-ReleaseNotes.txt/download)
   and Documentation
 
 This subset of packages is designed to be used with the

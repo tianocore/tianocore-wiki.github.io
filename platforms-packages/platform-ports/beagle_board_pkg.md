@@ -16,10 +16,10 @@ Omap35xxPkg.
 ## Developer References
 
 - [Beagle Board System Reference
-  Manual](http://beagleboard.org/static/BBSRM_latest.pdf) (Chapter 12
+  Manual](https://beagleboard.org/static/BBSRM_latest.pdf) (Chapter 12
   talks about booting)
 - [OMAP 35x Peripherals Overview Reference
-  Guide](http://focus.ti.com/general/docs/lit/getliterature.tsp?literatureNumber=sprufn0a&fileType=pdf)
+  Guide](https://focus.ti.com/general/docs/lit/getliterature.tsp?literatureNumber=sprufn0a&fileType=pdf)
   (Chapter 25 talks about booting)
 
 ## BeagleBoard Support and Status
@@ -67,7 +67,7 @@ Omap35xxPkg.
 - Getting from Linaro website:
 
 wget
-[http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
+[https://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](https://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
     tar xzf linaro-image-tools-0.4.8.tar.gz
     cd $(WORKROOT)/linaro-image-tools-0.4.8/
 sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted
@@ -84,8 +84,8 @@ Add linaro-media-create path to the PATH environment variable
 2\. Creating the u-boot + Linux Linaro image:
 
     mkdir $(WORKROOT)/beagle_image && cd $(WORKROOT)/beagle_image
-    wget http://releases.linaro.org/platform/linaro-m/hwpacks/final/hwpack_linaro-omap3_20101109-1_armel_supported.tar.gz
-    wget http://releases.linaro.org/platform/linaro-m/headless/release-candidate/linaro-m-headless-tar-20101101-0.tar.gz
+    wget https://releases.linaro.org/platform/linaro-m/hwpacks/final/hwpack_linaro-omap3_20101109-1_armel_supported.tar.gz
+    wget https://releases.linaro.org/platform/linaro-m/headless/release-candidate/linaro-m-headless-tar-20101101-0.tar.gz
 sudo linaro-media-create --image_file beagle_sd.img --dev beagle --binary linaro-m-headless-tar-20101101-0.tar.gz
 --hwpack hwpack_linaro-omap3_20101109-1_armel_supported.tar.gz
     sudo chmod a+rw beagle_sd.img

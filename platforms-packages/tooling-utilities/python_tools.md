@@ -8,11 +8,11 @@ EDK II BaseTools](../../build-tooling/build-workflows/edk2_buildtools.md) and in
 ## Resources
 
 - [Windows\*
-  URL](http://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/DevelopmentTools/PythonPkgs/Win32)
+  URL](https://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/DevelopmentTools/PythonPkgs/Win32)
 - [Linux
-  URL](http://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/DevelopmentTools/PythonPkgs/Linux)
+  URL](https://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/DevelopmentTools/PythonPkgs/Linux)
 - [OS/X
-  URL](http://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/DevelopmentTools/PythonPkgs/Mac_OS_X)
+  URL](https://edk2-buildtools.svn.sourceforge.net/svnroot/edk2-buildtools/DevelopmentTools/PythonPkgs/Mac_OS_X)
 
 ## Version Info
 

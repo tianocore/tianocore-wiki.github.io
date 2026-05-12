@@ -55,9 +55,9 @@ Linux platforms.
 
 ## iPXE
 
-[iPXE](http://ipxe.org/start) is an open source network boot firmware implementation. iPXE does not rely on the EDK II
+[iPXE](https://ipxe.org/start) is an open source network boot firmware implementation. iPXE does not rely on the EDK II
 Network Stack, but offers many similar functions.
 
 [iPXE installation and EFI](https://doc.rogerwhittaker.org.uk/ipxe-installation-and-EFI/)
 
-[iPXE - UEFI HTTP chainloading](http://ipxe.org/appnote/uefihttp)
+[iPXE - UEFI HTTP chainloading](https://ipxe.org/appnote/uefihttp)

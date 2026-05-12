@@ -29,7 +29,7 @@ open source firmware project is available from the TianoCore GitHub:
 ## MinnowBoard 3 Background
 
 MinnowBoard is an open source hardware enabler, encouraging platform experimentation and derivative designs. The project
-supports [Open Source Hardware Association](http://www.oshwa.org/) principles by making designs publicly available for
+supports [Open Source Hardware Association](https://www.oshwa.org/) principles by making designs publicly available for
 the community so “anyone can study, modify, distribute, make, and sell the design or hardware based on that design.”
 
 MinnowBoard 3 was a follow-on to the [MinnowBoard Max](minnow_board_max.md) & MinnowBoard Turbot platforms. This design will

@@ -77,7 +77,7 @@ administrator to find out the computer name and port to use for proxy
 setup. The following commands are common examples of how you would
 configure your proxy by setting an environment variable:
 
-    bash$ export http_proxy=http://proxy.domain.com:proxy_port
+    bash$ export http_proxy=https://proxy.domain.com:proxy_port
     bash$ export ftp_proxy=$http_proxy
 
 To utilize the subversion source control command behind an internet
@@ -147,7 +147,7 @@ built.
 
     bash$ mkdir ~/src
     bash$ cd ~/src
-    bash$ wget http://www.mpfr.org/mpfr-current/mpfr-2.4.1.tar.bz2
+    bash$ wget https://www.mpfr.org/mpfr-current/mpfr-2.4.1.tar.bz2
     bash$ tar -jxf mpfr-2.4.1.tar.bz2
     bash$ cd mpfr-2.4.1
     bash$ ./configure --prefix=/usr
@@ -171,7 +171,7 @@ most UNIX-like systems.
 
 The first step is to install the Apple Xcode development environment:
 
-``[`http://developer.apple.com/tools/xcode`](http://developer.apple.com/tools/xcode)
+``[`https://developer.apple.com/tools/xcode`](https://developer.apple.com/tools/xcode)
 
 To install Xcode, you must register as an Apple developer, and download
 the Xcode installation disk image (which is fairly large). These
@@ -213,7 +213,7 @@ fails below.
 
     bash$ cd ~/src
     bash$ curl --remote-name \
-      http://www.mpfr.org/mpfr-current/mpfr-2.4.1.tar.bz2
+      https://www.mpfr.org/mpfr-current/mpfr-2.4.1.tar.bz2
     bash$ tar -jxf mpfr-2.4.1.tar.bz2
     bash$ cd mpfr-2.4.1
     bash$ ./configure --prefix=/usr
@@ -223,7 +223,7 @@ fails below.
 ### GMP & MPFR via Macports (if not behind web proxy)
 
 If you are not behind a network firewall, then the
-[http://www.macports.org](http://www.macports.org) project can greatly simlify the installation
+[https://www.macports.org](https://www.macports.org) project can greatly simlify the installation
 of gmp & mpfr. (Macports does not work easily with web proxies at this
 time.) After installing macports you should be able to simply run this
 command at the shell prompt.

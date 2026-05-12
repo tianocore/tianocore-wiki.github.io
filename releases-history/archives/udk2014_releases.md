@@ -557,7 +557,7 @@ What’s in the package?
 ``[`Release Notes`](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download)``
 ``
 ``**`Nov 13, 2014`**
-`Make sure to``INCLUDE``fatal crash fix :`[`DHCP Fix Dhcp6Utility.c`](http://sourceforge.net/p/edk2/code/16337)
+`Make sure to``INCLUDE``fatal crash fix :`[`DHCP Fix Dhcp6Utility.c`](https://sourceforge.net/p/edk2/code/16337)
 ``
 
 </td>

@@ -25,7 +25,7 @@ GitHub.
 
 ### Git GUI Interface for Windows OS
 
-- Git for Windows OS is available at: ([http://git-scm.com/download/win](http://git-scm.com/download/win))
+- Git for Windows OS is available at: ([https://git-scm.com/download/win](https://git-scm.com/download/win))
 - TortoiseGit for windows OS is available at
   ([https://tortoisegit.org/download/](https://tortoisegit.org/download/))
 

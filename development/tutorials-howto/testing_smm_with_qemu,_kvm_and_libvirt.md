@@ -197,7 +197,7 @@ cat /sys/module/kvm_intel/parameters/nested
   ```
   OPENSSL_VER=openssl-1.1.0e
 
-  wget -q -O - http://www.openssl.org/source/${OPENSSL_VER}.tar.gz \
+  wget -q -O - https://www.openssl.org/source/${OPENSSL_VER}.tar.gz \
   | tar -C $EDK2_SOURCE/CryptoPkg/Library/OpensslLib -x -z
 
   ln -s ${OPENSSL_VER} $EDK2_SOURCE/CryptoPkg/Library/OpensslLib/openssl

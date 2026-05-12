@@ -9,11 +9,11 @@ The preferred license for TianoCore is [BSD+Patent](bsd_plus_patent_license.md).
 contributions using
 the following licenses can be accepted:
 
-* BSD (2-clause): [http://opensource.org/licenses/BSD-2-Clause](http://opensource.org/licenses/BSD-2-Clause)
-* BSD (3-clause): [http://opensource.org/licenses/BSD-3-Clause](http://opensource.org/licenses/BSD-3-Clause)
-* MIT: [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
-* Python-2.0: [http://opensource.org/licenses/Python-2.0](http://opensource.org/licenses/Python-2.0)
-* Zlib: [http://opensource.org/licenses/Zlib](http://opensource.org/licenses/Zlib)
+* BSD (2-clause): [https://opensource.org/licenses/BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause)
+* BSD (3-clause): [https://opensource.org/licenses/BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+* MIT: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
+* Python-2.0: [https://opensource.org/licenses/Python-2.0](https://opensource.org/licenses/Python-2.0)
+* Zlib: [https://opensource.org/licenses/Zlib](https://opensource.org/licenses/Zlib)
 
 ## Documenting Licenses in Source Projects
 

@@ -9,7 +9,7 @@ SR1 Feature Details
   See [How to Enable Security](../../development/tutorials-howto/how_to_enable_security.md) for
   details
 - Features added to support the UEFI 2.3.1 specification from the
-  official [UEFI Forum Web](http://uefi.org) site
+  official [UEFI Forum Web](https://uefi.org) site
 
 - EDK II Build tools and Updates to the
   [EDK II v1.22 specifications](../../reference/specs-standards/edk_ii_specifications.md)
@@ -42,7 +42,7 @@ Support Asynchronous Block Io
 <th colspan="1" style="background-color:#dbe5f1">
 
 Secure Storage Protocol: enable
-[Opal](http://www.trustedcomputinggroup.org/developers/storage)/[eDrive](http://msdn.microsoft.com/en-us/library/windows/hardware/br259095.aspx)
+[Opal](https://www.trustedcomputinggroup.org/developers/storage)/[eDrive](https://msdn.microsoft.com/en-us/library/windows/hardware/br259095.aspx)
 SATA devices using the EFI_STORAGE_SECURITY_COMMAND_PROTOCOL, ATA-8
 Trusted Send/Receive and IEEE1667 Silo (UEFI 2.3.1a
 specification)
@@ -71,7 +71,7 @@ Networking Improvements:
 TCG Physical Presence (PP). Based on the Physical Presence Interface
 Specification Version 1.20, Revision 1.0. More information at the
 [Trusted Computing Group
-website](http://www.trustedcomputinggroup.org/resources/tcg_physical_presence_interface_specification).
+website](https://www.trustedcomputinggroup.org/resources/tcg_physical_presence_interface_specification).
 
 </th>
 

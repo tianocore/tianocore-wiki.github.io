@@ -55,7 +55,7 @@ Currently over 50% maybe somewhere above 70% as of 2010
 
 Yes, the UEFI SCT User Guide has a section (5.3) on how to add test
 cases to the SCT. The SCT releases can be downloaded from
-[http://uefi.org](http://uefi.org)
+[https://uefi.org](https://uefi.org)
 
 ### Who defines Protocols?
 
@@ -95,7 +95,7 @@ designed and implemented, it may be cross compiled to EBC. There are
 some compatibility issues that the UEFI driver writer must be aware of
 in order to implement a UEFI driver is C that is compatible with native
 mode compilers as well as the EBC compiler. Chapter 19 of the EFI Driver
-Writers Guide at [http://developer.intel.com/technology/efi/dg.htm](http://developer.intel.com/technology/efi/dg.htm)
+Writers Guide at [https://developer.intel.com/technology/efi/dg.htm](https://developer.intel.com/technology/efi/dg.htm)
 describes the porting considerations when using the EBC compiler.
 
 ### Can you show the control flow from power-on to OS boot?
@@ -343,7 +343,7 @@ UEFI and OS need to be in the same mode—32 bit or 64 bit
 
 Yes, Join the Sourceforge and sign up for the developer for EDK II.
 [https://sourceforge.net/projects/edk2/develop](https://sourceforge.net/projects/edk2/develop) and subscribe to the
-mailing lists. Get involved with the UEFI Forum at [http://www.uefi.org](http://www.uefi.org)
+mailing lists. Get involved with the UEFI Forum at [https://www.uefi.org](https://www.uefi.org)
 
 ### Given a FV / ROM image is there tools to find out the layout and they way they are packed?
 

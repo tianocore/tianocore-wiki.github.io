@@ -2,7 +2,7 @@
 
 **NEW on this project is the MdePkg version 1.01 and Core Stable version
 0.90 release.
-([here](http://sourceforge.net/projects/edk2/files/Releases/EDK%20II%20Core%20(v%200.90)/))**
+([here](https://sourceforge.net/projects/edk2/files/Releases/EDK%20II%20Core%20(v%200.90)/))**
 
 This is a further extension of the EDK II, from the MdePkg 1.00 Package
 released June 14, 2009. This Package can be found in the EDK II SVN
@@ -35,7 +35,7 @@ solutions in detail.
 
 Your feedback is critical to making EDK II a success! Please submit any
 enhancements, defects, or requests through the [Project Tracker
-tool](http://sourceforge.net/apps/trac/edk2/report).
+tool](https://sourceforge.net/apps/trac/edk2/report).
 
 **Notes on the MdePkg version 1.00 release**
 

@@ -1,52 +1,52 @@
 # News Archive
 
-## [October 31, 2014](http://www.tianocore.org/news/2014/10/31/udk2014.sp1.html)
+## [October 31, 2014](https://www.tianocore.org/news/2014/10/31/udk2014.sp1.html)
 
-Announcing the new UDK2014.SP1 Release. Goto the [UDK2014](http://www.tianocore.org/udk2014/ "UEFI Development Kit
+Announcing the new UDK2014.SP1 Release. Goto the [UDK2014](https://www.tianocore.org/udk2014/ "UEFI Development Kit
 2014") page to download the release and documentation. [Release
-Notes](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download)
+Notes](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014.SP1/UDK2014.SP1-ReleaseNotes-MyWorkSpace.txt/download)
 
-## [September 19, 2014](http://www.tianocore.org/news/2014/09/19/udk2014.sp1.html)
+## [September 19, 2014](https://www.tianocore.org/news/2014/09/19/udk2014.sp1.html)
 
 Upcoming soon UDK2014 Service Pack 1 See a sneak preview: [UDK2014 SP1
 Features](https://github.com/tianocore/tianocore.github.io/wiki/RoadMap2014SP1)
 
-## [March 20, 2014](http://www.tianocore.org/news/2014/03/20/udk2014.html)
+## [March 20, 2014](https://www.tianocore.org/news/2014/03/20/udk2014.html)
 
-Announcing the new UDK2014 Release. Goto the [UDK2014](http://www.tianocore.org/udk2014/ "UEFI Development Kit 2014")
+Announcing the new UDK2014 Release. Goto the [UDK2014](https://www.tianocore.org/udk2014/ "UEFI Development Kit 2014")
 page to download the release and documentation. The UDK2014 release will deliver the UEFI 2.4 and PI 1.3 support.
 Specific details on features and on what is new is contained in the UDK2014 [Release
-Notes](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-ReleaseNotes-MyWorkSpace.txt/download).
+Notes](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014-ReleaseNotes-MyWorkSpace.txt/download).
 
-## [February 11, 2014](http://www.tianocore.org/news/2014/02/11/udk2014-preview.html)
+## [February 11, 2014](https://www.tianocore.org/news/2014/02/11/udk2014-preview.html)
 
 Upcoming soon UDK2014 See a sneak preview: [UDK2014
 Features](https://github.com/tianocore/tianocore.github.io/wiki/RoadMap2014)
 
-## [July 28, 2013](http://www.tianocore.org/news/2013/07/28/news.html)
+## [July 28, 2013](https://www.tianocore.org/news/2013/07/28/news.html)
 
 Announcing the latest UDK2010 Release UDK2010.SR1.UP1.P1. Goto
 [Download](../../releases-history/archives/udk2010.md) the release and documentation.
 UDK2010.SR1.UP1.P1 release will deliver the remaining UEFI 2.3.1 support. Specific details of what is new is contained
 in the [Release
-Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-ReleaseNotes-MyWorkSpace.txt/download).
+Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-ReleaseNotes-MyWorkSpace.txt/download).
 
-## [June 6, 2013](http://www.tianocore.org/news/2013/06/06/news.html)
+## [June 6, 2013](https://www.tianocore.org/news/2013/06/06/news.html)
 
 Please note that due to some infrastructure changes on the sourceforge web site, most of the subversion urls have
 changed. For more information, see the [2013 Subversion
 Change](https://github.com/tianocore/tianocore.github.io/wiki/2013%20Subversion%20Change) page.
 
-## [March 7, 2013](http://www.tianocore.org/news/2013/03/07/news.html)
+## [March 7, 2013](https://www.tianocore.org/news/2013/03/07/news.html)
 
 Announcing a new release of the Pre-EFI Initialization (PEI) 1.2 Self-Certification Test (SCT) utility that is used to
 perform self-certification testing on the PEI code. Download: [PI1.2 SCT.2
-Release.zip](http://sourceforge.net/projects/pi-sct/files/PI1.2_Sct_.2_Release_Mar_05_2013/PI1.2-SCT.2Release-Mar052013.zip/download)
+Release.zip](https://sourceforge.net/projects/pi-sct/files/PI1.2_Sct_.2_Release_Mar_05_2013/PI1.2-SCT.2Release-Mar052013.zip/download)
 
-## [March 4, 2013](http://www.tianocore.org/news/2013/03/04/news.html)
+## [March 4, 2013](https://www.tianocore.org/news/2013/03/04/news.html)
 
 Update to the Documentation on Signing UEFI Applications and Drivers for UEFI Secure Boot. [Signing UEFI Images.pdf
-V1.31](http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot31.pdf/download).
+V1.31](https://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot31.pdf/download).
 This document describes how to sign UEFI images for the development and test of UEFI Secure Boot feature using the
 UDK2010.SR1.UP1 release and also provides an overview of the UEFI Secure Boot featue of UEFI 2.3.1C.
 
@@ -57,31 +57,31 @@ openssl.\
 See [SecurityPkg](../../platforms-packages/core-packages/security_pkg.md) for more documentation on security
 features with UDK2010 and UEFI.
 
-## [February 5, 2013](http://www.tianocore.org/news/2013/02/05/news.html)
+## [February 5, 2013](https://www.tianocore.org/news/2013/02/05/news.html)
 
-The [Signing Tools](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=SecurityPkg#Signing_Tools) Section
+The [Signing Tools](https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=SecurityPkg#Signing_Tools) Section
 on the [SecurityPkg](../../platforms-packages/core-packages/security_pkg.md) page lists signing tools and
 resources for UEFI Secure Boot on Linux. It is far from an exhaustive list but hopefully will be a helpful starting
 point.
 
-## [January 17, 2013](http://www.tianocore.org/news/2013/01/17/news.html)
+## [January 17, 2013](https://www.tianocore.org/news/2013/01/17/news.html)
 
 Intel Green H - EDK1117 Patch Version 9 [Download Patch
-9](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_PatchV9.zip/download)
+9](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_PatchV9.zip/download)
 This package contains the full set of Green H files intended to be used for the ‘‘Broadwell Platform’’ and ‘‘Bay Trail
 Platform’’ (Intel Corporation Code names). The configuration that will be utilized for platform validation is UEFI 2.3.1
 and Framework 0.9x (without Framework HII). This package does not contain the associated build tools required for UEFI
 2.3.1 support. Further details are available from your Intel client BIOS support representative.
 
-## [January 15, 2013](http://www.tianocore.org/news/2013/01/15/news.html)
+## [January 15, 2013](https://www.tianocore.org/news/2013/01/15/news.html)
 
 What are the [Differences between UDK2010 and EDK
 II](../../reference/faqs-glossaries/differences_between_udk2010_and_edk_ii.md)?
 
-## [January 3, 2013](http://www.tianocore.org/news/2013/01/03/news.html)
+## [January 3, 2013](https://www.tianocore.org/news/2013/01/03/news.html)
 
 Update to the Documentation on Signing UEFI Applications and Drivers for UEFI Secure Boot. [Signing UEFI Images.pdf
-V1.3.0](http://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot30.pdf/download).
+V1.3.0](https://sourceforge.net/projects/edk2/files/General%20Documentation/SigningUefiImages%20-v1dot30.pdf/download).
 This document describes how to sign UEFI images for the development and test of UEFI Secure Boot feature using the
 UDK2010.SR1.UP1 release and also provides an overview of the UEFI Secure Boot featue of UEFI 2.3.1C. Version 1.30 has
 Updates and clarifications related to UEFI Spec conformance regarding KEK and DB usages
@@ -221,11 +221,11 @@ This has been an exciting time for the UEFI Open Source Community and this websi
 The administrators would like to thank the members of the community for their understanding and patience during this
 transition period.
 
-## [February 5, 2010](http://www.tianocore.org/news/2010/02/05/news.html)
+## [February 5, 2010](https://www.tianocore.org/news/2010/02/05/news.html)
 
 Site Transition – February 05, 2010 –
 
-The use of the URL <www.tianocore.org> is now linked to this site (when accessed as http://, there are still some issues
+The use of the URL <www.tianocore.org> is now linked to this site (when accessed as https://, there are still some issues
 using https:// which are undergoing resolution).
 
 News – February 05, 2010 –
@@ -234,7 +234,7 @@ There has been an update on the “How to Contribute” Page. The basic contribu
 Developer’s discussion list for a project, rather than a contribution list. This was done to streamline the overall
 number of discussion groups.
 
-## [February 2, 2010](http://www.tianocore.org/news/2010/02/02/news.html)
+## [February 2, 2010](https://www.tianocore.org/news/2010/02/02/news.html)
 
 Site Transition – February 02, 2010 –
 
@@ -248,7 +248,7 @@ The discussion groups are still in the process of migration.
 
 The link of the URL: Tianocore.org will be linking to this site in the near future.
 
-## [January 21, 2010](http://www.tianocore.org/news/2010/01/21/news.html)
+## [January 21, 2010](https://www.tianocore.org/news/2010/01/21/news.html)
 
 Site Transition – Downtime January 21, 2010 –
 
@@ -270,7 +270,7 @@ Thank you,
 
 The Administrators
 
-## [January 14, 2010](http://www.tianocore.org/news/2010/01/14/news.html)
+## [January 14, 2010](https://www.tianocore.org/news/2010/01/14/news.html)
 
 SITE TRANSITION—DOWNTIME January 21—Your action required
 
@@ -317,7 +317,7 @@ Thank you,
 
 The Administrators
 
-## [December 9, 2009](http://www.tianocore.org/news/2009/12/09/news.html)
+## [December 9, 2009](https://www.tianocore.org/news/2009/12/09/news.html)
 
 The UEFI Open Source Community Website (URL: <www.tianocore.org>) will be going through some updates and changes.
 
@@ -334,7 +334,7 @@ Thank you,
 
 The Administrators
 
-## [December 1, 2009](http://www.tianocore.org/news/2009/12/01/news.html)
+## [December 1, 2009](https://www.tianocore.org/news/2009/12/01/news.html)
 
 The Sun VirtualBox\* version 3.1.0 is now available with experimental support for EFI (UEFI). This virtualization
 product demonstrates the growing interest of UEFI in the industry.
@@ -346,7 +346,7 @@ project (see here).
 
 - Other names and brands may be claimed as property of others
 
-## [October 9, 2009](http://www.tianocore.org/news/2009/10/09/news.html)
+## [October 9, 2009](https://www.tianocore.org/news/2009/10/09/news.html)
 
 The "[Getting Started as a Contributor](../../development/contribution-guides/how_to_contribute.md) "
 page has been updated with more information defining the term contribution and establishing the difference between
@@ -355,7 +355,7 @@ participation and Contribution.
 These updates have been provided to help establish an understanding of the process of contribution submission, and to
 encourage more members of the UEFI Open Source Community Website to become contributors to the overall community.
 
-## [August 14, 2009](http://www.tianocore.org/news/2009/08/14/news.html)
+## [August 14, 2009](https://www.tianocore.org/news/2009/08/14/news.html)
 
 New On This site!: The official release of the EDK II Core Stable Release (Version 0.90).
 
@@ -368,7 +368,7 @@ For more information, please refer to the EDK II Project home page .
 Also included in this release is the online documentation for the MdePkg 1.01, available directly from the website (here
 ).
 
-## [August 12, 2009](http://www.tianocore.org/news/2009/08/12/news.html)
+## [August 12, 2009](https://www.tianocore.org/news/2009/08/12/news.html)
 
 New On This site: The Getting Started as a Contributor page has been updated with the process for contributing “third
 party contributions” to the UEFI Open Source Community Website.
@@ -376,7 +376,7 @@ party contributions” to the UEFI Open Source Community Website.
 This process answers some recent procedural questions by contributors wishing to contribute works derived from sources
 provided by another open source community or project.
 
-## [July 27, 2009](http://www.tianocore.org/news/2009/07/27/news.html)
+## [July 27, 2009](https://www.tianocore.org/news/2009/07/27/news.html)
 
 New On This site: The latest release of the Intel (R) 1 and 10 GbE NIC driver sources on the EDK project.
 
@@ -385,7 +385,7 @@ These drivers support the newer versions of Intel(R) NIC devices. They are provi
 
 For the download packages, please refer to the EDK Projects Documents and Files (other contribution) Page .
 
-## [June 14, 2009](http://www.tianocore.org/news/2009/06/14/news.html)
+## [June 14, 2009](https://www.tianocore.org/news/2009/06/14/news.html)
 
 New On This site!: The official release of the MdePkg version 1.00 and supporting components.
 
@@ -397,7 +397,7 @@ packages reach this level of completeness, we will be providing them on this sit
 
 For more information, please refer to the EDK II Project home page .
 
-## [May 27, 2009](http://www.tianocore.org/news/2009/05/27/news.html)
+## [May 27, 2009](https://www.tianocore.org/news/2009/05/27/news.html)
 
 On This site!: The Open Virtual Machine Firmware (OVMF) project is the latest addition to the EDK II source repository.
 This new project is an effort to support Virtual Machines using the EDK II code base, with features like:
@@ -407,33 +407,33 @@ This new project is an effort to support Virtual Machines using the EDK II code 
 
 For more information, please refer to the OVMF web page.
 
-## [May 7, 2009](http://www.tianocore.org/news/2009/05/07/news.html)
+## [May 7, 2009](https://www.tianocore.org/news/2009/05/07/news.html)
 
 On This site!: The EDKII ShellPkg (alpha) has been released for testing and comment by members of the community. This
 contains headers for protocols, libraries, GUIDS, and other Shell specific items. This also includes a EDK II Shell
 Application Library instance that allows for Shell Applications to be compiled in EDK II. Future enhancements include
 adding UEFI Shell 2.0 shell and general improvements.
 
-## [April 20, 2009](http://www.tianocore.org/news/2009/04/20/news.html)
+## [April 20, 2009](https://www.tianocore.org/news/2009/04/20/news.html)
 
 On This site!: The EDKII Module Writer’s Guide Version 0.01 has been added to the Documents and files of the EDK II
 project page. This is a guideline for EDK II module developers, providing detailed instructions on how to develop and
 build a new modules and release with a package. These drivers can be found in the EDK II project under “Document &
 files” in “General Documentation”.
 
-## [April 9, 2009](http://www.tianocore.org/news/2009/04/09/news.html)
+## [April 9, 2009](https://www.tianocore.org/news/2009/04/09/news.html)
 
 On This site!: The Sources for the Intel GbE (PCI/PCI-X and PCI-E) and 10GbE (PCI/PCI-X and PCI-E) EFI drivers have been
 updated to include new improvements and fixes. These drivers can be found in the EDK project under “Document & files” in
 “Releases -\> Others -\> Other Contribution”.
 
-## [March 30, 2009](http://www.tianocore.org/news/2009/03/30/news.html)
+## [March 30, 2009](https://www.tianocore.org/news/2009/03/30/news.html)
 
 Insyde Software and American Megatrends (AMI) announced new UEFI-compliant firmware for new Intel(r) Xeon(r) Processor
 5500 Series. AMI states that their firmware is based on the Intel(r) Platform Innovation Framework for UEFI. Read full
 details from AMI and from Insyde.
 
-## [March 4, 2009](http://www.tianocore.org/news/2009/03/04/news.html)
+## [March 4, 2009](https://www.tianocore.org/news/2009/03/04/news.html)
 
 Insyde Software, American Megatrends (AMI), and Phoenix all announced new UEFI-compliant firmware for new Intel(r)
 Atom(tm) Processor Z5xx Series Platform. Insyde and AMI state that their firmware is based on the Intel(r) Platform

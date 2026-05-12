@@ -51,7 +51,7 @@ to sign and authenticate capsule-based system firmware update images.
 
 ## Summary of UEFI Capsule Services, Tables & Variables
 
-The [UEFI Specification](http://www.uefi.org) and the [PI Specification](http://www.uefi.org) provide details on the
+The [UEFI Specification](https://www.uefi.org) and the [PI Specification](https://www.uefi.org) provide details on the
 services, tables, and variables associated with the use of capsules for firmware update and recovery.
 
 * \[UEFI\] `UpdateCapsule()` and `QueryCapsuleCapabilities()` Runtime Services

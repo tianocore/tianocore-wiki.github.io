@@ -16,8 +16,8 @@ drive (create the folder "C:\ASL" if it does not exist).
 
 ## Linux
 
-Install the [iasl](http://packages.ubuntu.com/search?keywords=iasl) or
-[acpica-tools](http://packages.ubuntu.com/yakkety/acpica-tools) package, depending on your Linux distribution. Example
+Install the [iasl](https://packages.ubuntu.com/search?keywords=iasl) or
+[acpica-tools](https://packages.ubuntu.com/yakkety/acpica-tools) package, depending on your Linux distribution. Example
 for Debian/Ubuntu:
 
     bash$ sudo apt-get install iasl

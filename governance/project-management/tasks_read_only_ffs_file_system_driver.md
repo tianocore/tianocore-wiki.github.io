@@ -44,7 +44,7 @@ toolchain.
 
 Testing: This project can be tested on any PI 1.2 system. Even without
 loading the driver into flash, it can be loaded by using the EFI shell
-'load' command. [OVMF](http://www.tianocore.org/ovmf/),
+'load' command. [OVMF](https://www.tianocore.org/ovmf/),
 [Nt32Pkg](../../archives/platforms-packages/nt32_pkg.md) or
 [UnixPkg](../../archives/platforms-packages/unix_pkg.md) could
 each provide friendly test environments.

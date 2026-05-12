@@ -514,7 +514,7 @@ or
 Paper](https://github.com/tianocore-docs/Docs/raw/main/White_Papers/A_Tour_Beyond_BIOS_into_UEFI_Secure_Boot_White_Paper.pdf)
 This document provides an overview of the implementation and intent
 behind the UEFI Secure Boot feature and capability of UEFI
-Specification, Version 2.3.1C, [http://www.uefi.org](http://www.uefi.org)
+Specification, Version 2.3.1C, [https://www.uefi.org](https://www.uefi.org)
 
 The goal of the paper is to provide
 

@@ -94,7 +94,7 @@ functions and how new users can participate.
 public:
 
 - [Directory of Application Source Code
-  available](http://sourceforge.net/projects/edk-apps/files/)
+  available](https://sourceforge.net/projects/edk-apps/files/)
 
 Project Points of Contact
 

@@ -33,7 +33,7 @@ likely need to create a SourceForge account.
 
 To create a SourceForge account, visit:
 
-- [http://sourceforge.net/account/registration/](http://sourceforge.net/account/registration/)
+- [https://sourceforge.net/account/registration/](https://sourceforge.net/account/registration/)
 
 ## Requesting Additional Access
 

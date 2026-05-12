@@ -134,11 +134,11 @@ Operating systems used to verify EDK II PXE Boot functionality:
 ## References
 
 1. PXE 2.1 specification:
-[http://download.intel.com/design/archives/wfm/downloads/pxespec.pdf](http://download.intel.com/design/archives/wfm/downloads/pxespec.pdf)
+[https://download.intel.com/design/archives/wfm/downloads/pxespec.pdf](https://download.intel.com/design/archives/wfm/downloads/pxespec.pdf)
 2. UEFI 2.6 specification:
-[http://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf](http://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf)
+[https://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf](https://www.uefi.org/sites/default/files/resources/UEFI%20Spec%202_6.pdf)
 3. WfM2.0 specification:
-[http://download.intel.com/design/archives/wfm/downloads/base20.pdf](http://download.intel.com/design/archives/wfm/downloads/base20.pdf)
+[https://download.intel.com/design/archives/wfm/downloads/base20.pdf](https://download.intel.com/design/archives/wfm/downloads/base20.pdf)
 4. UEFI PXE Boot Performance Analysis:
 [https://software.intel.com/sites/default/files/managed/2d/04/intel-uefi-pxe-boot-performance-analysis.pdf](https://software.intel.com/sites/default/files/managed/2d/04/intel-uefi-pxe-boot-performance-analysis.pdf)
 5. NetworkPkg Getting Started Guide:

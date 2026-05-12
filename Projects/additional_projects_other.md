@@ -10,10 +10,10 @@ between EDK and EDK II](../reference/faqs-glossaries/differences_between_edk_and
 * [network-io](../platforms-packages/component-guides/network_io.md) SNP NT32 Network I/O
 * [edk-apps](../archives/reference/edk_apps.md) EDK applications
 * [EDK Network UNDI Driver](../archives/reference/efidevkit.md) -
-  [Download](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_efi_src_4606.zip/download)
+  [Download](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_efi_src_4606.zip/download)
   The latest Intel(R) PRO/1000 Network UEFI/ EDK Driver
 * [EDK Client Patch 9](../archives/reference/efidevkit.md) -
-  [Download](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_PatchV9.zip/download)
+  [Download](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_PatchV9.zip/download)
   Latest EDK Client Patch 9 -20130117 Ref 518096
 
 ## [EFI Shell](../archives/reference/efishell.md) Project
@@ -26,12 +26,12 @@ This is the older EFI shell; Pre-[ShellPkg](../platforms-packages/core-packages/
 
 ## Other Projects
 
-* [PI SCT](http://sourceforge.net/projects/pi-sct/files/) Platform Initializiation Self-certification test projtect
+* [PI SCT](https://sourceforge.net/projects/pi-sct/files/) Platform Initializiation Self-certification test projtect
   (Separate SF Project pi-sct)
 * [framework-sct](../archives/reference/framework_sct.md) EFI device driver loader, application launcher, OS booter
 * edkcontrib  Contributions to EDK for expanded functionality
 * [efi-sct](../archives/reference/efi_sct.md) UEFI SCT has been moved to the UEFI Forum at
-  [http://www.uefi.org](http://www.uefi.org) members page.
+  [https://www.uefi.org](https://www.uefi.org) members page.
 
 ## Older, unmaintained projects
 

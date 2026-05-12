@@ -1,7 +1,7 @@
 # UEFI HTTP Boot
 
 For a detailed description on UEFI HTTP Boot, see the "HTTP Boot" section of the [UEFI
-Specification](http://www.uefi.org/specifications).
+Specification](https://www.uefi.org/specifications).
 
 ## HTTP Boot: Getting Started
 
@@ -42,7 +42,7 @@ will use the extensions below, assigned by the DHCP server in a corporate enviro
 
 | Tag Name | Tag # (DHCPv4) | Tag # (DHCPv6)| Length | Data Field |
 | --- | --- | --- | --- |--- |
-| Boot File | 'file' field in DHCP header, or option 67 | 59 | Varies | Boot File URI String (eg. "[http://Webserver/Boot/Boot.efi](http://Webserver/Boot/Boot.efi)" or "[http://Webserver/Boot/Boot.iso](http://Webserver/Boot/Boot.iso)") |
+| Boot File | 'file' field in DHCP header, or option 67 | 59 | Varies | Boot File URI String (eg. "[https://Webserver/Boot/Boot.efi](https://Webserver/Boot/Boot.efi)" or "[https://Webserver/Boot/Boot.iso](https://Webserver/Boot/Boot.iso)") |
 | Class Identifier | 60 | 16 | 10 | "HTTPClient" |
 
 ### URI Configuration in Home Environment
@@ -75,9 +75,9 @@ header is not present in the HTTP response message.
 
 | Media Type | Filename Extensions | Image Type |
 |---| --- | --- |
-|[application/vnd.efi.iso](http://www.iana.org/assignments/media-types/application/vnd.efi-iso)|*.iso|Virtual CD Image|
-|[application/vnd.efi.img](http://www.iana.org/assignments/media-types/application/vnd.efi-img)|*.img|Virtual Disk Image|
-|[application/efi](http://www.iana.org/assignments/media-types/application/efi)|Others (typically *.efi)|UEFI Executable Image|
+|[application/vnd.efi.iso](https://www.iana.org/assignments/media-types/application/vnd.efi-iso)|*.iso|Virtual CD Image|
+|[application/vnd.efi.img](https://www.iana.org/assignments/media-types/application/vnd.efi-img)|*.img|Virtual Disk Image|
+|[application/efi](https://www.iana.org/assignments/media-types/application/efi)|Others (typically *.efi)|UEFI Executable Image|
 
 ### RAM Disk Image Size
 

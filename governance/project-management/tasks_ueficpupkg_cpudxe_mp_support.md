@@ -17,7 +17,7 @@ Enable multiprocessor support for IA32 & X64 within UefiCpuPkg/CpuDxe.
 Intel® 64 and IA-32 Architectures Software Developer's Manual Volume 3A:
 System Programming Guide, Part 1
 
-[http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html](http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html)
+[https://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html](https://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html)
 
 ## Development environment
 
@@ -70,7 +70,7 @@ Some possible sub-goals for the driver
 
 This project would be for an edk2 based driver, so please discuss the
 project on [https://edk2.groups.io/g/devel](https://edk2.groups.io/g/devel).
-For IRC, \#edk2 on [irc.oftc.net](http://www.oftc.net).
+For IRC, \#edk2 on [irc.oftc.net](https://www.oftc.net).
 
 ## See Also
 

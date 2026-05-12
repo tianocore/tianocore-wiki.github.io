@@ -29,10 +29,10 @@ Boot in the firmware setup menus.
 
 ## Downloads
 
-Latest release: [http://www.ubuntu.com/download](http://www.ubuntu.com/download)
+Latest release: [https://www.ubuntu.com/download](https://www.ubuntu.com/download)
 
 Latest live daily images (working towards next release):
-[http://cdimage.ubuntu.com/daily-live/](http://cdimage.ubuntu.com/daily-live/)
+[https://cdimage.ubuntu.com/daily-live/](https://cdimage.ubuntu.com/daily-live/)
 
 ## Reference Info
 
@@ -40,4 +40,4 @@ Latest live daily images (working towards next release):
 
 [https://wiki.ubuntu.com/Kernel/Testing/UbuntuUEFI](https://wiki.ubuntu.com/Kernel/Testing/UbuntuUEFI)
 
-[http://askubuntu.com/questions/221835/installing-ubuntu-alongside-a-pre-installed-windows-with-uefi](http://askubuntu.com/questions/221835/installing-ubuntu-alongside-a-pre-installed-windows-with-uefi)
+[https://askubuntu.com/questions/221835/installing-ubuntu-alongside-a-pre-installed-windows-with-uefi](https://askubuntu.com/questions/221835/installing-ubuntu-alongside-a-pre-installed-windows-with-uefi)

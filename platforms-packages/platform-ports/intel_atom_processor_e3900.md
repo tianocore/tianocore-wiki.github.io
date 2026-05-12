@@ -55,8 +55,8 @@ More Info:
 
 * [BIOS chip flashing on UP Squared](https://wiki.up-community.org/BIOS_chip_flashing_on_UP_Squared) - Information for
   using a SPI programmer to apply a new firmware image (factory image or custom image)
-* Product Info: [http://www.up-board.org/upsquared/](http://www.up-board.org/upsquared/) &
-  [http://www.up-china.net/](http://www.up-china.net/)
+* Product Info: [https://www.up-board.org/upsquared/](https://www.up-board.org/upsquared/) &
+  [https://www.up-china.net/](https://www.up-china.net/)
 
 ### MinnowBoard 3 Module
 
@@ -65,7 +65,7 @@ MinnowBoard platforms offer low cost & commercially available open hardware base
 software and firmware developers. Hardware availability is TBD.
 
 MinnowBoard is an open source hardware enabler, encouraging platform experimentation and derivative designs. The project
-supports [Open Source Hardware Association](http://www.oshwa.org/) principles by making designs publicly available for
+supports [Open Source Hardware Association](https://www.oshwa.org/) principles by making designs publicly available for
 the community so “anyone can study, modify, distribute, make, and sell the design or hardware based on that design.”
 
 MinnowBoard 3 Module is based on the Intel Atom® processor E3900 Series platform, utilizing the Intel® Firmware Support

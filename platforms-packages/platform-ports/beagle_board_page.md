@@ -126,7 +126,7 @@ button.
 
 Step \#1:
 Follow the
-[instructions](http://code.google.com/p/beagleboard/wiki/BeagleboardRevCValidation)
+[instructions](https://code.google.com/p/beagleboard/wiki/BeagleboardRevCValidation)
 and build an MMC/SD card that boots the Beagle Board U-Boot.
 
 You only need to do the following steps:

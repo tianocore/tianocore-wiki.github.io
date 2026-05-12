@@ -1,7 +1,7 @@
 # Additional Projects
 
 [EDK II](../reference/external-resources/edk_ii.md) is a modern, feature-rich, cross-platform firmware development
-environment for the [UEFI](http://uefi.org) and PI specifications. Click for a list of [EDK II
+environment for the [UEFI](https://uefi.org) and PI specifications. Click for a list of [EDK II
 Documents](../reference/external-resources/edk_ii_documents.md) and [EDK II
 Specifications](../reference/specs-standards/edk_ii_specifications.md).
 

@@ -393,11 +393,11 @@ Contributions.txt: TianoCore Contribution Agreement 1.1
     5. It is preferred that contributions are submitted using the same
        copyright license as the base project. When that is not possible,
        then contributions using the following licenses can be accepted:
-       * BSD (2-clause): http://opensource.org/licenses/BSD-2-Clause
-       * BSD (3-clause): http://opensource.org/licenses/BSD-3-Clause
-       * MIT: http://opensource.org/licenses/MIT
-       * Python-2.0: http://opensource.org/licenses/Python-2.0
-       * Zlib: http://opensource.org/licenses/Zlib
+       * BSD (2-clause): https://opensource.org/licenses/BSD-2-Clause
+       * BSD (3-clause): https://opensource.org/licenses/BSD-3-Clause
+       * MIT: https://opensource.org/licenses/MIT
+       * Python-2.0: https://opensource.org/licenses/Python-2.0
+       * Zlib: https://opensource.org/licenses/Zlib
 
        For documentation:
        * FreeBSD Documentation License
@@ -486,7 +486,7 @@ Contributions.txt: TianoCore Contribution Agreement 1.1
     Unless otherwise indicated, all Content (except Documentation) made available
     on the TianoCore site is provided to you under the terms and conditions of the
     BSD License ("BSD"). A copy of the BSD License is available at
-    http://opensource.org/licenses/bsd-license.php
+    https://opensource.org/licenses/bsd-license.php
     or when applicable, in the associated License.txt file.
 
     Unless otherwise indicated, all Documentation made available on the
@@ -632,11 +632,11 @@ Contributions.txt: TianoCore Contribution Agreement 1.0
     5. It is preferred that contributions are submitted using the same
        copyright license as the base project. When that is not possible,
        then contributions using the following licenses can be accepted:
-       * BSD (2-clause): http://opensource.org/licenses/BSD-2-Clause
-       * BSD (3-clause): http://opensource.org/licenses/BSD-3-Clause
-       * MIT: http://opensource.org/licenses/MIT
-       * Python-2.0: http://opensource.org/licenses/Python-2.0
-       * Zlib: http://opensource.org/licenses/Zlib
+       * BSD (2-clause): https://opensource.org/licenses/BSD-2-Clause
+       * BSD (3-clause): https://opensource.org/licenses/BSD-3-Clause
+       * MIT: https://opensource.org/licenses/MIT
+       * Python-2.0: https://opensource.org/licenses/Python-2.0
+       * Zlib: https://opensource.org/licenses/Zlib
 
        Contributions of code put into the public domain can also be
        accepted.
@@ -713,7 +713,7 @@ Contributions.txt: TianoCore Contribution Agreement 1.0
     Unless otherwise indicated, all Content made available on the TianoCore
     site is provided to you under the terms and conditions of the BSD
     License ("BSD"). A copy of the BSD License is available at
-    http://opensource.org/licenses/bsd-license.php
+    https://opensource.org/licenses/bsd-license.php
     or when applicable, in the associated License.txt file.
 
     Certain other content may be made available under other licenses as

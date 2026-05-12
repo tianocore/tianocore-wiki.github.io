@@ -28,7 +28,7 @@ native graphics drivers. The currently used UEFI GOP drivers provide this capabi
 would have enabled resolution changes at runtime, similar to legacy VGA BIOS. This feature that was lost when the
 industry moved to UEFI GOP drivers. UEFI UNDIs could be used as a basic network drivers for cases where the OS media did
 not have the needed network drivers in-box. The UNDI would allow the system to access the Internet to download OS native
-drivers. Vincent Zimmer has a good history of EBC on his [blog](http://vzimmer.blogspot.com/2015/08/efi-byte-code.html).
+drivers. Vincent Zimmer has a good history of EBC on his [blog](https://vzimmer.blogspot.com/2015/08/efi-byte-code.html).
 
 EBC has a unique feature that is not found in other intermediate languages, natural indexing. Natural indexing has made
 compiler development for EBC notoriously difficult. In EBC, there are several basic types that are variable in size. For
@@ -70,7 +70,7 @@ exact EBC interpreter that will be used on real systems.
 * [https://github.com/yabits/llvm/tree/retrage/ebc](https://github.com/yabits/llvm/tree/retrage/ebc)
   [https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html](https://translate.google.com/translate?hl=&sl=ja&tl=en&u=https%3A%2F%2Fretrage.github.io%2F2019%2F07%2F20%2Fllvm-backend-for-ebc.html)
   [https://speakerdeck.com/retrage/llvm-backend-development-for-efi-byte-code](https://speakerdeck.com/retrage/llvm-backend-development-for-efi-byte-code)
-* [http://vzimmer.blogspot.com/2015/08/efi-byte-code.html](http://vzimmer.blogspot.com/2015/08/efi-byte-code.html)
+* [https://vzimmer.blogspot.com/2015/08/efi-byte-code.html](https://vzimmer.blogspot.com/2015/08/efi-byte-code.html)
 * [https://github.com/tianocore/edk2/tree/master/EmulatorPkg](https://github.com/tianocore/edk2/tree/master/EmulatorPkg)
 * [https://github.com/yabits/ebcvm](https://github.com/yabits/ebcvm)
 * [https://github.com/pbatard/fasmg-ebc](https://github.com/pbatard/fasmg-ebc)

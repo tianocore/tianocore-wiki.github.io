@@ -67,7 +67,7 @@ of the initial issue report.)
 Designated files (step 7) are indicated by a comment in the header that
 the file may process untrusted input. These files are so designated
 because they protect the assets in the tianocore.org threat model. See
-([http://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf](http://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf))
+([https://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf](https://www.uefi.org/sites/default/files/resources/Intel-UEFI-ThreatModel.pdf))
 for information on the assets. If you believe other files should be so
 designated, please use the report button to provide the path. The
 "untrusted input" header comment is also used to indicate that the files

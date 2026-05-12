@@ -3,7 +3,7 @@
 ## Build Instructions
 
 Download the UDK2014 Release with expanded workspace directories
-[DownLoad](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download)
+[DownLoad](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.Complete.MyWorkSpace.zip/download)
 
 ## UDK2014 Release Files / Directories
 

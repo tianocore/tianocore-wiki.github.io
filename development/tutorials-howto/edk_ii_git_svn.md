@@ -17,7 +17,7 @@ With git-svn, you will be able to download all svn changes into a local
 git repository, and commit new changes.
 
 There are probably much better git-svn tutorials on the web. (The [git
-website](http://git-scm.org) is probably a good place to start.) But,
+website](https://git-scm.org) is probably a good place to start.) But,
 here is some brief information...
 
 ### Create a new EDK II tree with git-svn
@@ -28,7 +28,7 @@ time!):
     bash$ git svn clone -s https://svn.code.sf.net/p/edk2/code edk2
 
 You can also download a snapshot git-svn tree:
-[http://sourceforge.net/projects/edk2/files/Git/](http://sourceforge.net/projects/edk2/files/Git/)
+[https://sourceforge.net/projects/edk2/files/Git/](https://sourceforge.net/projects/edk2/files/Git/)
 
 The snapshots are named edk2-git-svn-\*.zip. They contain the git
 repository along with the svn data.
@@ -49,7 +49,7 @@ But, if you just want to commit changes to a single file, then use:
     bash$ git commit
 
 When working with your local tree, you can probably find much better
-tutorials on the web. (The [git website](http://git-scm.org) is probably
+tutorials on the web. (The [git website](https://git-scm.org) is probably
 a good place to start.)
 
 ### Publishing changes to svn

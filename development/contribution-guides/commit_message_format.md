@@ -60,6 +60,7 @@ Several lines of
 description for the
 change.
 
+Continuous-integration-options: PatchCheck.ignore-multi-package
 Signed-off-by: Contributor Name <contributor@email.server>
 ```
 
@@ -73,6 +74,7 @@ Several lines of
 description for the
 change.
 
+Continuous-integration-options: PatchCheck.ignore-multi-package
 Signed-off-by: Contributor Name <contributor@email.server>
 ```
 

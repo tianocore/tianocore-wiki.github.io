@@ -1,6 +1,6 @@
 # Tasks Network Block Device
 
-Add [Network Block Device](http://nbd.sourceforge.net/) support
+Add [Network Block Device](https://nbd.sourceforge.net/) support
 
 - Difficulty: Medium
 - Language: C
@@ -13,7 +13,7 @@ Add [Network Block Device](http://nbd.sourceforge.net/) support
 
 Client
 
-- [OVMF](http://www.tianocore.org/ovmf/),
+- [OVMF](https://www.tianocore.org/ovmf/),
   [EmulatorPkg](../../platforms-packages/platform-ports/emulator_pkg.md), or
   [NT32](../../archives/platforms-packages/nt32_pkg.md).
 
@@ -21,17 +21,17 @@ Server
 
 - Linux
 - Windows (for example, try
-  [http://www.vanheusden.com/windows/nbdsrvr/](http://www.vanheusden.com/windows/nbdsrvr/))
+  [https://www.vanheusden.com/windows/nbdsrvr/](https://www.vanheusden.com/windows/nbdsrvr/))
 
 ## Links for more information
 
   [https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md](https://github.com/NetworkBlockDevice/nbd/blob/master/doc/proto.md)
-- [http://nbd.sourceforge.net/](http://nbd.sourceforge.net/)
-- [http://wiki.wireshark.org/NBD](http://wiki.wireshark.org/NBD)
-- [http://www.vanheusden.com/java/JNbd/](http://www.vanheusden.com/java/JNbd/)
-- [http://www.vanheusden.com/windows/nbdsrvr/](http://www.vanheusden.com/windows/nbdsrvr/)
+- [https://nbd.sourceforge.net/](https://nbd.sourceforge.net/)
+- [https://wiki.wireshark.org/NBD](https://wiki.wireshark.org/NBD)
+- [https://www.vanheusden.com/java/JNbd/](https://www.vanheusden.com/java/JNbd/)
+- [https://www.vanheusden.com/windows/nbdsrvr/](https://www.vanheusden.com/windows/nbdsrvr/)
 - [https://github.com/yoe/nbd](https://github.com/yoe/nbd)
-  [http://code.activestate.com/recipes/577569-nbd-server-in-python/](http://code.activestate.com/recipes/577569-nbd-server-in-python/)
+  [https://code.activestate.com/recipes/577569-nbd-server-in-python/](https://code.activestate.com/recipes/577569-nbd-server-in-python/)
 
 ## Development environment
 

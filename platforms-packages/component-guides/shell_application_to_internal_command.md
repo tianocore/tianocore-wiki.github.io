@@ -104,7 +104,7 @@ Use ShellPkg/Library/UefiShellInstall1CommandsLib as your porting basis.
 4. Edit DpInstall1CommandsLib.inf
     1. Change BASE_NAME to DpUefiShellInstall1CommandsLib
     2. Generate a new GUID for FILE_GUID using Visual Studio
-        guidgen.exe or [GuidGen](http://www.guidgen.com).
+        guidgen.exe or [GuidGen](https://www.guidgen.com).
     3. Change \[Sources\] to list the DP source files
         (DpUefiShellInstall1CommandsLib.c/h/uni, Dp.c, Dp.h, etc)
     4. To \[Packages\] add PerformancePkg/PerformancePkg.dec

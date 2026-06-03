@@ -8,6 +8,6 @@ Debugging in [EDK II](../../reference/external-resources/edk_ii.md):
 
 * Build OVMF with source level debug enabled
 * Setup virtual COM connection
-* Com0Com may be an option on Microsoft Windows: [http://com0com.sourceforge.net](http://com0com.sourceforge.net)
+* Com0Com may be an option on Microsoft Windows: [https://com0com.sourceforge.net](https://com0com.sourceforge.net)
 
 [EDK II Debugging](edk_ii_debugging.md) | [Debug FAQ](../../reference/faqs-glossaries/debug_faq.md)

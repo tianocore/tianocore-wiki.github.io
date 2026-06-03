@@ -35,12 +35,12 @@ Serial Adapter.
 
 Ideally, this project should enable a driver that will attach to the USB
 Serial Adapter and produce the
-[SerialIo](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/MdePkg/Include/Protocol/SerialIo.h)
+[SerialIo](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/MdePkg/Include/Protocol/SerialIo.h)
 protocol to enable the UEFI terminal to become available through the USB
 Serial adapter.
 
 The
-[MdeModulePkg/Bus/Usb/UsbKbDxe](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/MdeModulePkg/Bus/Usb/UsbKbDxe)
+[MdeModulePkg/Bus/Usb/UsbKbDxe](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/MdeModulePkg/Bus/Usb/UsbKbDxe)
 (USB Keyboard) driver may provide a useful starting point for your
 project.
 
@@ -73,7 +73,7 @@ output.
 
 ## QEMU/OVMF with real hardware
 
-[OVMF](http://www.tianocore.org/ovmf/) (on Linux) would probably provide
+[OVMF](https://www.tianocore.org/ovmf/) (on Linux) would probably provide
 the easiest environment for testing your project with real hardware. You
 should be able to build your driver into OVMF and then run OVMF with the
 USB adapter being mapped inside the virtual machine environment. If you
@@ -107,15 +107,15 @@ project.
 
 - The QEMU virutal machine environment emulates an FTDI based device
   (see more details above!)
-  - [http://www.ftdichip.com/Drivers/D2XX.htm](http://www.ftdichip.com/Drivers/D2XX.htm)
+  - [https://www.ftdichip.com/Drivers/D2XX.htm](https://www.ftdichip.com/Drivers/D2XX.htm)
 - [Keyspan
-  USA-19HS](http://www.tripplite.com/en/products/model.cfm?txtSeriesID=849&txtModelID=3914)
+  USA-19HS](https://www.tripplite.com/en/products/model.cfm?txtSeriesID=849&txtModelID=3914)
 - [Belkin USB to Serial
-  adapter](http://www.belkin.com/IWCatProductPage.process?Product_Id=281230)
+  adapter](https://www.belkin.com/IWCatProductPage.process?Product_Id=281230)
 - [CablesToGo USB to DB9 Serial
-  Adapter](http://www.cablestogo.com/product.asp?cat_id=7057&sku=26886)
+  Adapter](https://www.cablestogo.com/product.asp?cat_id=7057&sku=26886)
 - [IOGEAR USB to Serial RS-232
-  Adapter](http://www.iogear.com/product/GUC232A/)
+  Adapter](https://www.iogear.com/product/GUC232A/)
 
 ## Further Discussion
 

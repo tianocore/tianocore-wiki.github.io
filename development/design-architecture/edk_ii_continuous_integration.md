@@ -42,15 +42,15 @@ enhancements and extensions to these services.
    through Azure Pipelines test results.
 6) GitHub References
    * [GitHub](https://github.com/)
-   * [GitHub Labels](https://help.github.com/en/github/managing-your-work-on-github/about-labels)
-   * [GitHub Protected Branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
+   * [GitHub Labels](https://docs.github.com/en/github/managing-your-work-on-github/about-labels)
+   * [GitHub Protected Branches](https://docs.github.com/en/github/administering-a-repository/about-protected-branches)
    * [GitHub
-     Notifications](https://help.github.com/en/github/receiving-notifications-about-activity-on-github/about-notifications)
+     Notifications](https://docs.github.com/en/github/receiving-notifications-about-activity-on-github/about-notifications)
    * [Watch a GitHub
-     repository](https://help.github.com/en/github/receiving-notifications-about-activity-on-github/watching-and-unwatching-repositories)
-   * [Create a GutHub fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+     repository](https://docs.github.com/en/github/receiving-notifications-about-activity-on-github/watching-and-unwatching-repositories)
+   * [Create a GutHub fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
    * [Create a GitHub pull
-     request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+     request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 7) GitHub Command line Utility (`gh`) to perform GitHub operations
    * [GitHub CLI Download](https://cli.github.com/)
    * [GitHub CLI Manual](https://cli.github.com/manual/gh)
@@ -62,7 +62,7 @@ enhancements and extensions to these services.
    * [Azure Pipelines YAML Schema](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema)
 9) Mergify References
    * [Mergify GitHub App](https://github.com/apps/mergify)
-   * [Mergify Documentation](https://doc.mergify.io)
+   * [Mergify Documentation](https://doc.mergify.com)
 
 [EDK II Continuous Integration Administration](../../governance/project-management/edk_ii_continuous_integration_administration.md)
 

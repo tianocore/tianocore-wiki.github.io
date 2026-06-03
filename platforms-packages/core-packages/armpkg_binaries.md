@@ -51,7 +51,7 @@ By:
 ## EdkShellPkg: Instructions to generate ShellRn.patch
 
 1\. Clone the Shell repository using git git svn clone
-[http://svn.code.sf.net/p/efi-shell/code/trunk/Shell](http://svn.code.sf.net/p/efi-shell/code/trunk/Shell)
+[https://svn.code.sf.net/p/efi-shell/code/trunk/Shell](https://svn.code.sf.net/p/efi-shell/code/trunk/Shell)
 
 2\. Apply current patch cd Shell
 

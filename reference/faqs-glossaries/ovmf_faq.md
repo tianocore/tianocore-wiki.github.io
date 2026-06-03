@@ -135,7 +135,7 @@ If you are new to EDK II development, [this
 page](../../platforms-packages/platform-ports/galileo.md) may help you get a build
 environment up and running. OVMF will also require an ASL compiler to be
 installed on the system. The Intel ASL compiler is compatible with many
-operating systems, and is available from [http://www.acpica.org](http://www.acpica.org).
+operating systems, and is available from [https://www.acpica.org](https://www.acpica.org).
 
 ### Where can I ask additional questions and discuss OVMF?
 

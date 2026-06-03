@@ -197,7 +197,7 @@ platform. See [EDK II Specifications](../specs-standards/edk_ii_specifications.m
 ### Any formal forum?
 
 Yes, Join the Sourceforge and sign up for the developer for EDK II.
-[http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Mailing_Lists](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Mailing_Lists)
+[https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Mailing_Lists](https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Mailing_Lists)
 and subscribe to the mailing lists.
 
 ### What happens when there is no more temporary RAM?
@@ -257,7 +257,7 @@ CpuMpDxe driver
 
 ### Is there any other Native EDK II platform available?
 
-DUET, [OVMF](http://www.tianocore.org/ovmf/)
+DUET, [OVMF](https://www.tianocore.org/ovmf/)
 
 ### Is there any porting guide available?
 
@@ -408,29 +408,29 @@ boot manager select EFI DVDROM/CDROM boot)
 The following location is present on all mirrors (IE at univ of Oregon)
 boot.iso Should also see the efidisk.img and efiboot.img in the same
 directory.
-[http://mirror.uoregon.edu/fedora/linux/development/14/x86_64/os/images/](http://mirror.uoregon.edu/fedora/linux/development/14/x86_64/os/images/)
+[https://mirror.uoregon.edu/fedora/linux/development/14/x86_64/os/images/](https://mirror.uoregon.edu/fedora/linux/development/14/x86_64/os/images/)
 
 or
 
-[http://ftp.linux.ncsu.edu/pub/fedora/linux/releases/14/Fedora/x86_64/os/images/](http://ftp.linux.ncsu.edu/pub/fedora/linux/releases/14/Fedora/x86_64/os/images/)
+[https://ftp.linux.ncsu.edu/pub/fedora/linux/releases/14/Fedora/x86_64/os/images/](https://ftp.linux.ncsu.edu/pub/fedora/linux/releases/14/Fedora/x86_64/os/images/)
 
 so your favorite mirror /fedora/linux/development/14/x86_64/os/images
 then look for boot.iso and burn it with your burner software. If you
 want to make a usb stick fedora EFI bootable or want to do a netboot
 install see below. Minimal boot image method from fedora 14 docs.
 
-[http://docs.fedoraproject.org/en-US/Fedora/14/html/Installation_Guide/Making_Minimal_Boot_Media.html](http://docs.fedoraproject.org/en-US/Fedora/14/html/Installation_Guide/Making_Minimal_Boot_Media.html)
+[https://docs.fedoraproject.org/en-US/Fedora/14/html/Installation_Guide/Making_Minimal_Boot_Media.html](https://docs.fedoraproject.org/en-US/Fedora/14/html/Installation_Guide/Making_Minimal_Boot_Media.html)
 On the web there are 3 methods to install UEFI x64 fedora 14 to usb
 sticks:
 
-[http://blog.fpmurphy.com/2010/10/methods-to-uefi-install-fedora-14.html](http://blog.fpmurphy.com/2010/10/methods-to-uefi-install-fedora-14.html)
+[https://blog.fpmurphy.com/2010/10/methods-to-uefi-install-fedora-14.html](https://blog.fpmurphy.com/2010/10/methods-to-uefi-install-fedora-14.html)
 
 For Ubuntu goto their cdimage to get the .iso images
-[http://cdimage.ubuntu.com/](http://cdimage.ubuntu.com/)
+[https://cdimage.ubuntu.com/](https://cdimage.ubuntu.com/)
 
 desktop would be maverick release
 
-[http://cdimage.ubuntu.com/releases/10.04.1/release/](http://cdimage.ubuntu.com/releases/10.04.1/release/)
+[https://cdimage.ubuntu.com/releases/10.04.1/release/](https://cdimage.ubuntu.com/releases/10.04.1/release/)
 
 ubuntu-10.04-dvd-amd64.iso 29-Apr-2010 15:28 4.1G Install/live DVD for
 64-bit PC (AMD64) computers (standard download)

@@ -20,11 +20,11 @@ The following bullets provide information on how to download, build and
 use the EFI-SHELL:
 
 - Download snapshots of development or official releases of the
-  "[EFI-SHELL](http://sourceforge.net/projects/efi-shell/files/)".
+  "[EFI-SHELL](https://sourceforge.net/projects/efi-shell/files/)".
   Simply click on the link and choose the latest development or official
   version to start the download process.
 - Download the "[EFI Shell Getting Started
-  Guide](http://cdnetworks-us-1.dl.sourceforge.net/project/efi-shell/Releases/Snapshot%20Release%20Notes/EFI_Shell_Release_Notes0_91.pdf)"
+  Guide](https://cdnetworks-us-1.dl.sourceforge.net/project/efi-shell/Releases/Snapshot%20Release%20Notes/EFI_Shell_Release_Notes0_91.pdf)"
   (pdf) for guidance on building and using the EFI-SHELL to develop and
   test drivers.
 
@@ -50,5 +50,5 @@ project functions and how new users can participate.
 ## Handy Links
 
 - [Link to the Intel EFI 1.10
-  Specification](http://developer.intel.com/technology/efi/index.htm)
+  Specification](https://developer.intel.com/technology/efi/index.htm)
   (on Intel's Site)

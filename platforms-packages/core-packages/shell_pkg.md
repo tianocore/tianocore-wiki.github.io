@@ -35,13 +35,13 @@ for more info.
 
 ## UEFI Shell Specifications (uefi.org)
 
-[2](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_2_2.pdf)
+[2](https://www.uefi.org/sites/default/files/resources/UEFI_Shell_2_2.pdf)
 
-[3](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_Spec_2_1_July02release.pdf)
+[3](https://www.uefi.org/sites/default/files/resources/UEFI_Shell_Spec_2_1_July02release.pdf)
 
-[4](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_Spec_2_0_Errata_A.pdf)
+[4](https://www.uefi.org/sites/default/files/resources/UEFI_Shell_Spec_2_0_Errata_A.pdf)
 
-[5](http://www.uefi.org/sites/default/files/resources/UEFI_Shell_Spec_2_0.pdf)
+[5](https://www.uefi.org/sites/default/files/resources/UEFI_Shell_Spec_2_0.pdf)
 
 ## ShellPkg versus EdkShellPkg
 

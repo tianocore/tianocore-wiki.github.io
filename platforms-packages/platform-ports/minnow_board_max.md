@@ -13,7 +13,7 @@ developers who wish to work within an open environment. Design specifications an
 open community, encouraging platform experimentation and derivative designs.
 
 The project is based on Intel® Atom™ processors. Technical details, schematics, and information on expansion boards
-(Lures) can be found at [http://minnowboard.org](http://minnowboard.org)
+(Lures) can be found at [https://minnowboard.org](https://minnowboard.org)
 
 A list of currently supported boards and prices can be found at: [https://minnowboard.org](https://minnowboard.org)
 under the "[Boards](https://minnowboard.org/compare-boards)" tab

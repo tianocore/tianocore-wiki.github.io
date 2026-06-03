@@ -35,7 +35,7 @@ system to boot legacy operating systems on IA32 & X64 systems. In other
 words, most current production OS's. Strong preference is for a BSD
 licensed solution, as this is license used by nearly all of our code. A
 SeaBIOS based solution could be considered, but would not be as widely
-usable (GPL license). [http://www.coreboot.org/SeaBIOS](http://www.coreboot.org/SeaBIOS)
+usable (GPL license). [https://www.coreboot.org/SeaBIOS](https://www.coreboot.org/SeaBIOS)
 
 - Difficulty: Hard
 - Language: Assembly, C

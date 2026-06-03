@@ -149,7 +149,7 @@ less demanding exercise as well.
 Enabling nested virtualization in KVM, on the host, is ultimately one possible
 trigger for OVMF to program the `MSR_IA32_FEATURE_CONTROL` register of all
 VCPUs *in parallel*, exposing VT-x to the guest OS. (Please see the
-[RFE](https://bugzilla.tianocore.org/show_bug.cgi?id=86) for details.) For
+[RFE](https://bugzilla.tianocore.org/show_bug.cgi?id=86) ([GitHub Issue](https://github.com/tianocore/edk2/issues?q=is%3Aissue%20in%3Atitle%20%22Bugzilla%20Bug%2086%22)) for details.) For
 this, OVMF uses `EFI_PEI_MP_SERVICES_PPI`.
 
 Permanently enable nested virtualization with the following commands:
@@ -197,7 +197,7 @@ cat /sys/module/kvm_intel/parameters/nested
   ```
   OPENSSL_VER=openssl-1.1.0e
 
-  wget -q -O - http://www.openssl.org/source/${OPENSSL_VER}.tar.gz \
+  wget -q -O - https://www.openssl.org/source/${OPENSSL_VER}.tar.gz \
   | tar -C $EDK2_SOURCE/CryptoPkg/Library/OpensslLib -x -z
 
   ln -s ${OPENSSL_VER} $EDK2_SOURCE/CryptoPkg/Library/OpensslLib/openssl

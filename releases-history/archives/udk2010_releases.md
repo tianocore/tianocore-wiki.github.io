@@ -44,9 +44,9 @@ What’s in the package?
 <td>
 
 [**UDK2010.SR1.UP1.P1
-DownLoad**](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1.Complete.MyWorkSpace.zip/download)
+DownLoad**](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1.Complete.MyWorkSpace.zip/download)
 Release **July 28, 2013** [Release
-Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-ReleaseNotes-MyWorkSpace.txt/download)
+Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-ReleaseNotes-MyWorkSpace.txt/download)
 
 </td>
 
@@ -64,7 +64,7 @@ r73
 **How to Build** [How to Build](../../archives/build-tooling/build-workflows/udk2010_sr1_up1_how_to_build.md)
 UDK2010.SR1.UP1.P1 Release
 **Features Summary:** See [Release Notes
-Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download)
+Features](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Features.txt/download)
 **Supported OS and Build Environments**
 
 - [Using newer versions of
@@ -80,9 +80,9 @@ Features](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.
 <td>
 
 (UDK2010.SR1.UP1.P1) [File
-List](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-FilesList-MyWorkSpace.txt/download)
+List](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-FilesList-MyWorkSpace.txt/download)
 Of Entire Release .zip ---- Documents [Download
-All](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download)
+All](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download)
 
 </td>
 
@@ -177,7 +177,7 @@ Documents (UDK2010.SR1.UP1.P1)
 <td>
 
 [Download all
-UDK2010.SR1.UP1.P1](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download)
+UDK2010.SR1.UP1.P1](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1-Documents.zip/download)
 
 </td>
 
@@ -264,9 +264,9 @@ for UEFI Driver Writers Resources
 <td>
 
 [UEFI Packaging
-Tool.zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download)
+Tool.zip](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download)
 [Quick Start
-Guide](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/UEFI-PackagingToolQuickStartGuide_1.0.pdf/download)
+Guide](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/UEFI-PackagingToolQuickStartGuide_1.0.pdf/download)
 
 </td>
 
@@ -274,9 +274,9 @@ Guide](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packi
 
 Intel® UEFI Packaging Tool is used to create, install or remove a UEFI
 Distribution Package. The .Zip includes bin UPT.exe from
-[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32)
+[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32)
 and Manual Documentation from
-[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals)
+[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals)
 plus the Quick Start Guide
 
 </td>
@@ -294,9 +294,9 @@ plus the Quick Start Guide
 <td>
 
 [EADK release
-1.02.zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_1.02/EadkPkg_B1.02_Release.zip/download)
+1.02.zip](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_1.02/EadkPkg_B1.02_Release.zip/download)
 [Release
-Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_1.02/EADK_1.02_Release_notes.txt/download)
+Notes](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_1.02/EADK_1.02_Release_notes.txt/download)
 
 </td>
 
@@ -332,7 +332,7 @@ Packages Included in zip
 <td>
 
 [UEFI Shell 2.0 Pkg
-.zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
 [Shell 2.0 Documentation](../../platforms-packages/core-packages/shell_pkg.md)
 
 </td>
@@ -341,10 +341,10 @@ Packages Included in zip
 
 EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 -
 Verified and tested SVN Rersion:
-[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg)
+[https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg)
 r11566
 This release is the implmentation sources for the UEFI Shell
-Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
+Specification 2.0. Please see [https://www.uefi.org](https://www.uefi.org) to download this
 specification
 See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/shell_faq.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
 
@@ -403,10 +403,10 @@ What’s in the package?
 <td>
 
 [**UDK2010.SR1.UP1
-DownLoad**](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Complete.MyWorkSpace.zip/download)
+DownLoad**](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Complete.MyWorkSpace.zip/download)
 w/ WorkSpace Expanded .zip
 \*Release June 25, 2012 [Release
-Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download)
+Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download)
 
 </td>
 
@@ -416,7 +416,7 @@ UEFI development Kit 2010 Specification Release \#1 (UDK2010.SR1.UP1)
 (Complete zip of all packages and documentation where packages are
 expanded to MyWorkSpace Directory)
 Based on svn version:
-[https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1](https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1):
+[https://sourceforge.net/p/edk2/code/HEAD/tree/branches/UDK2010.SR1](https://sourceforge.net/p/edk2/code/HEAD/tree/branches/UDK2010.SR1):
 r13452
 [https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg](https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg):
 r67
@@ -432,7 +432,7 @@ UDK2010.SR1.UP1 Release
   December 22, 2011 have been incorporated. Specific details of what is
   new is contained in the release notes.
 - See [Release
-  Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download)
+  Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download)
   for more details on the features for this release
 
 **Supported OS and Build Environments**
@@ -450,9 +450,9 @@ UDK2010.SR1.UP1 Release
 <td>
 
 (UDK2010.SR1.UP1) [File
-List](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-FilesList-MyWorkSpace.txt/download)
+List](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-FilesList-MyWorkSpace.txt/download)
 Of Entire Release .zip ---- Documents [Download
-All](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download)
+All](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download)
 
 </td>
 
@@ -481,15 +481,15 @@ EDK II Specifications (UDK2010.SR1.UP1)
 <td>
 
 - [BUILD v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_B.pdf/download)
 - [DEC v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download)
 - [DSC v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_B.pdf/download)
   \*[FDF v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_B.pdf/download)
 - [INF v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download)
 
 </td>
 
@@ -537,7 +537,7 @@ Documents (UDK2010.SR1.UP1)
 <td>
 
 [Download all
-UDK2010.SR1.UP1](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download)
+UDK2010.SR1.UP1](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download)
 
 </td>
 
@@ -601,14 +601,14 @@ What’s in the package?
 <td>
 
 [**UDK2010.SR1
-DownLoad**](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1.Complete.MyWorkSpace.zip/download)
+DownLoad**](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1.Complete.MyWorkSpace.zip/download)
 
 w/ WorkSpace Expanded .zip
 
 Release Jan. 2, 2012
 
 [Release
-Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt/download)
+Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt/download)
 
 </td>
 
@@ -620,10 +620,10 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2):
+[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2):
 r12898
 
-[http://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg](http://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg):
+[https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg](https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg):
 r67
 
 **How to Build**
@@ -635,12 +635,12 @@ r67
 - This release will support Microsoft® Windows® 8 Secure Boot feature.
   See [How to Enable Security](../../development/tutorials-howto/how_to_enable_security.md)
 - Features added to support the UEFI 2.3.1 specification from the
-  official [UEFI Forum Web](http://uefi.org) site
+  official [UEFI Forum Web](https://uefi.org) site
 - EDK II Build tools and Updates to the
   [EDK II v1.22 specifications](../../reference/specs-standards/edk_ii_specifications.md)
 - Other Feature [Details](udk2010_sr1_features.md)
 - See [Release
-  Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt/download)
+  Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt/download)
   for more details on the features for this release
 
 **Supported OS and Build Environments**
@@ -660,7 +660,7 @@ r67
 (UDK2010.SR1)
 
 [File
-List](http://iweb.dl.sourceforge.net/project/edk2/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-FileList-MyWorkSpace.txt)
+List](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1-ReleaseNotes-MyWorkSpace.txt)
 Of Entire Release .zip
 
 ------------------------------------------------------------------------
@@ -668,7 +668,7 @@ Of Entire Release .zip
 Notes (UDK2010.SR1)
 
 Update
-[Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes_UDK2010.SR1.zip/download)
+[Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Notes_UDK2010.SR1.zip/download)
 for all packages since UDK2010.UP4 Release
 
 ------------------------------------------------------------------------
@@ -676,7 +676,7 @@ for all packages since UDK2010.UP4 Release
 Documents
 
 [Download
-All](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents_UDK2010.SR1.zip/download)
+All](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents_UDK2010.SR1.zip/download)
 
 </td>
 
@@ -708,15 +708,15 @@ What is it?
 <td>
 
 - [BUILD v1.22 Errata
-  A](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.22_Errata_A_Final.pdf/download)
+  A](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_1.22_Errata_A_Final.pdf/download)
 - [DEC v1.22 Errata
-  A](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_A_Final.pdf/download)
+  A](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_A_Final.pdf/download)
 - [DSC v1.22 Errata
-  A](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_A_Final.pdf/download)
+  A](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_A_Final.pdf/download)
 - [FDF v1.22 Errata
-  A](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_A_Final.pdf/download)
+  A](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_A_Final.pdf/download)
 - [INF v1.22 Errata
-  A](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_A_Final.pdf/download)
+  A](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_A_Final.pdf/download)
 
 </td>
 
@@ -771,7 +771,7 @@ What’s in the Download?
 <td>
 
 [Download all
-UDK2010.SR1](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents_UDK2010.SR1.zip/download)
+UDK2010.SR1](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/Documents_UDK2010.SR1.zip/download)
 
 </td>
 
@@ -839,7 +839,7 @@ Documents
 
 <td rowspan="4">
 
-[UDK2010.UP4](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/UDK2010.UP4.Complete.zip/download)
+[UDK2010.UP4](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/UDK2010.UP4.Complete.zip/download)
 
 </td>
 
@@ -847,9 +847,9 @@ Documents
 
 UEFI development Kit 2010 Update \#4 (Complete)
 
-`Based on svn`[`http://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010`](http://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010)`r11579`
+`Based on svn`[`https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010`](https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010)`r11579`
 
-Supports UEFI 2.3 and PI 1.2 Specifications form the [http://uefi.org](http://uefi.org)
+Supports UEFI 2.3 and PI 1.2 Specifications form the [https://uefi.org](https://uefi.org)
 
 UDK2010 Release based upon the UDK2010 UP4 package including the IPv6
 Network stack and improved Source Level Debugging support modules.
@@ -893,12 +893,12 @@ UEFI.
 
 Readme
 
-[UDK2010.UP4.Release.Notes.txt](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/UDK2010.UP4.Release.Notes.txt/download)
+[UDK2010.UP4.Release.Notes.txt](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/UDK2010.UP4.Release.Notes.txt/download)
 
 ------------------------------------------------------------------------
 
 \[
-[http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/Documents/](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/Documents/)
+[https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/Documents/](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP4/Documents/)
 UDK2010 UP4 Help documents\]
 
 </td>
@@ -997,12 +997,12 @@ Duet-Readme.txt
 <td>
 
 Readme
-[UDK2010.UP3.Release.Notes.P1.txt](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP3.P1/UDK2010.UP3.Release.Notes.P1.txt/download)
+[UDK2010.UP3.Release.Notes.P1.txt](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP3.P1/UDK2010.UP3.Release.Notes.P1.txt/download)
 
 ------------------------------------------------------------------------
 
 [UDK2010 UP3 Help
-documents](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP3.P1/Documents/)
+documents](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP3.P1/Documents/)
 
 </td>
 
@@ -1014,12 +1014,12 @@ documents](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010
 
 General documentation
 
-[EDKII_UserManual_0_7.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download)
+[EDKII_UserManual_0_7.pdf](https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download)
 
 [EDKII Module Writer_s
-Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download)
+Guide_07.pdf](https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download)
 
-[EDK2_C_Coding_Standards_2_0.pdf](http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download)
+[EDK2_C_Coding_Standards_2_0.pdf](https://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download)
 
 </td>
 
@@ -1031,9 +1031,9 @@ Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation
 
 Specifications
 
-[Errata1_22a_20May2010.pdf](http://sourceforge.net/projects/edk2/files/Specifications/Errata1_22a_20May2010.pdf/download)
+[Errata1_22a_20May2010.pdf](https://sourceforge.net/projects/edk2/files/Specifications/Errata1_22a_20May2010.pdf/download)
 
-[INF_v1_22.PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_v1_22.pdf/download)
+[INF_v1_22.PDF](https://sourceforge.net/projects/edk2/files/Specifications/INF_v1_22.pdf/download)
 
 </td>
 
@@ -1045,7 +1045,7 @@ Specifications
 
 Technical information
 
-[PerformanceOptimization_1_0.pdf](http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download)
+[PerformanceOptimization_1_0.pdf](https://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download)
 
 </td>
 
@@ -1143,12 +1143,12 @@ Duet-Readme.txt
 <td>
 
 Readme
-[UDK2010.UP2.ReleaseNotes.txt](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/UDK2010.UP2.ReleaseNotes.txt/download)
+[UDK2010.UP2.ReleaseNotes.txt](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/UDK2010.UP2.ReleaseNotes.txt/download)
 
 ------------------------------------------------------------------------
 
 [UDK2010 UP2 Help
-Documents](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/Documents/)
+Documents](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/Documents/)
 
 </td>
 
@@ -1160,12 +1160,12 @@ Documents](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010
 
 General documentation
 
-[EDKII_UserManual_0_7.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download)
+[EDKII_UserManual_0_7.pdf](https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII_UserManual_0_7.pdf/download)
 
 [EDKII Module Writer_s
-Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download)
+Guide_07.pdf](https://sourceforge.net/projects/edk2/files/General%20Documentation/EDKII%20Module%20Writer_s%20Guide_0_7.pdf/download)
 
-[EDK2_C_Coding_Standards_2_0.pdf](http://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download)
+[EDK2_C_Coding_Standards_2_0.pdf](https://sourceforge.net/projects/edk2/files/Specifications/EDK2_C_Coding_Standards_2_0.pdf/download)
 
 </td>
 
@@ -1177,9 +1177,9 @@ Guide_07.pdf](http://sourceforge.net/projects/edk2/files/General%20Documentation
 
 Specifications
 
-[Errata1_22a_20May2010.pdf](http://sourceforge.net/projects/edk2/files/Specifications/Errata1_22a_20May2010.pdf/download)
+[Errata1_22a_20May2010.pdf](https://sourceforge.net/projects/edk2/files/Specifications/Errata1_22a_20May2010.pdf/download)
 
-[INF_v1_22.PDF](http://sourceforge.net/projects/edk2/files/Specifications/INF_v1_22.pdf/download)
+[INF_v1_22.PDF](https://sourceforge.net/projects/edk2/files/Specifications/INF_v1_22.pdf/download)
 
 </td>
 
@@ -1191,7 +1191,7 @@ Specifications
 
 Technical information
 
-[PerformanceOptimization_1_0.pdf](http://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download)
+[PerformanceOptimization_1_0.pdf](https://sourceforge.net/projects/edk2/files/Technical%20Information/PerformanceOptimization_1_0.pdf/download)
 
 </td>
 

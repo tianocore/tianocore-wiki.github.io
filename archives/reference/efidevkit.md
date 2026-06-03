@@ -24,25 +24,25 @@ EFI Applications for use in the Framework environment. To download
 snapshots of development or official release of the EDK, click on the
 link and choose the release to start the download process. Download the
 [EDK Getting Started
-Guide](http://sourceforge.net/projects/efidevkit/files/Edk%20Getting%20Started%20Guide%5B1%5D.0.41.pdf/download)
+Guide](https://sourceforge.net/projects/efidevkit/files/Edk%20Getting%20Started%20Guide%5B1%5D.0.41.pdf/download)
 (pdf) for guidance on building and using the EDK to develop and test
 drivers. The [Framework
-Specification](http://www.intel.com/technology/framework/spec.htm) on
+Specification](https://www.intel.com/technology/framework/spec.htm) on
 the Intel website. To learn more about the EDK codebase see the [EDK
 Module Structure
-Explained](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Modules).
+Explained](https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Modules).
 
-- Developer page: [http://sourceforge.net/projects/efidevkit/develop](http://sourceforge.net/projects/efidevkit/develop)
-- EDK Files page: [http://sourceforge.net/projects/efidevkit/files](http://sourceforge.net/projects/efidevkit/files)
+- Developer page: [https://sourceforge.net/projects/efidevkit/develop](https://sourceforge.net/projects/efidevkit/develop)
+- EDK Files page: [https://sourceforge.net/projects/efidevkit/files](https://sourceforge.net/projects/efidevkit/files)
 
 ### EDK Releases
 
 #### Edk 1.06.zip
 
-- **Download**: [Edk 1.06.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Official%20Releases/Edk%201.06.zip/download)
+- **Download**: [Edk 1.06.zip](https://sourceforge.net/projects/efidevkit/files/Releases/Official%20Releases/Edk%201.06.zip/download)
 - **What is it?**: Contains UEFI 2.1, Framework 0.9, PI 1.0 and EFI shell: core and sample driver source code
   for EDK build source code environment and directory structure.
-- **EDK Shell**: [EfiShell 1.06.zip](http://sourceforge.net/projects/efi-shell/files/Releases/Official%20Releases/EfiShell%201.06.zip/download)
+- **EDK Shell**: [EfiShell 1.06.zip](https://sourceforge.net/projects/efi-shell/files/Releases/Official%20Releases/EfiShell%201.06.zip/download)
 - **Documents**:
   - ShellCommandManual.pdf
   - Glue_Library.pdf
@@ -61,8 +61,8 @@ Explained](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Modul
 #### Client Framework Patch 9
 
 - **Downloads**:
-  - [Client Framework Patch 9](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_PatchV9.zip/download)
-  - [Previous Releases](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/)
+  - [Client Framework Patch 9](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/EDK1117_Client_Framework_PatchV9.zip/download)
+  - [Previous Releases](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/)
 - **Description**: Intel Green H - EDK1117 Patch Version 9
 
 This package contains the full set of Green H files intended to be used for the *Broadwell Platform* and
@@ -81,25 +81,25 @@ The patch should function in either UEFI 2.0 or UEFI 2.3.1 modes, but UEFI 2.3.1
 configuration used by Intel validation. It is recommended that the UEFI 2.3.1 conversion be made as quickly
 and completely as possible for the 2014 platforms.
 
-Please refer to EDK1117_PatchV9_Details.txt for the changes from the open source EDK 11/17/2006 AKA [EDK Release 1.01](http://sourceforge.net/projects/efidevkit/files/Releases/Official%20Releases/EDK%201.01.zip/download).
+Please refer to EDK1117_PatchV9_Details.txt for the changes from the open source EDK 11/17/2006 AKA [EDK Release 1.01](https://sourceforge.net/projects/efidevkit/files/Releases/Official%20Releases/EDK%201.01.zip/download).
 
 Further details are available from your Intel client BIOS support representative.
 
 ### Development Snapshots
 
-- [Edk-Dev Shapshot-20100527.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Development%20Snapshots/Edk-Dev-Snapshot-20100527.zip/download)
+- [Edk-Dev Shapshot-20100527.zip](https://sourceforge.net/projects/efidevkit/files/Releases/Development%20Snapshots/Edk-Dev-Snapshot-20100527.zip/download)
 - [Development Snapshot Diff Patches](https://sourceforge.net/projects/efidevkit/files/Releases/Development%20Snapshots%20Diff%20Patches/)
   (To see the differences between snapshot versions)
 
 ### Other Projects
 
-- [EDK HII Evaluation Package](http://sourceforge.net/projects/efidevkit/files/Releases/Others/EDK%20HII%20Evaluation%20Package.zip/download)
-- [Intel Undi UEFI Source 4606.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_efi_src_4606.zip/download)
-- [Intel Undi UEFI Rel 15 7 Src.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/Intel_Undi_UEFI_Rel_15_7_src.zip/download)
-- [GOP Release.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/GOP_Release.zip/download)
-- [ixgbe.src.2201.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/ixgbe_src_2201.zip/download)
-- [gig pcie src 4109.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_pcie_src_4109.zip/download)
-- [gig pci src 3512.zip](http://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_pci_src_3512.zip/download)
+- [EDK HII Evaluation Package](https://sourceforge.net/projects/efidevkit/files/Releases/Others/EDK%20HII%20Evaluation%20Package.zip/download)
+- [Intel Undi UEFI Source 4606.zip](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_efi_src_4606.zip/download)
+- [Intel Undi UEFI Rel 15 7 Src.zip](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/Intel_Undi_UEFI_Rel_15_7_src.zip/download)
+- [GOP Release.zip](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/GOP_Release.zip/download)
+- [ixgbe.src.2201.zip](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/ixgbe_src_2201.zip/download)
+- [gig pcie src 4109.zip](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_pcie_src_4109.zip/download)
+- [gig pci src 3512.zip](https://sourceforge.net/projects/efidevkit/files/Releases/Others/Other%20Contribution/gig_pci_src_3512.zip/download)
 
 **Description**: Other Projects - Fix to the Undi EDK Intel(R) PRO/1000 Network Driver
 
@@ -113,16 +113,16 @@ Releases](../../releases-history/archives/previous_edk_and_shell_releases.md)
 [network-io](../../platforms-packages/component-guides/network_io.md)
 
 License information:
-[BSD](http://www.opensource.org/licenses/bsd-license.php)
+[BSD](https://www.opensource.org/licenses/bsd-license.php)
 
 Project owner(s): ,
 
 ## Member Links
 
 - [Query of Open and Active EDK
-  Defects](http://sourceforge.net/apps/trac/efidevkit/report/8)
+  Defects](https://sourceforge.net/apps/trac/efidevkit/report/8)
 - [Request for a Project
-  Role](http://sourceforge.net/project/memberlist.php?group_id=288624)
+  Role](https://sourceforge.net/project/memberlist.php?group_id=288624)
   (initial or promotion)
 
 ## Project Points of Contact
@@ -133,5 +133,5 @@ Project owner(s): ,
 ## Useful Links
 
 - [Link to the Intel EFI 1.10
-  Specification](http://developer.intel.com/technology/efi/index.htm)
+  Specification](https://developer.intel.com/technology/efi/index.htm)
   (on Intel's Site)

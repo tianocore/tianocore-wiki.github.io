@@ -1,7 +1,7 @@
 # EDK II Draft Specification
 
 The documents in this page are the latest draft revisions using the
-[Gitbook Markdown](https://github.com/GitbookIO/gitbook/blob/master/docs/syntax/markdown.md)
+[Gitbook Markdown](https://github.com/GitbookIO/gitbook/blob/main/docs/syntax/markdown.md)
 source format and published using the [Gitbook Action](https://github.com/marketplace/actions/gitbook-action).
 The source content for these documents are in GIT repositories in the
 [Tianocore-docs](https://github.com/tianocore-docs) organization hosted by [GitHub](https://github.com).

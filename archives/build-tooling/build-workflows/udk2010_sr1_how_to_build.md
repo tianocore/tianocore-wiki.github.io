@@ -3,7 +3,7 @@
 ## Build Instructions
 
 Download the UDK2010.SR1 Release with expanded workspace directories
-[Download](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1.Complete.MyWorkSpace.zip/download)
+[Download](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1/UDK2010.SR1.Complete.MyWorkSpace.zip/download)
 
 ## UDK2010.SR1 Release Files / Directories
 
@@ -24,7 +24,7 @@ What is included in the Downloaded zip file
 - 1\) Install Microsoft Visual Studio 2008\* SP1 in the build machine
   and make sure that AMD64 complier was selected when installing.
 - 2\) Download "iasl-win-20070508.zip" from
-"[http://www.acpica.org/downloads/Version_20070508.php](http://www.acpica.org/downloads/Version_20070508.php)" and
+"[https://www.acpica.org/downloads/Version_20070508.php](https://www.acpica.org/downloads/Version_20070508.php)" and
 extract
   file "iasl.exe" to C:\ASL
 

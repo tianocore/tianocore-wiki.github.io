@@ -4,7 +4,7 @@
 
 Download the UDK2010.SR1.UP1.P1 Release with expanded workspace
 directories
-[Download](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1.Complete.MyWorkSpace.zip/download)
+[Download](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1.P1/UDK2010.SR1.UP1.P1.Complete.MyWorkSpace.zip/download)
 
 ## UDK2010.SR1.UP1.P1 Release Files / Directories
 

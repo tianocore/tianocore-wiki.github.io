@@ -10,7 +10,7 @@ projects from prior years.
 ### ext4 driver
 
 Develop a read-only ext4 filesystem driver.
-[http://en.wikipedia.org/wiki/Ext4](http://en.wikipedia.org/wiki/Ext4)
+[https://en.wikipedia.org/wiki/Ext4](https://en.wikipedia.org/wiki/Ext4)
 
 - Difficulty: Medium ... Hard
 - Language: C
@@ -159,7 +159,7 @@ More information: [Tasks-Text Editor](../governance/project-management/tasks_tex
 
 Add Xen specific support in
 [OVMF](../platforms-packages/platform-ports/ovmf.md) to improve boot &
-runtime performance. [http://www.xen.org/](http://www.xen.org/)
+runtime performance. [https://www.xen.org/](https://www.xen.org/)
 
 - Difficulty: Medium/Hard
 - Language: C
@@ -226,7 +226,7 @@ More information:
 ### Enable Link-time Code Optimization for Linux builds
 
 Enable Link-time Code Optimization on Linux for either GCC or
-LLVM/CLANG. [http://gcc.gnu.org/wiki/LinkTimeOptimization](http://gcc.gnu.org/wiki/LinkTimeOptimization)
+LLVM/CLANG. [https://gcc.gnu.org/wiki/LinkTimeOptimization](https://gcc.gnu.org/wiki/LinkTimeOptimization)
 
 This feature hopefully would significantly reduce code generation size
 for Linux based builds.

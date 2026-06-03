@@ -47,7 +47,7 @@ this can be found under the 'boot' menu of the firmware setup.
 
 ## OVMF with QEMU or KVM
 
-The [OVMF](http://www.tianocore.org/ovmf/) project is part of our
+The [OVMF](https://www.tianocore.org/ovmf/) project is part of our
 community tasks, and provides a UEFI compatible firmware for the
 [QEMU](https://en.wikipedia.org/wiki/QEMU) and
 [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine)
@@ -55,7 +55,7 @@ virtual machine environments.
 
 ## VirtualBox
 
-VirtualBox ([http://www.virtualbox.org](http://www.virtualbox.org)) is a virtual machine environment.
+VirtualBox ([https://www.virtualbox.org](https://www.virtualbox.org)) is a virtual machine environment.
 The more recent versions of VirtualBox can enable UEFI support in the VM
 settings under 'System' =\> 'Extended Features' =\> 'EFI support'.
 

@@ -5,7 +5,7 @@ Frequently asked questins about GPT
 ### Are there tools to setup and create the EFI GPT partition?
 
 Yes win7 installations set up GPT. Intel EFI technology has ‘partition
-utilities’ download: [http://www.intel.com/technology/efi](http://www.intel.com/technology/efi)
+utilities’ download: [https://www.intel.com/technology/efi](https://www.intel.com/technology/efi)
 
 ### Can an OS install be converted to EFI?
 

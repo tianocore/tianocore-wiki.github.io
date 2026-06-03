@@ -1,6 +1,6 @@
 # SamsungPlatformPkg
 
-The Samsung Origen ([http://www.origenboard.org/](http://www.origenboard.org/)) is one of the low-cost
+The Samsung Origen ([https://www.origenboard.org/](https://www.origenboard.org/)) is one of the low-cost
 ARM development boards. The platform is powered by a dual Cortex A9 and
 supports a large range of devices on boards (2x SD card, LCD & HDMI
 connectors, USB 2.0, etc).
@@ -17,7 +17,7 @@ Tested on the revisions:
 1\. The EDK2 Samsung repository is currently located in a third-party
 repository. To get the sources:
 
-    svn co https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2 edk2 --username guest
+    svn co https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2 edk2 --username guest
     cd $(WORKROOT)/edk2
     svn co https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg FatPkg --username guest
     git clone git://github.com/girishks/Origen-EDK-II-Package.git
@@ -45,11 +45,11 @@ repository. To get the sources:
 5\. Get the Linaro Linux distribution:
 
 - Go on the Samsung Origen Linaro webpage:
-  [http://releases.linaro.org/12.01/ubuntu/leb-origen/](http://releases.linaro.org/12.01/ubuntu/leb-origen/). Download the
+  [https://releases.linaro.org/12.01/ubuntu/leb-origen/](https://releases.linaro.org/12.01/ubuntu/leb-origen/). Download the
   Origen HwPack:
   hwpack_linaro-leb-origen_20120123-1_armel_supported.tar.gz
 - Download the minimal Linaro File System:
-  [http://releases.linaro.org/12.01/ubuntu/oneiric-images/nano/linaro-o-nano-tar-20120123-1.tar.gz](http://releases.linaro.org/12.01/ubuntu/oneiric-images/nano/linaro-o-nano-tar-20120123-1.tar.gz)
+  [https://releases.linaro.org/12.01/ubuntu/oneiric-images/nano/linaro-o-nano-tar-20120123-1.tar.gz](https://releases.linaro.org/12.01/ubuntu/oneiric-images/nano/linaro-o-nano-tar-20120123-1.tar.gz)
 
 6\. Install Linaro image Creator either from the tarball or the Ubuntu
 package.
@@ -57,7 +57,7 @@ package.
 - Getting from Linaro website:
 
 wget
-[http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](http://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
+[https://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz](https://launchpad.net/linaro-image-tools/trunk/0.4.8/+download/linaro-image-tools-0.4.8.tar.gz)
     tar xzf linaro-image-tools-0.4.8.tar.gz
     cd $(WORKROOT)/linaro-image-tools-0.4.8/
 sudo apt-get install parted dosfstools uboot-mkimage python-argparse python-dbus python-debian python-parted

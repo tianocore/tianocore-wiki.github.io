@@ -1,7 +1,7 @@
 # Install Some External Tools
 
 Getting and Installing the Required Tools for Building [EDK
-II](http://www.tianocore.org/edk2/).
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/).
 
 Note: The **step-by-step** instructions also cover installing
 pre-requisite build tools for some build environments.
@@ -21,8 +21,8 @@ The one of the following is required to be able to obtain the EDK II.
 
 | Name              | URL                                          |
 |-------------------|----------------------------------------------|
-| TortoiseSVN       | [http://tortoisesvn.net/downloads](http://tortoisesvn.net/downloads)           |
-| Command Line Tool | [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html) |
+| TortoiseSVN       | [https://tortoisesvn.net/downloads](https://tortoisesvn.net/downloads)           |
+| Command Line Tool | [https://subversion.apache.org/packages.html](https://subversion.apache.org/packages.html) |
 
 ## Third Party Tools
 
@@ -41,16 +41,16 @@ At least one of the following 3rd party compiler tool chain is required:
 
 | Name | Version | URL | Note |
 |----|----|----|----|
-| Cygwin | 4.1.2 | [http://www.cygwin.com](http://www.cygwin.com) | Instructions for installation of GCC are included in the BaseTools\gcc directory. |
-| Microsoft Visual Studio | 2005 Professional | [http://msdn2.microsoft.com/en-us/vstudio](http://msdn2.microsoft.com/en-us/vstudio) | The default tool chain for the IA32 and X64 builds. |
-| Microsoft Visual Studio | 2005 Team Suite | [http://msdn2.microsoft.com/en-us/vstudio](http://msdn2.microsoft.com/en-us/vstudio) | Needed for building IPF targets if the DDK is not installed. |
-| Microsoft Visual Studio | 2003 .NET | [http://msdn2.microsoft.com/en-us/vstudio](http://msdn2.microsoft.com/en-us/vstudio) | May only be available through a MSDN subscription. If the DDK is not available, MASM 6.15 can be used for the assembler. |
-| Intel C++ Compiler for Windows | 9.1 | [http://www.intel.com](http://www.intel.com) | The Intel Compiler requires a Microsoft Visual Studio installation. |
-| Intel C Compiler for EFI Byte Code | 1.2 | [http://www.intel.com/cd/software/products/asmo-na/eng/compilers/efibc/index.htm](http://www.intel.com/cd/software/products/asmo-na/eng/compilers/efibc/index.htm) |  |
+| Cygwin | 4.1.2 | [https://www.cygwin.com](https://www.cygwin.com) | Instructions for installation of GCC are included in the BaseTools\gcc directory. |
+| Microsoft Visual Studio | 2005 Professional | [https://msdn2.microsoft.com/en-us/vstudio](https://msdn2.microsoft.com/en-us/vstudio) | The default tool chain for the IA32 and X64 builds. |
+| Microsoft Visual Studio | 2005 Team Suite | [https://msdn2.microsoft.com/en-us/vstudio](https://msdn2.microsoft.com/en-us/vstudio) | Needed for building IPF targets if the DDK is not installed. |
+| Microsoft Visual Studio | 2003 .NET | [https://msdn2.microsoft.com/en-us/vstudio](https://msdn2.microsoft.com/en-us/vstudio) | May only be available through a MSDN subscription. If the DDK is not available, MASM 6.15 can be used for the assembler. |
+| Intel C++ Compiler for Windows | 9.1 | [https://www.intel.com](https://www.intel.com) | The Intel Compiler requires a Microsoft Visual Studio installation. |
+| Intel C Compiler for EFI Byte Code | 1.2 | [https://www.intel.com/cd/software/products/asmo-na/eng/compilers/efibc/index.htm](https://www.intel.com/cd/software/products/asmo-na/eng/compilers/efibc/index.htm) |  |
 | Microsoft Windows Driver Development Kit6 (DDK) | 3790.1830 |  | The default tool chain for IPF builds. To download and use the DDK, you must burn the ISO file to a CD or DVD. |
 | Windows Server 2003 SP1 DDK |  |  |  |
-| Microsoft ACPI Source Language Assembler | 3.0.0NT or later | [http://www.microsoft.com/whdc/system/pnppwr/powermgmt/default.mspx](http://www.microsoft.com/whdc/system/pnppwr/powermgmt/default.mspx) |  |
-| Intel ACPI Component Architecture | 20060113 or later \|-[http://www.intel.com/technology/iapc/acpi/downloads.htm](http://www.intel.com/technology/iapc/acpi/downloads.htm) |  |  |
+| Microsoft ACPI Source Language Assembler | 3.0.0NT or later | [https://www.microsoft.com/whdc/system/pnppwr/powermgmt/default.mspx](https://www.microsoft.com/whdc/system/pnppwr/powermgmt/default.mspx) |  |
+| Intel ACPI Component Architecture | 20060113 or later \|-[https://www.intel.com/technology/iapc/acpi/downloads.htm](https://www.intel.com/technology/iapc/acpi/downloads.htm) |  |  |
 
 ## Windows XP or Windows Vista
 

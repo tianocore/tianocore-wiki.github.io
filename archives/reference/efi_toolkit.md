@@ -16,7 +16,7 @@ alone and run on UEFI/EFI compliant systems and some components will
 require running on the EFI shell. The EFI Toolkit is released under the
 [BSD License](../../reference/legal-licenses/bsd_license.md), and the Python code is released
 under [PSF
-License](http://www.python.org/download/releases/2.4.4/license/).
+License](https://www.python.org/download/releases/2.4.4/license/).
 
 Working with the EFI Toolkit
 
@@ -38,7 +38,7 @@ This project is no longer maintained.
 
 | Release | What is it? | Documents |
 |---------|-------------|-----------|
-| [EFI_Toolkit-2.0.0.1.zip](http://sourceforge.net/projects/efi-toolkit/files/Official%20Releases/EFI_Toolkit_2.0.0.1.zip/download) | Contains sample EFI applications and utilities source code to aid in EFI development. | Readme<br>[EFI Application Toolkit Release Notes](https://efi-toolkit.svn.sourceforge.net/svnroot/efi-toolkit/trunk/efi-toolkit/doc/RELNOTE.pdf)<br>General documentation<br>Specifications<br>Technical information |
+| [EFI_Toolkit-2.0.0.1.zip](https://sourceforge.net/projects/efi-toolkit/files/Official%20Releases/EFI_Toolkit_2.0.0.1.zip/download) | Contains sample EFI applications and utilities source code to aid in EFI development. | Readme<br>[EFI Application Toolkit Release Notes](https://sourceforge.net/projects/efi-toolkit/)<br>General documentation<br>Specifications<br>Technical information |
 
 ### What's in the package
 
@@ -62,11 +62,11 @@ This project is no longer maintained.
   application processors of a multi-processor Itanium-based system.
 - **RAM Disk** - A protocol which provides a virtual (RAM) disk.
 
-License information: [BSD](http://www.opensource.org/licenses/bsd-license.php)
+License information: [BSD](https://www.opensource.org/licenses/bsd-license.php)
 
 Project owner(s): hlhsiung, mwu7
 
-Developer page: [http://sourceforge.net/projects/efi-toolkit/develop](http://sourceforge.net/projects/efi-toolkit/develop)
+Developer page: [https://sourceforge.net/projects/efi-toolkit/develop](https://sourceforge.net/projects/efi-toolkit/develop)
 
 ## Handy Links
 
@@ -76,16 +76,16 @@ The following links are provided for use by the general public:
   Snapshots](https://sourceforge.net/projects/efi-toolkit/files/)
 
 - [Link to the TianoCore Community
-  Projects](http://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Welcome#Projects)
+  Projects](https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Welcome#Projects)
 
 - [Link to the UEFI Specification (on UEFI.org
-  Site)](http://www.uefi.org)
+  Site)](https://www.uefi.org)
 
 - [Archives of the EDK "Dev" Mailing
   List](https://sourceforge.net/apps/mediawiki/tianocore/index.php?title=Mailing_Lists)
 
 - [Query or submit EFI toolkit Project
-  Defects](http://sourceforge.net/tracker/?group_id=289014&atid=1223910)
+  Defects](https://sourceforge.net/tracker/?group_id=289014&atid=1223910)
 
 Project Point of Contact Project owner:
 

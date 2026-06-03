@@ -3,7 +3,7 @@
 Our community enables
 [UEFI](../../reference/specs-standards/uefi.md) firmware and tools
 through various open source projects. Most of our efforts are currently
-related to the [EDK II](http://www.tianocore.org/edk2/) project, so if
+related to the [EDK II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) project, so if
 you are developer, then this is a good place to start contributing to
 our community.
 

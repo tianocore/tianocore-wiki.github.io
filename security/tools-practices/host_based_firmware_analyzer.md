@@ -16,8 +16,5 @@ execution, and address sanitizers in a system environment.
 ## Additional Information
 
 * [Using Host-based Analysis to Improve Firmware
-  Resiliency](https://software.intel.com/en-us/blogs/2019/02/25/using-host-based-analysis-to-improve-firmware-resiliency)
-  (blog)
-* [Using Host-based Analysis to Improve Firmware
-  Resiliency](https://software.intel.com/sites/default/files/managed/6a/4c/Intel_UsingHBFAtoImprovePlatformResiliency.pdf)
+  Resiliency](https://www.intel.com/content/dam/develop/external/us/en/documents/intel-usinghbfatoimproveplatformresiliency-820238.pdf)
   (whitepaper)

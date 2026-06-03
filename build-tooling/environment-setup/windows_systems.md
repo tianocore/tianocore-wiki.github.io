@@ -6,7 +6,7 @@
 New instructions: [Build Instructions](../build-workflows/build_instructions.md)
 
 This page provides step-by-step instructions or setting up a [EDK
-II](http://www.tianocore.org/edk2/) build environment on Windows
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) build environment on Windows
 systems.
 
 ## Table of Contents
@@ -25,7 +25,7 @@ GitHub.
 
 ### Git GUI Interface for Windows OS
 
-- Git for Windows OS is available at: ([http://git-scm.com/download/win](http://git-scm.com/download/win))
+- Git for Windows OS is available at: ([https://git-scm.com/download/win](https://git-scm.com/download/win))
 - TortoiseGit for windows OS is available at
   ([https://tortoisegit.org/download/](https://tortoisegit.org/download/))
 

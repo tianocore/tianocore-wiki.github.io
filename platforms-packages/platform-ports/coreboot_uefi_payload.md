@@ -16,7 +16,7 @@ run directly from firmware, run operating systems in flash, load custom
 bootloaders, or implement firmware standards, like PC BIOS services or
 UEFI. This allows for systems to only include the features necessary in
 the target application, reducing the amount of code and flash space
-required. [http://www.coreboot.org/](http://www.coreboot.org/)
+required. [https://www.coreboot.org/](https://www.coreboot.org/)
 
 ### Coreboot Payload Package
 
@@ -42,7 +42,7 @@ initialization steps as documented in the BWG / BIOS Specification
 including initialization of the CPU, memory controller, chipset and
 certain bus interfaces, if necessary. The FSP provides chipset and
 processor initialization in a format that can easily be incorporated
-into many boot loaders including coreboot. [http://www.intel.com/fsp](http://www.intel.com/fsp)
+into many boot loaders including coreboot. [https://www.intel.com/fsp](https://www.intel.com/fsp)
 
 ### Payload
 
@@ -50,7 +50,7 @@ Coreboot in itself is "only" minimal code for initializing hardware. It
 does not have the media drivers nor does it provide services required by
 an OS. After the initialization, it jumps to a payload which can provide
 services required to load and boot an OS.
-[http://www.coreboot.org/Payloads](http://www.coreboot.org/Payloads)
+[https://www.coreboot.org/Payloads](https://www.coreboot.org/Payloads)
 
 ![](https://raw.githubusercontent.com/tianocore/tianocore.github.io/master/images/Coreboot001.jpg)
 

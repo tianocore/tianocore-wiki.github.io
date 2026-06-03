@@ -106,7 +106,7 @@ You should get the binaries:
 
 ### Run Linux from UEFI on the Foundation FVP
 
-1\) Download the Foundation FVP: [http://www.arm.com/fvp](http://www.arm.com/fvp)
+1\) Download the Foundation FVP: [https://developer.arm.com/products/system-design/fixed-virtual-platforms](https://developer.arm.com/products/system-design/fixed-virtual-platforms)
 
 Decompress the AArch64 Foundation FVP
 
@@ -133,7 +133,7 @@ model is started from.
 
 A file system example can be downloaded from Linaro:
 
-    wget http://releases.linaro.org/13.06/openembedded/aarch64/vexpress64-openembedded_minimal-armv8_20130623-376.img.gz
+    wget https://releases.linaro.org/13.06/openembedded/aarch64/vexpress64-openembedded_minimal-armv8_20130623-376.img.gz
     gunzip vexpress64-openembedded_minimal-armv8_20130623-376.img.gz
 
 The file-system needs some minimal preparation:

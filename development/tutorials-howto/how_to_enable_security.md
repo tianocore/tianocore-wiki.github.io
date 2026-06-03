@@ -158,7 +158,7 @@ should be replaced by following drivers in step 5 and 6:
 ### Download PDF with examples
 
 [How to Sign UEFI Drivers & Applications
-.pdf](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/SigningUefiImages%20-v1dot31.pdf)
+.pdf](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/SigningUefiImages%20-v1dot31.pdf)
 
 ## Enable User Identification
 

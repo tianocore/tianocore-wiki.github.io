@@ -9,5 +9,5 @@ The 16-bit CSM component programming interface is described in this file:
 
 The CSM specification document is available here:
 
-* [http://www.intel.com/technology/framework/spec.htm](http://www.intel.com/technology/framework/spec.htm) - download
+* [https://www.intel.com/technology/framework/spec.htm](https://www.intel.com/technology/framework/spec.htm) - download
   the CSM Specification [V.098](compatibility_support_module.md)

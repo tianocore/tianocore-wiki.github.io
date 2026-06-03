@@ -1,7 +1,7 @@
 # EDK FAT Driver
 
 fat-driver Project home
-[http://sourceforge.net/projects/edk-fat-driver/](http://sourceforge.net/projects/edk-fat-driver/)
+[https://sourceforge.net/projects/edk-fat-driver/](https://sourceforge.net/projects/edk-fat-driver/)
 
 Please read the news on the home page regarding the SITE
 TRANSITION—DOWNTIME January 21. Very important information regarding
@@ -122,8 +122,8 @@ Other Common Links and Downloads
 
 `* Request for a FAT-Driver Project Role (initial or promotion)`
 `* Link to the EDK Project Homepage`[EDK](../reference/efidevkit.md)
-`* Link to Microsoft's FAT32 System Driver Specification`[Link](http://msdn.microsoft.com/en-us/windows/hardware/gg463080)
-`* Link to Microsoft's license agreement`[Link](http://msdn.microsoft.com/en-us/windows/hardware/gg463080.aspx)
+`* Link to Microsoft's FAT32 System Driver Specification`[Link](https://msdn.microsoft.com/en-us/windows/hardware/gg463080)
+`* Link to Microsoft's license agreement`[Link](https://msdn.microsoft.com/en-us/windows/hardware/gg463080.aspx)
 
 Project Points of Contact
 

@@ -18,7 +18,7 @@ networking to EDK, with different drivers implementing different TCP/IP
 protocols. The hierarchal layering of the drivers is shown at right.
 (For further information about the UEFI network stack, read the chapter
 20-24 of The UEFI specification 2.0 from
-[UEFI.org](http://www.uefi.org))
+[UEFI.org](https://www.uefi.org))
 
 To help develop networking applications, this sub-project provides a
 SNPNT32 driver which implements the EFI_SIMPLE_NETWORK_PROTOCOL for the
@@ -43,7 +43,7 @@ instructions to start to use the UEFI network stack on NT32 emulator.
 You can find more information there.
 
 Download the [UEFI Network Stack Getting Started
-Guide(pdf)](http://sourceforge.net/projects/network-io/files/Documents/EFINetworkStackGettingStarted.pdf/download)
+Guide(pdf)](https://sourceforge.net/projects/network-io/files/Documents/EFINetworkStackGettingStarted.pdf/download)
 for guidance on building and using the library to enable UEFI network
 stack under NT32 Platform Emulator
 
@@ -56,8 +56,8 @@ official release of the Network-IO project.
   Versions)](https://github.com/tianocore/edk2-NetNt32Io)
 - Directory of Network-IO Source Code Snapshots (Official Releases)
 - Link to the TianoCore Community Project
-- Link to the [UEFI2.0 Specification](http://www.uefi.org/)
-- Download [WinPcap® library](http://www.winpcap.org/)
+- Link to the [UEFI2.0 Specification](https://www.uefi.org/)
+- Download [WinPcap® library](https://www.winpcap.org/)
 - Archives of the "Dev" Mailing List
 
 **Intel Gig Undi**

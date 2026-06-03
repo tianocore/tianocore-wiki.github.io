@@ -3,7 +3,7 @@
 [UEFI](../../reference/specs-standards/uefi.md) details interfaces
 between the OS and platform firmware. Several security features were
 introduced (e.g. Authenticated Variable Service, Driver Signing, etc)
-starting in UEFI Specification version 2.2 ([http://www.uefi.org](http://www.uefi.org)). These
+starting in UEFI Specification version 2.2 ([https://www.uefi.org](https://www.uefi.org)). These
 security features highly depend on cryptography, which is implemented in
 EDK II using CryptoPkg.
 

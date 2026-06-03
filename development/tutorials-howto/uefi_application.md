@@ -6,7 +6,7 @@ UEFI application questions
 
 Currently there are only guidelines developing UEFI code for pre-boot.
 Link to the EDK II module writers guide: [EDK_II Module Writer_s
-Guide_0_7.pdf](https://github.com/tianocore-docs/Docs/raw/master/User_Docs/EDK_II%20Module%20Writer_s%20Guide_0_7.pdf)
+Guide_0_7.pdf](https://github.com/tianocore-docs/Docs/blob/main/User_Docs/EDK_II%20Module%20Writer_s%20Guide_0_7.pdf)
 
 To develop UEFI code in runtime the applications the UEFI Specification
 defines the rules for writing runtime safe code along with the calling

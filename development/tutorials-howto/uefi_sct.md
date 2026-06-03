@@ -17,7 +17,7 @@ built-in UEFI Compliance Tests, as well as for integrating user-defined
 tests that were developed using the UEFI SCT open source code.
 
 The latest version of the UEFI SCT can be found at
-[http://uefi.org/testtools](http://uefi.org/testtools)
+[https://uefi.org/testtools](https://uefi.org/testtools)
 
 ## FWTS
 

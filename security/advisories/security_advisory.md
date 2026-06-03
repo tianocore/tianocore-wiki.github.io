@@ -3,7 +3,7 @@
 Obsolete Please use : [Reporting Security Issues](../processes/reporting_security_issues.md)
 ----
 
-![image](http://www.tianocore.org/images/SecurityPix.JPG)
+![image](https://www.tianocore.org/images/SecurityPix.JPG)
 
 Security advisory page:
 
@@ -12,11 +12,11 @@ Please include the paths of the modules you believe are involved and a detailed 
 reflected to the relevant tianocore module owners and architects, who will reply with confirmation and may also continue
 the thread if they have follow up questions or information.
 
-[![image](http://www.tianocore.org/images/Report-button2.jpg)](mailto:tianocore-security@lists.sourceforge.net?subject=Tianocore%20Security%20Report%20Message)
+[![image](https://www.tianocore.org/images/Report-button2.jpg)](mailto:tianocore-security@lists.sourceforge.net?subject=Tianocore%20Security%20Report%20Message)
 
 * * * * *
 
-**List of current EDK II Security Advisory logs: V .002 [Download PDF](http://sourceforge.net/projects/edk2/files/Security_Advisory/EDK%20II%20Security%20Advisory%20Log%20002.pdf/download)**
+**List of current EDK II Security Advisory logs: V .002 [Download PDF](https://sourceforge.net/projects/edk2/files/Security_Advisory/EDK%20II%20Security%20Advisory%20Log%20002.pdf/download)**
 
 * * * * *
 

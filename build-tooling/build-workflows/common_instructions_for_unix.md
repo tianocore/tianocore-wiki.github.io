@@ -51,7 +51,7 @@ provided to automate this build process.
 
 Note: This is only needed if behind a internet firewall!
 
-    bash$ export http_proxy=http://proxy.domain.com:proxy_port
+    bash$ export http_proxy=https://proxy.domain.com:proxy_port
 
 To build gcc for x64, use these commands (this will take quite a while
 to complete):
@@ -126,7 +126,7 @@ provided to automate this build process.
 
 Note: This is only needed if behind a internet firewall!
 
-    bash$ export http_proxy=http://proxy.domain.com:proxy_port
+    bash$ export http_proxy=https://proxy.domain.com:proxy_port
 
 To build gcc for IA32, use these commands (this will take quite a while
 to complete):
@@ -166,13 +166,13 @@ compiler. But, if you are building an entire system firmware image, then
 you may need an ASL compiler. For example, the edk2 OVMF sample platform
 does require an ASL compiler in order to be built.
 
-First, download the latest ACPI-CA release from [http://www.acpica.org](http://www.acpica.org).
+First, download the latest ACPI-CA release from [https://www.acpica.org](https://www.acpica.org).
 
 **OS X users**: At this time, the latest versions of ACPI-CA are not
 building on Mac OS X, so please use the release from 20081031 instead.
 
     bash$ cd ~/src
-    bash$ wget http://www.acpica.org/download/acpica-unix-20090521.tar.gz
+    bash$ wget https://www.acpica.org/download/acpica-unix-20090521.tar.gz
     bash$ tar -zxf acpica-unix-20090521.tar.gz
     bash$ make -C acpica-unix-20090521/compiler
     bash$ ln -s ~/src/acpica-unix-20090521/compiler/iasl ~/programs/iasl
@@ -192,10 +192,10 @@ Next, find the following statement and uncomment the line:
 
     DEFINE UNIX_IASL_BIN           = $(HOME)/programs/iasl
 
-### Build [OVMF](http://www.tianocore.org/ovmf/)
+### Build [OVMF](https://www.tianocore.org/ovmf/)
 
 Once your build environment is set up you might be interested in
-building the [OVMF](http://www.tianocore.org/ovmf/) platform which is
+building the [OVMF](https://www.tianocore.org/ovmf/) platform which is
 included in the main edk2 source tree. Since
-[OVMF](http://www.tianocore.org/ovmf/) builds a full system firmware
+[OVMF](https://www.tianocore.org/ovmf/) builds a full system firmware
 image this may be of interest to UEFI system firmware developers.

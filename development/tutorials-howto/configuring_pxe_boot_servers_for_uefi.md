@@ -21,13 +21,13 @@ Linux platforms.
 
 ## RedHat
 
-[Setting Up an Installation Server](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/ap-install-server.html)
+[Setting Up an Installation Server](https://docs.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/ap-install-server.html)
 
-[Configuring PXE Boot for EFI](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/s1-netboot-pxe-config-efi.html)
+[Configuring PXE Boot for EFI](https://docs.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Installation_Guide/s1-netboot-pxe-config-efi.html)
 
 ## SUSE Linux
 
-[SUSE® Linux Enterprise Server 11 SP2 for UEFI Clients, Best Practices White Paper](https://www.suse.com/docrep/documents/6ytjkpvom0/sles_11_sp2_for_uefi_client_best_practices_white_paper.pdf)
+[SUSE® Linux Enterprise Server 11 SP2 for UEFI Clients, Best Practices White Paper](https://www.suse.com/media/white-paper/sles_11_sp2_for_uefi_client_best_practices_white_paper.pdf)
 
 [Using PXE with UEFI on PowerEdge Servers with SUSE Linux Enterprise Server 11](https://linux.dell.com/files/whitepapers/PXE_UEFI_Dell_SLES11_20oct2010.pdf)
 
@@ -55,9 +55,9 @@ Linux platforms.
 
 ## iPXE
 
-[iPXE](http://ipxe.org/start) is an open source network boot firmware implementation. iPXE does not rely on the EDK II
+[iPXE](https://ipxe.org/start) is an open source network boot firmware implementation. iPXE does not rely on the EDK II
 Network Stack, but offers many similar functions.
 
 [iPXE installation and EFI](https://doc.rogerwhittaker.org.uk/ipxe-installation-and-EFI/)
 
-[iPXE - UEFI HTTP chainloading](http://ipxe.org/appnote/uefihttp)
+[iPXE - UEFI HTTP chainloading](https://ipxe.org/appnote/uefihttp)

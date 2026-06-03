@@ -1,6 +1,6 @@
 # OVMF Boot Overview
 
-This page provides a high-level overview of the boot process for [OVMF](http://www.tianocore.org/ovmf/).
+This page provides a high-level overview of the boot process for [OVMF](https://www.tianocore.org/ovmf/).
 
 SEC
 ===

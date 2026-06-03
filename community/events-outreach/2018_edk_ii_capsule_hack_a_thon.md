@@ -3,7 +3,7 @@
 ## Overview
 
 Part of [OSFC 2018](osfc_2018.md) in Erlangen, Germany
-[https://osfc.io/](https://osfc.io/)
+[https://www.osfc.io/](https://www.osfc.io/)
 September 14-15 - times TBD
 
 Participants are encouraged to exercise platform code related to

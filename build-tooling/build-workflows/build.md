@@ -159,7 +159,7 @@ for the error level PcdDebugPrintErrorLevel
 ## How does the build tool load the reset vector at 0xFFFFFFF0?
 
 This is defined in the PI Specification, Volume 3.
-[http://www.uefi.org/specs](http://www.uefi.org/specs)
+[https://uefi.org/specs/](https://uefi.org/specs/)
 
 In the FV (Firmware Volume) there is something called a Volume Top File
 inf the FV . A Volume Top File (VTF) is a file that must be located such

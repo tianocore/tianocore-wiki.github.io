@@ -6,7 +6,7 @@ Frequently asked questions about GUIDs
 
 Globally” Unique Identity 128-bit quantity defined by Wired for
 Management WfM 2.0 specification on Intel Web site. There is a Web site
-where a GUID can be generated: [http://www.guidgen.com](http://www.guidgen.com) Also, Microsoft
+where a GUID can be generated: [https://www.guidgen.com](https://www.guidgen.com) Also, Microsoft
 Visual Studio also has a GUID generator. These unique identifies will
 and if you look at the wiki on this, the reality is that the probability
 of a collision is very, very, very small. From RFC 4122:

@@ -13,7 +13,7 @@ drivers.
 - [MdeModulePkg](../../platforms-packages/core-packages/mde_module_pkg.md)
 - [MdePkg](../../platforms-packages/core-packages/mde_pkg.md)
 - [Release
-  Notes](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.IHV-ReleaseNotes.txt/download)
+  Notes](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.IHV-ReleaseNotes.txt/download)
   and Documentation
 
 This subset of packages is designed to be used with the
@@ -22,9 +22,9 @@ This subset of packages is designed to be used with the
 ## Setup and Configuration
 
 1. Download the UDK2014 IHV package
-    ([UDK2014.IHV](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.IHV.zip/download)).
+    ([UDK2014.IHV](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.IHV.zip/download)).
 2. Unzip
-    [UDK2014.IHV](http://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.IHV.zip/download)
+    [UDK2014.IHV](https://sourceforge.net/projects/edk2/files/UDK2014_Releases/UDK2014/UDK2014.IHV.zip/download)
     into a workspace directory (example: C:\FW\UDK2014.IHV)
 3. Unzip the BaseTools ZIP file into the workspace directory
 4. Open a Visual Studio Command Prompt and run edksetup.bat in the

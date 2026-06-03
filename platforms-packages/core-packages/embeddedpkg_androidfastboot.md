@@ -12,7 +12,7 @@ Android FastBoot support in UEFI has been added into SVN rev15317
 
 The Android FastBoot host tool is available from the Android ADT
 (Android Developer Tools) at
-[http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html)
+[https://developer.android.com/sdk/index.html](https://developer.android.com/sdk/index.html)
 
 ## Build and Start Android FastBoot on UEFI
 

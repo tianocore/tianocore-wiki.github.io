@@ -1,7 +1,7 @@
 # Udk2010.Sr1.UP1
 
 **UDK2010** is a stable release of portions of the [EDK
-II](http://www.tianocore.org/edk2/) project
+II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) project
 
 What are the
 [Differences between
@@ -10,7 +10,7 @@ UDK2010 and EDK II](../../reference/faqs-glossaries/differences_between_udk2010_
 If you have questions please email the [Edk2 Devel Mail
 list](mailto:edk2-devel@lists.sourceforge.net?subject=UDK2010.SR1%20Question) -
 To join the email list goto: [Join Edk2 Devel Mail
-list](http://lists.sourceforge.net/lists/listinfo/edk2-devel)
+list](https://edk2.groups.io/g/devel)
 
 <table width="100%" >
 
@@ -70,14 +70,14 @@ What’s in the package?
 <td>
 
 [**UDK2010.SR1.UP1
-DownLoad**](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Complete.MyWorkSpace.zip/download)
+DownLoad**](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Complete.MyWorkSpace.zip/download)
 
 w/ WorkSpace Expanded .zip
 
 Release June 25, 2012
 
 [Release
-Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download)
+Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download)
 
 </td>
 
@@ -89,7 +89,7 @@ expanded to MyWorkSpace Directory)
 
 Based on svn version:
 
-[https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1](https://edk2.svn.sourceforge.net/svnroot/edk2/branches/UDK2010.SR1):
+[https://sourceforge.net/p/edk2/code/HEAD/tree/branches/UDK2010.SR1](https://sourceforge.net/p/edk2/code/HEAD/tree/branches/UDK2010.SR1):
 r13452
 
 [https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg](https://edk2-fatdriver2.svn.sourceforge.net/svnroot/edk2-fatdriver2/trunk/FatPkg):
@@ -109,7 +109,7 @@ r67
   new is contained in the release notes.
 
 - See [Release
-  Notes](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download)
+  Notes](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-ReleaseNotes-MyWorkSpace.txt/download)
   for more details on the features for this release
 
 **Supported OS and Build Environments**
@@ -129,7 +129,7 @@ r67
 (UDK2010.SR1.UP1)
 
 [File
-List](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-FilesList-MyWorkSpace.txt/download)
+List](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1-FilesList-MyWorkSpace.txt/download)
 Of Entire Release .zip
 
 ------------------------------------------------------------------------
@@ -137,7 +137,7 @@ Of Entire Release .zip
 Documents
 
 [Download
-All](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download)
+All](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download)
 
 </tr>
 
@@ -167,15 +167,15 @@ What is it?
 <td>
 
 - [BUILD v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/Build_Spec_v1.22_Errata_B.pdf/download)
 - [DEC v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/DEC_Spec_v1.22_Errata_B.pdf/download)
 - [DSC v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/DSC_Spec_v1.22_Errata_B.pdf/download)
 - [FDF v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/FDF_Spec_v1.22_Errata_B.pdf/download)
 - [INF v1.22 Errata
-  B](http://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download)
+  B](https://sourceforge.net/projects/edk2/files/Specifications/INF_Spec_v1.22_Errata_B.pdf/download)
 
 </td>
 
@@ -230,7 +230,7 @@ What’s in the Download?
 <td>
 
 [Download all
-UDK2010.SR1.UP1](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download)
+UDK2010.SR1.UP1](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.SR1.UP1/UDK2010.SR1.UP1.Documents.zip/download)
 
 </td>
 
@@ -257,10 +257,10 @@ UDK2010.SR1.UP1 documents
 <td>
 
 [CryptoPkg
-.chm](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/CryptoPkg%20Document.chm/download)
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/CryptoPkg%20Document.chm/download)
 
 [CryptoPkg
-.zip](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/CryptoPkg%20Document.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/CryptoPkg%20Document.zip/download)
 
 </td>
 
@@ -287,10 +287,10 @@ cryptographic-related libraries for UEFI security modules.
 <td>
 
 [EdkCompatibilityPkgPkg
-.chm](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/EdkCompatibilityPkg%20Document.chm/download)
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/EdkCompatibilityPkg%20Document.chm/download)
 
 [EdkCompatibilityPkgPkg
-.zip](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/EdkCompatibilityPkg%20Document.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/EdkCompatibilityPkg%20Document.zip/download)
 
 </td>
 
@@ -319,10 +319,10 @@ UEFI2.3/PI1.2 EDK II Cores.
 <td>
 
 [IntelFrameworkModulePkg
-.chm](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkModulePkg%20Document.chm/download)
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkModulePkg%20Document.chm/download)
 
 [IntelFrameworkModulePkg
-.zip](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkModulePkg%20Document.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkModulePkg%20Document.zip/download)
 
 </td>
 
@@ -349,10 +349,10 @@ implementation which follows Intel EFI Framework Specification.
 <td>
 
 [IntelFrameworkPkg
-.chm](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkPkg%20Document.chm/download)
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkPkg%20Document.chm/download)
 
 [IntelFrameworkPkg
-.zip](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkPkg%20Document.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/IntelFrameworkPkg%20Document.zip/download)
 
 </td>
 
@@ -377,10 +377,10 @@ implementation which follows Intel EFI Framework Specification.
 <td>
 
 [MdeModulePkg
-.chm](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdeModulePkg%20Document.chm/download)
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdeModulePkg%20Document.chm/download)
 
 [MdeModulePkg
-.zip](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdeModulePkg%20Document.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdeModulePkg%20Document.zip/download)
 
 </td>
 
@@ -409,16 +409,16 @@ modules
 <td>
 
 [MdePkg w/ Libraries
-.chm](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document%20With%20Libraries.chm/download)
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document%20With%20Libraries.chm/download)
 
 [MdePkg w/ Libraries
-.zip](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document%20With%20Libraries.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document%20With%20Libraries.zip/download)
 
 [MdePkg
-.chm](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document.chm/download)
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document.chm/download)
 
 [MdePkg
-.zip](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/MdePkg%20Document.zip/download)
 
 </td>
 
@@ -452,10 +452,10 @@ and some Industry Standards.
 <td>
 
 [NetworkPkg
-.chm](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/NetworkPkg%20Document%20with%20Modules.chm/download)
+.chm](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/NetworkPkg%20Document%20with%20Modules.chm/download)
 
 [NetworkPkg
-.zip](http://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/NetworkPkg%20Document%20with%20Modules.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK_II_Libraries/UDK2010.SR1.UP1/NetworkPkg%20Document%20with%20Modules.zip/download)
 
 </td>
 
@@ -525,7 +525,7 @@ See [Previous UDK2010 Menu](previous_udk2010_releases.md)
 
 ------------------------------------------------------------------------
 
-[EDK II Files](http://sourceforge.net/projects/edk2/files/)
+[EDK II Files](https://sourceforge.net/projects/edk2/files/)
 
 </td>
 
@@ -609,10 +609,10 @@ for UEFI Driver Writers Resources
 <td>
 
 [UEFI Packaging
-Tool.zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download)
+Tool.zip](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download)
 
 [Quick Start
-Guide](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/UEFI-PackagingToolQuickStartGuide_1.0.pdf/download)
+Guide](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/UEFI-PackagingToolQuickStartGuide_1.0.pdf/download)
 
 </td>
 
@@ -620,9 +620,9 @@ Guide](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packi
 
 Intel® UEFI Packaging Tool is used to create, install or remove a UEFI
 Distribution Package. The .Zip includes bin UPT.exe from
-[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32)
+[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/Bin/Win32)
 and Manual Documentation from
-[http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals)
+[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/BaseTools/UserManuals)
 plus the Quick Start Guide
 
 </td>
@@ -642,10 +642,10 @@ User PDF Guide only
 <td>
 
 [EADK Alpha 2
-.zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release.zip/download)
 
 [Release
-Notes](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release_notes.txt/download)
+Notes](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release_notes.txt/download)
 
 </td>
 
@@ -658,7 +658,7 @@ Include these into standard "C" applications. See the AppPkg for "Hello
 World" example
 
 - Based on SVN
-  [http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](http://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2)
+  [https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2)
   r11577
 
 </td>
@@ -682,7 +682,7 @@ Packages Included in zip
 <td>
 
 [UEFI Shell 2.0 Pkg
-.zip](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
+.zip](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
 
 [Shell 2.0 Documentation](../../platforms-packages/core-packages/shell_pkg.md)
 
@@ -692,11 +692,11 @@ Packages Included in zip
 
 EDK II Sources for the UEFI Shell 2.0 Spec. Package Release 1.0 -
 Verified and tested SVN Rersion:
-[https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg](https://edk2.svn.sourceforge.net/svnroot/edk2/trunk/edk2/ShellPkg)
+[https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg](https://sourceforge.net/p/edk2/code/HEAD/tree/trunk/edk2/ShellPkg)
 r11566
 
 This release is the implmentation sources for the UEFI Shell
-Specification 2.0. Please see [http://www.uefi.org](http://www.uefi.org) to download this
+Specification 2.0. Please see [https://www.uefi.org](https://www.uefi.org) to download this
 specification
 
 See [How to include UEFI Shell 2.0 into .DSC file](../../reference/faqs-glossaries/shell_faq.md#how-do-you-add-the-new-uefi-shell-20-to-the-nt32-in-the-udk2010sr1)
@@ -724,23 +724,23 @@ II Overview](../../reference/external-resources/edk_ii_overview.md),
 Packages](../../platforms-packages/core-packages/edkii_packages.md)
 
 UEFI Developers Kit 2010 (UDK2010). The UDK2010 is the EDKII support for
-all currently published [UEFI specifications](http://www.uefi.org)
+all currently published [UEFI specifications](https://www.uefi.org)
 UDK2010.SR1 currently supports UEFI 2.3.1 and PI 1.2 level of
 specifications.
 
 For quick reference, here are the links to the latest packages:
 
 - [UEFI Packing
-  Tool](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download)
+  Tool](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/UEFI_Packing_Tool/Intel_UEFI_Packing_Tool.zip/download)
 
 - [Edk II Application Development Kit (EADK) -
-  A2](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release.zip/download)
+  A2](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EADK/EADK_A2_Release.zip/download)
 
 - [UEFI Shell 2.0 Spec package
-  Sources](http://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
+  Sources](https://sourceforge.net/projects/edk2/files/EDK%20II%20Releases/EDK%20II%20Shell/EDKII_UEFI_Shell_2.0_ShellPkg_Rel_1.0.zip/download)
 
 - [EDKII User
-  Manual](http://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/EDKII_UserManual_0_7.pdf/download)
+  Manual](https://sourceforge.net/projects/edk2/files/UDK2010%20Releases/UDK2010.UP2/EDKII_UserManual_0_7.pdf/download)
 
 - The Intel(R) UDK Debugger Tool and its detailed user manual may be
-  obtained from [http://www.intel.com/technology/efi](http://www.intel.com/technology/efi)
+  obtained from [https://www.intel.com/technology/efi](https://www.intel.com/technology/efi)

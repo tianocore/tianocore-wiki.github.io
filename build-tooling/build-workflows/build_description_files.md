@@ -73,7 +73,7 @@ Description from the header section. The .uni file must be relative to the direc
      FILE_GUID             = 11111111-2222-3333-4444-555555555555
 ```
 
-A unique GUID for this module. See  [http://www.guidgen.com/](http://www.guidgen.com/)
+A unique GUID for this module. See  [https://www.guidgen.com/](https://www.guidgen.com/)
 
 ```ini
      MODULE_TYPE           = USER_DEFINED

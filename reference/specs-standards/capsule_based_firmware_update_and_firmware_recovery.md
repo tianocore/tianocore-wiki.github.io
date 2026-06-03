@@ -51,7 +51,7 @@ to sign and authenticate capsule-based system firmware update images.
 
 ## Summary of UEFI Capsule Services, Tables & Variables
 
-The [UEFI Specification](http://www.uefi.org) and the [PI Specification](http://www.uefi.org) provide details on the
+The [UEFI Specification](https://www.uefi.org) and the [PI Specification](https://www.uefi.org) provide details on the
 services, tables, and variables associated with the use of capsules for firmware update and recovery.
 
 * \[UEFI\] `UpdateCapsule()` and `QueryCapsuleCapabilities()` Runtime Services
@@ -67,7 +67,7 @@ services, tables, and variables associated with the use of capsules for firmware
 
 ## Additional Documentation
 
-[A Tour Beyond BIOS: Capsule Update and Recovery in EDK II](https://github.com/tianocore-docs/Docs/raw/master/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf)
+[A Tour Beyond BIOS: Capsule Update and Recovery in EDK II](https://github.com/tianocore-docs/Docs/blob/main/White_Papers/A_Tour_Beyond_BIOS_Capsule_Update_and_Recovery_in_EDK_II.pdf)
 (Intel Whitepaper, Dec 2016)
 
 [Signed UEFI Firmware Updates in EDK II](https://software.intel.com/en-us/blogs/2017/02/04/signed-uefi-firmware-updates-in-edk-ii)

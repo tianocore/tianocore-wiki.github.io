@@ -7,7 +7,7 @@ Pre-requirements:
 \- Having an account on Github
 
 \- Being a member of the UEFI Forum. The membership list is available
-here: [http://uefi.org/members](http://uefi.org/members)
+here: [https://uefi.org/members](https://uefi.org/members)
 
 \- Requesting access to UEFI-SCT Github project:
 [https://github.com/UEFI/UEFI-SCT](https://github.com/UEFI/UEFI-SCT)

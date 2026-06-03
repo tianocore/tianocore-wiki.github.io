@@ -5,8 +5,8 @@ Note: If you are simply looking for an
 [Source
 Control](../contribution-guides/source_control.md) page.
 
-The [EDK II](http://www.tianocore.org/edk2/) project uses the subversion
-source control system. But, as [git](http://git-scm.org) is a source
+The [EDK II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II/) project uses the subversion
+source control system. But, as [git](https://git-scm.org) is a source
 control system often used by open-source projects these days, the
 question of whether git can be used with EDK II occasionally comes up.
 This page will attempt to document how contributors can use git with EDK
@@ -53,7 +53,7 @@ Git is mentioned occasionally on
 [edk2-devel](../../community/communications/mailing_lists.md).
 
 In February 2013 there was such a
-[discussion](https://sourceforge.net/mailarchive/message.php?msg_id=30431526),
+[discussion](https://sourceforge.net/p/edk2/mailman/message/30431526/),
 and in general people expressed a desire to use git for EDK II. Here is
 some of the information from that email thread:
 
@@ -64,7 +64,7 @@ some of the information from that email thread:
 - ARM uses git
 - Linaro uses git
   - Maintains their own git-svn
-    [repository](http://git.linaro.org/gitweb?p=mirror/edk2/edk2.git;a=summary)
+    [repository](https://git.linaro.org/gitweb?p=mirror/edk2/edk2.git;a=summary)
 - Brian from SGI mentioned they would prefer git
 - Laszlo from Red Hat uses git
 - Several EDK II Google Summer of Code projects used git

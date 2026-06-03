@@ -22,7 +22,7 @@ EDK2 repository.
 1\. Get the arm-none-eabi Toolchain from Code Sourcery:
 
 wget
-http://www.codesourcery.com/sgpp/lite/arm/portal/package7813/public/arm-none-eabi/arm-2010.09-51-arm-none-eabi-i686-pc-linux-gnu.tar.bz2
+https://www.codesourcery.com/sgpp/lite/arm/portal/package7813/public/arm-none-eabi/arm-2010.09-51-arm-none-eabi-i686-pc-linux-gnu.tar.bz2
     tar xjf arm-2010.09-51-arm-none-eabi-i686-pc-linux-gnu.tar.bz2
 
 2\. Add the arm-none-eabi toolchain to your path

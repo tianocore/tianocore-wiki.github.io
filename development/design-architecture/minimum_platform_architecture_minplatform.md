@@ -20,7 +20,7 @@ consistent boot flow and well-defined interfaces to support board functions.
 - [Project Olympus (Purley MinPlatform)](../../platforms-packages/platform-ports/purley_minplatform.md) - EDK II
   platform firmware for the Open Compute Project
   (OCP) [Intel XSP
-  Motherboard](http://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards).
+  Motherboard](https://www.opencompute.org/wiki/Server/ProjectOlympus#Project_Olympus_Server_Motherboards).
 
     Note: Purley board support is no longer available in the codebase.
 - [Whiskey Lake MinPlatform](../../platforms-packages/platform-ports/whiskey_lake_minplatform.md) - EDK II platform
@@ -29,7 +29,7 @@ consistent boot flow and well-defined interfaces to support board functions.
 
 #### Resources
 
-- [Open Source Firmware Conference (OSFC)](https://osfc.io/) Presentation on [Minimum Platform Architecture (Sept
+- [Open Source Firmware Conference (OSFC)](https://www.osfc.io/) Presentation on [Minimum Platform Architecture (Sept
   2019)](https://software.intel.com/sites/default/files/Open%20Source%20UEFI%20Firmware%20for%20Intel%20Platforms.pdf)
 - [EDK II Minimum Platform Architecture
   Specification](https://tianocore-docs.github.io/edk2-MinimumPlatformSpecification/draft/)

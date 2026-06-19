@@ -136,13 +136,13 @@ fork,
 please visit that project overview in the link below.
 
 * Uncrustify upstream repository: [https://github.com/uncrustify/uncrustify](https://github.com/uncrustify/uncrustify)
-* Uncrustify EDK II fork repository (in Project Mu):
-  [https://dev.azure.com/projectmu/Uncrustify](https://dev.azure.com/projectmu/Uncrustify)
+* Uncrustify EDK II fork repository:
+  [https://github.com/tianocore/uncrustify](https://github.com/tianocore/uncrustify)
 
 ## Developer Workflow
 
-Developers must install Uncrustify and run the application against their code before sending patch review emails or
-submitting pull requests. Pull requests run against EDK II CI which includes the UncrustifyCheck CI plugin.
+Developers must install Uncrustify and run the application against their code before submitting pull requests. Pull
+requests run against EDK II CI which includes the UncrustifyCheck CI plugin.
 
 Fortunately, Uncrustify can be installed quickly, you can format your code quickly locally, and you can verify the
 code against the UncrustifyCheck CI plugin before sending it to others.
@@ -161,8 +161,8 @@ The recommended flow is:
 ## Installing Uncrustify
 
 Uncrustify is a portable executable that is built in the [EDK II Uncrustify fork
-repository](https://dev.azure.com/projectmu/Uncrustify)
-and ultimately published into a NuGet feed in that fork project.
+repository](https://github.com/tianocore/uncrustify) and posted to [releases](https://github.com/tianocore/uncrustify/releases)
+made in the repository.
 
 ### Recommended Installation: In edk2 repository
 
@@ -175,30 +175,19 @@ to complete environment setup. Review the edk2
 file for details on `stuart` and this overall flow.
 
 After running the `stuart_update` command, the Uncrustify application content should be brought down into
-`.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep` in your edk2 workspace. The contents of this directory
+`.pytool\Plugin\UncrustifyCheck\tianocore-uncrustify-release_extdep` in your edk2 workspace. The contents of this directory
 now represent the contents of the NuGet package and it should contain a Linux and Windows executable of the
 application.
 
 ### Manual Installation: Download from the fork project
 
-The [release pipeline](https://dev.azure.com/projectmu/Uncrustify/_build?definitionId=89) in the EDK II Uncrustify fork
-project contains the build information for each release. Each build in this pipeline represents a release. By going to
-a specific build, the details mapping the build to source code (such as the branch and commit) are present.
-
-The build content is published as a NuGet package to a NuGet feed. This is the same feed, the recommended installation
-instructions automatically pull from. The NuGet feed is available in the
-["Artifacts"](https://dev.azure.com/projectmu/Uncrustify/_packaging?_a=feed&feed=mu_uncrustify)
-section of the fork project. If you hover/click on a specific package entry (e.g. "mu-uncrustify-release"), a set of
-three ellipsis will appear. Click the ellipsis and a context menu will appear. The NuGet package can be downloaded
-by clicking "Download \<x.y.z\>".
-
-Once downloaded, the `.nupkg` file can be treated as a zip file. If the file is opened as a zip file, the executable
-can be found in the `mu-uncrustify-<debug/release>` directory.
+The executables for different platforms are available in a zip file attached to each release in the repo
+[releases](https://github.com/tianocore/uncrustify/releases) page.
 
 ## How to Run Uncrustify
 
 Once Uncrustify is installed, you can run the application in a number of ways. In all cases, you should be using the
-Uncrustify application built from the [Uncrustify EDK II fork](https://dev.azure.com/projectmu/Uncrustify) and the
+Uncrustify application built from the [Uncrustify EDK II fork](https://github.com/tianocore/uncrustify) and the
 [Uncrustify configuration file](https://github.com/tianocore/edk2/blob/master/.pytool/Plugin/UncrustifyCheck/uncrustify.cfg)
 currently checked into edk2.
 
@@ -228,7 +217,7 @@ VS Marketplace Link:
    >```json
    >"uncrustify.configPath.windows": "D:/src/edk2/.pytool/Plugin/UncrustifyCheck/uncrustify.cfg",
    >"uncrustify.executablePath.windows":
-   >"D:/src/edk2/.pytool/Plugin/UncrustifyCheck/mu-uncrustify-release_extdep/Windows-x86/uncrustify.exe"
+   >"D:/src/edk2/.pytool/Plugin/UncrustifyCheck/tianocore-uncrustify-release_extdep/Windows-x86/uncrustify.exe"
    >```
 
 3. Open a C source code file, _`Ctrl+Shift+P` -> Format Document With... -> Configure Default Formatter -> Uncrustify_
@@ -255,13 +244,13 @@ Example to run against all .c and .h files in `DynamicTablesPkg` executed from t
 Linux:
 
 ```shell
-git ls-files DynamicTablesPkg*.c DynamicTablesPkg*.h | ./.pytool/Plugin/UncrustifyCheck/mu-uncrustify-release_extdep/Linux-x86/uncrustify -c ./.pytool/Plugin/UncrustifyCheck/uncrustify.cfg -F - --replace --no-backup --if-changed
+git ls-files DynamicTablesPkg*.c DynamicTablesPkg*.h | ./.pytool/Plugin/UncrustifyCheck/tianocore-uncrustify-release_extdep/Linux-x86/uncrustify -c ./.pytool/Plugin/UncrustifyCheck/uncrustify.cfg -F - --replace --no-backup --if-changed
 ```
 
 Windows:
 
 ```shell
-git ls-files DynamicTablesPkg*.c DynamicTablesPkg*.h | .\.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c .\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -F - --replace --no-backup --if-changed
+git ls-files DynamicTablesPkg*.c DynamicTablesPkg*.h | .\.pytool\Plugin\UncrustifyCheck\tianocore-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c .\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -F - --replace --no-backup --if-changed
 ```
 
 * The `git ls-files` command is used to gather the list of .c and .h files in `DynamicTablesPkg`
@@ -303,7 +292,7 @@ Example to run against all .c and .h files in `MdePkg` executed from the root of
    Windows:
 
    ```shell
-.\.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c
+.\.pytool\Plugin\UncrustifyCheck\tianocore-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c
 .\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -F MdePkgFiles.txt --replace --no-backup --if-changed
    ```
 
@@ -323,7 +312,7 @@ Example to run against all .c and .h files in `MdePkg` executed from the root of
    Windows:
 
   ```shell
-  .\.pytool\Plugin\UncrustifyCheck\mu-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c
+  .\.pytool\Plugin\UncrustifyCheck\tianocore-uncrustify-release_extdep\Windows-x86\uncrustify.exe -c
   .\.pytool\Plugin\UncrustifyCheck\uncrustify.cfg -f .\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableSmm.c -o
   output.c -l C -p uncrustify_debug.txt -L A 2>verbose_debug.txt
   ```
@@ -409,5 +398,5 @@ Run this slightly modified version of lint-history. Include only .c/.h files and
 ```shell
 lint-history.py
     --relevant "return (not filename.startswith(b'Tools') and not filename.startswith(b'BaseTools') and (filename.endswith(b'.c') or filename.endswith(b'.h')))"
-    c:\\work\\GitHub\\tianocore\\foo\\UncrustifyCheck\\mu-uncrustify-release_extdep\\Windows-x86\\uncrustify.exe -c c:\\work\\GitHub\\tianocore\\foo\\UncrustifyCheck\\uncrustify.cfg --replace --no-backup --if-changed
+    c:\\work\\GitHub\\tianocore\\foo\\UncrustifyCheck\\tianocore-uncrustify-release_extdep\\Windows-x86\\uncrustify.exe -c c:\\work\\GitHub\\tianocore\\foo\\UncrustifyCheck\\uncrustify.cfg --replace --no-backup --if-changed
 ```

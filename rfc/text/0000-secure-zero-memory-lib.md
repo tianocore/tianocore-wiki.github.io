@@ -12,6 +12,8 @@
 - 2026-05-27: Initial RFC created. Motivated by discussion on
   [edk2 PR #12244](https://github.com/tianocore/edk2/pull/12244), with review
   input from `@mdkinney`, `@mikebeaton`, and `@jaykrell`.
+- 2026-07-10: Pivoted from an elision-based argument to an ordering issue. Also
+  added the "`volatile` is not a barrier" demo.
 
 ## Motivation
 
@@ -39,45 +41,15 @@ EDK II (in their respective CrtLibSupport.h files) currently provides:
 
 Combined with the earlier `#define memset(dest, ch, count)  SetMem(...)`
 in the same headers, every `SecureZeroMemory(p, n)` call written by
-upstream OpenSSL or the Microsoft TPM reference stack expands, in EDK II
+upstream OpenSSL or the TCG TPM reference stack expands, in EDK II
 builds, to a plain `SetMem(p, n, 0)`, which is the same as a regular `ZeroMem()`.
 The secure-erase intent the upstream authors wrote into their code does not
-survive the indirective. This silent downgrade is the gap this RFC attempts to
-close.
+survive the compiler reordering optimization.
 
-(EDK II-native code that handles confidential material directly would benefit
-from the same primitive being available to call explicitly. That broader native
-adoption is in scope for Phase 2 of the Migration plan; the wrapper-layer fix is
-what motivates landing the library now.)
-
-As of today, `ZeroMem()` does not carry a security contract. It is defined by
-[`BaseMemoryLib.h`](https://github.com/tianocore/edk2/blob/master/MdePkg/Include/Library/BaseMemoryLib.h)
-as part of a library that, per its own header doc-comment, "provides
-optimized implementations for common memory-based operations". Its writes
-are ordinary stores and the call is an ordinary call. An optimizing
-compiler is permitted to elide such writes when it can prove the buffer
-is not read afterward. This is the well-documented class of bug captured
-as [MITRE CWE-14](https://cwe.mitre.org/data/definitions/14.html)
-("Compiler Removal of Code to Clear Buffers"), a child of
-[CWE-733](https://cwe.mitre.org/data/definitions/733.html) ("Compiler
-Optimization Removal or Modification of Security-critical Code").
-
-In firmware, the consequences of leaving secrets resident in DRAM (heap or stack)
-are more severe than in user-space applications. Residual secrets can survive
-across PEI->DXE->BDS->Runtime handoffs, leak through cold-boot attacks, debug
-interfaces, S3 resume residues, SMM save-state areas, page tables, or DMA
-inspection. There is no equivalent of process teardown to implicitly recover the
-memory.
-
-It is worth noting that the present `ZeroMem()` implementation in
-[`MdePkg/Library/BaseMemoryLib/SetMem.c`](https://github.com/tianocore/edk2/blob/master/MdePkg/Library/BaseMemoryLib/SetMem.c)
-writes through `volatile UINT8/UINT32/UINT64 *` pointers. That `volatile`
-prevents the compiler from replacing the inner loop with an intrinsic
-`memset()`. However, it does **not** bind the *call site*. Under inlining,
-link-time optimization (LTO), profile-guided optimization (PGO), or whole-program
-analysis. A sufficiently capable optimizer can still observe that the
-buffer's contents are not read after the call and remove the call (or its
-effects) entirely. This RFC is created to close such gap.
+In firmware, the consequences could cause the secret is still zeroed, but only *after*
+the buffer has been advertised as clean, so an asynchronous observer (another core,
+a DMA engine, an SMI/SMM handler, an allocator reissuing the block) can read live
+key material in the interim. Firmware has no process teardown to fall back on.
 
 ## Technology Background
 
@@ -116,9 +88,19 @@ and security project ships one:
 
 This table presents a *convergent design under independent constraints*.
 
-EDK II's current position, with only a performance-contracted primitive and a
-`CrtLibSupport.h` shim that silently degrades upstream's `SecureZeroMemory` to
-it, is the position each previously cited peer has explicitly moved away from.
+The industry primitives surveyed above were created primarily to defeat
+DSE. In the case of EDK II, the current `ZeroMem`/`SetMem` implementation
+resists DSE through its `volatile` implementation, but the lesson this RFC draws
+is the structural one: a separately-named, contract-bearing clearing primitive.
+That same structure is what carries the ordering and barrier guarantees
+`volatile` alone does not, which is the gap this RFC is actually built on.
+
+The DSE discussion that follows is retained as background and as the reason the
+pattern exists, not as a claim that EDK II's current wipe is being deleted.
+
+EDK II's current position only poses a performance-contracted primitive, which has
+a `CrtLibSupport.h` shim that maps upstream's `SecureZeroMemory` onto it, is the
+position each previously cited peer has explicitly moved away from.
 
 Standards work and ongoing activity that motivate this proposal:
 
@@ -135,7 +117,7 @@ Standards work and ongoing activity that motivate this proposal:
   (Miguel Ojeda, 2021); its motivation section is, in substance, the
   same argument made in this RFC. EDK II inheriting that pattern as a
   library class is consistent with the direction the language itself has
-  taken since this RFC's predecessor designs were debated.
+  taken.
 - **Zhaomo Yang, Brian Johannesmeyer, Anders Trier Olesen, Sorin Lerner,
   Kirill Levchenko. "Dead Store Elimination (Still) Considered Harmful",
   USENIX Security 2017**
@@ -166,8 +148,8 @@ Standards work and ongoing activity that motivate this proposal:
 ## Goals
 
 1. Provide an EDK II base library interface whose contract is: *the buffer will
-   be zeroed in memory, and the writes will not be elided or reordered away by
-   the optimizer, regardless of how the call site is inlined or whole-program
+   be zeroed in memory, and the writes will neither be elided nor reordered away
+   by the optimizer, regardless of how the call site is inlined or whole-program
    optimized.*
 2. Preserve `BaseMemoryLib::ZeroMem()`'s existing performance contract
    unchanged.
@@ -193,16 +175,16 @@ Standards work and ongoing activity that motivate this proposal:
 
    matching the header already proposed in
    [`MdePkg/Include/Library/SecureZeroMemoryLib.h`](https://github.com/tianocore/edk2/pull/12244/files).
-2. The implementation MUST NOT be elidable from a call site under
-   compiler inlining, LTO, IPO, or PGO. Achieved via a combination of
-   `noinline`, volatile-qualified stores, and explicit
-   compiler-fence barriers, as in the implementation proposed in
-   [`MdePkg/Library/SecureZeroMemoryLib/SecureZeroMemory.c`](https://github.com/tianocore/edk2/pull/12244/files).
+2. The zeroing MUST execute and MUST NOT be reordered across the call
+   boundary under compiler inlining, LTO, IPO, or PGO. The ordering guarantee
+   (not merely the presence of the stores) is the primary contract; see the
+   [Code Examples](#code-examples) section. Achieved via a combination of `noinline`,
+   volatile-qualified stores, and an explicit `"memory"`-clobber compiler barrier,
+   as in the implementation proposed in [`MdePkg/Library/SecureZeroMemoryLib/SecureZeroMemory.c`](https://github.com/tianocore/edk2/pull/12244/files).
 3. `SecureZeroMemory()` MUST be a no-op (returning `Buffer`) when `Buffer`
    is `NULL` *or* `Length` is `0`, matching the defensive shape of the
    industry analogues.
-4. The library MUST be usable from BASE, SEC, PEI, DXE, SMM/MM, and Runtime
-   phases. No boot-services dependency, no PCD, no global state.
+4. The library MUST be usable from all phases.
 5. The interface MUST permit alternative backend implementations (notably a
    per-architecture assembly trampoline) to be dropped in via a different
    INF without changing callers or the public header.
@@ -240,8 +222,9 @@ This is an additive change.
   ```
 
   i.e. they are already calling out for this primitive and silently
-  falling back to a non-secure `memset` on EDK II builds. The proposed
-  changes wire those calls to the real implementation.
+  falling back to `SetMem` on EDK II builds, which erases, but carries no
+  ordering contract. The proposed changes wire those calls to the real
+  implementation.
 - Platforms that integrate modules consuming the new class MUST add a
   library mapping to their DSC (see Platform/Package Impact, below).
   Platforms that do not consume the class are unaffected.
@@ -355,22 +338,49 @@ Within EDK II, prior discussion:
 
 - **Pros**: One fewer API; existing call sites benefit automatically.
 - **Cons**:
-  1. Silently couples a *security* contract onto a primitive whose
-     documented contract is *performance*. Every caller of `ZeroMem`,
-     including high-frequency, non-security uses, pays the optimization-
-     suppression cost. The two contracts are intentionally distinct everywhere
-     else in the industry.
-  2. It does not solve the strongest form of the problem. When the
-     compiler can prove (under inlining/LTO) that a buffer is dead after
-     the function returns, it can still elide the *call* and putting
-     a barrier inside `ZeroMem` does not change that, because the call
-     itself becomes inlined. The mechanism that actually prevents
-     call-site elision is having a function whose body the optimizer
-     *cannot inline through*; that is precisely what a separately-named
-     `noinline` function buys.
-  3. It conflates documentation: any future reader of `BaseMemoryLib`
-     would have to reason about two contracts under one name. The
-     industry has already learned that lesson.
+  1. **It fuses a security contract onto a primitive whose documented contract
+     is performance, under a single name.** `ZeroMem()`/`SetMem()` promise speed;
+     secure erasure wants *"always emitted and ordered against surrounding
+     stores."* Merging them forces every future reader of `BaseMemoryLib` to
+     reason about two contracts under one name, and leaves callers who want raw
+     speed unable to get it. Every comparable project keeps these as separate,
+     separately-named primitives precisely because merging them is the mistake
+     being corrected.
+  2. **The minimal form does not actually hold.** Simply marking
+     `InternalMemSetMem` `noinline` is not sufficient under the default
+     whole-program build: a `noinline` C function is still visible to LTO, so
+     the compiler is not *prevented* from analyzing it, concluding it writes
+     only through `Buffer`, and scheduling a following plain publish store
+     across the (un-inlined) call. The ordering would again rest on optimizer
+     discretion rather than on a barrier. The assembly `BaseMemoryLib` backends
+     avoid the reorder not because they are out-of-line but because their bodies
+     are *opaque* to the compiler — a `.nasm` object carries no LTO IR, so the
+     optimizer must assume the call clobbers memory. Reproducing that opacity in
+     the C instance requires `noinline` **plus** an explicit `"memory"`-clobber
+     barrier **plus** `-fno-lto`/`/GL-` on the translation unit — which is
+     exactly the implementation this RFC proposes for `SecureZeroMemory`.
+     "Harden `ZeroMem`" therefore means "reimplement `SecureZeroMemory` inside
+     `ZeroMem`," not a one-line change.
+  3. **Blast radius.** The ordering gap exists only for the inlinable C instance
+     (`BaseMemoryLib`); the assembly instances (`BaseMemoryLibRepStr`,
+     `BaseMemoryLibSse2`, `BaseMemoryLibMmx`, `BaseMemoryLibOptDxe`,
+     `BaseMemoryLibOptPei`) and the service-delegating `UefiMemoryLib`
+     (`gBS->SetMem`) / `PeiMemoryLib` (`gPS->SetMem`) are already incidentally
+     safe, because their wipe is an opaque out-of-line call. Hardening the shared
+     primitive therefore changes code generation at the ordinary-use call sites —
+     on the order of 2,000+ `ZeroMem()` and ~200 `SetMem()` sites across edk2,
+     essentially all of them buffer initialization rather than secret erasure —
+     and, to keep behavior uniform, the fence would have to be replicated
+     consistently across *every* `BaseMemoryLib` instance, including the
+     hand-written assembly ones. A separate primitive confines the change to the
+     sites that actually need it and touches none of the existing callers.
+  4. **It remains uncontracted.** Even after hardening, nothing *documents* that
+     `ZeroMem()` orders its wipe, so the guarantee stays an implementation
+     property that a later change — re-enabling LTO on the translation unit, a
+     new `BaseMemoryLib` instance, a compiler-recognized clear — can silently
+     remove, with no contract or test to catch the regression. The per-call cost
+     of the hardening is real but hard to quantify in cycles; the decisive
+     objection is architectural, not performance.
 
 ### Alternative 2: Require callers to mark buffers `volatile` themselves
 
@@ -400,11 +410,14 @@ Within EDK II, prior discussion:
 ### Alternative 4: Do nothing; rely on present `ZeroMem`
 
 - **Pros**: Zero work.
-- **Cons**: Knowingly leaves CWE-14 exposure in code that handles
-  cryptographic and authentication secrets, while every cited project
-  has migrated away from this position over the last 20+ years. The
-  Yang et al. (USENIX 2017) paper specifically documents this pattern of
-  "we'll just use `memset` / `bzero` / `ZeroMem`" producing exploitable residues.
+- **Cons**: Leaves the ordering guarantee uncontracted. `ZeroMem`/`SetMem`
+  erases reliably today. Its `volatile` stores are not dead-store-eliminated.
+  But nothing in its contract ensures that erasure against surrounding ordinary
+  memory, and under the default whole-program build a following plain "safe to
+  reuse" store can be reordered into the middle of the wipe (see [Motivation](#motivation)).
+  Callers handling secrets keep depending on an incidental implementation
+  property rather than a guarantee, and the upstream `SecureZeroMemory` /
+  `OPENSSL_cleanse` intent remains honored only by accident.
 
 ## Implementation Design
 
@@ -446,15 +459,100 @@ behavior:
    is emitted both inside the noinline worker and at the public entry
    point's return path.
 
-Combined, these mean that to elide the writes, the compiler would have
-to (a) inline through a `noinline` boundary, (b) reason past a volatile
+Combined, these mean that to drop or reorder the writes, the compiler would
+have to (a) inline through a `noinline` boundary, (b) reason past a volatile
 store, and (c) ignore an asm-clobber barrier. No mainstream toolchain
 currently does all three; the asm-trampoline alternative remains
 available as a future hardening step (Alternative 3).
 
 ### Code Examples
 
-Canonical caller pattern:
+This gap is reproduced in-tree by a demonstration module,
+[`MdeModulePkg/Test/SecureZeroMemoryDemo`](https://github.com/kuqin12/edk2/tree/sec_z_mem_example/MdeModulePkg/Test/SecureZeroMemoryDemo).
+
+It exercises the same "wipe a secret, then publish a plain reuse flag" shape in
+a `ZeroMem ()` and a `SecureZeroMemory ()` variant. Each variant is a separate
+`noinline` function so it disassembles cleanly on its own; the producer and
+consumer of the secret are `noinline` too, so the optimizer must treat the buffer
+as genuinely written and then read; the buffer is seeded from a run-time value so
+it is not constant-folded; and every result is funnelled into a `volatile` sink
+so nothing the demonstration relies on is dead.
+
+The firmware-relevant probe wipes a secret in a structure, then publishes a
+plain "safe to reuse" flag (`DemoReleaseSecure ()` is identical but calls
+`SecureZeroMemory ()`):
+
+```c
+typedef struct {
+  UINT8     Key[32];
+  UINT64    Ready;   // 64-bit field makes the struct 8-byte aligned, so ZeroMem
+                     // takes its branchless path (the common case for key buffers)
+} DEMO_SESSION;
+
+UINTN
+EFIAPI
+DemoReleaseZeroMem (
+  IN OUT DEMO_SESSION  *Session
+  )
+{
+  UINTN  Result;
+
+  Produce (Session->Key, sizeof (Session->Key), mDemoSeed);
+  Result = Consume (Session->Key, sizeof (Session->Key));
+
+  ZeroMem (Session->Key, sizeof (Session->Key));  // wipe the secret
+  Session->Ready = 1;                             // plain "secret gone, reuse ok" publish
+
+  return Result;
+}
+```
+
+The commands used for building and disassembling the demonstration module are:
+
+```bash
+build -a X64 -t GCC -p MdeModulePkg/MdeModulePkg.dsc \
+      -m MdeModulePkg/Test/SecureZeroMemoryDemo/SecureZeroMemoryDemo.inf
+objdump -D Build/MdeModule/DEBUG_GCC/X64/.../SecureZeroMemoryDemo.debug -S -M intel
+```
+
+Under `-flto`, GCC inlines `ZeroMem ()` to `InternalMemSetMem`'s branchless 64-bit
+store loop and then hoists the plain `Session->Ready = 1` *ahead of the entire
+wipe*, where `Ready` is published while all 32 secret bytes are still resident (`rax`
+holds `0`; `[rbx+0x20]` is `Ready`, `[rbx]` is `Key`):
+
+```asm
+  ZeroMem (Session->Key, sizeof (Session->Key));
+  Session->Ready = 1;
+    1ca9:  mov QWORD PTR [rbx+0x20], 0x1   ; Ready = 1        <-- published first
+    1cb1:  mov QWORD PTR [rbx],      rax   ; wipe Key[0:8)   = 0
+    1cb4:  mov QWORD PTR [rbx+0x8],  rax   ; wipe Key[8:16)
+    1cb8:  mov QWORD PTR [rbx+0x10], rax   ; wipe Key[16:24)
+    1cbc:  mov QWORD PTR [rbx+0x18], rax   ; wipe Key[24:32)
+```
+
+`DemoReleaseSecure ()` is identical except it calls `SecureZeroMemory ()`, which
+stays a real out-of-line call and pins the publish strictly after the wipe:
+
+```asm
+  SecureZeroMemory (Session->Key, sizeof (Session->Key));
+    1f06:  call 2115 <SecureZeroMemory>    ; out-of-line barrier (noinline, -fno-lto)
+  Session->Ready = 1;
+    1f0b:  mov QWORD PTR [rbx+0x20], 0x1   ; Ready = 1 - after the completed wipe
+```
+
+The reorder is permitted by ISO C (§5.1.2.3: `volatile` accesses are ordered only
+relative to one another) and is taken by GCC here in an actual EDK II build; a
+contract-bearing `SecureZeroMemory ()` removes the permission uniformly. The
+reorder surfaces because the wipe reached `InternalMemSetMem`'s *branchless* 8-byte
+path, which GCC selects when the buffer is provably 8-byte aligned.
+
+The exposure is specific to the inlinable C `BaseMemoryLib`. Other optimization
+instances such as `BaseMemoryLibRepStr` keep `ZeroMem ()` an opaque out-of-line
+`call` through assembly body, so `Ready` is pinned after the completed wipe and
+the reorder disappears. The service-delegating `UefiMemoryLib` (`gBS->SetMem`) and
+`PeiMemoryLib` (`gPS->SetMem`) are safe for the same reason.
+
+**Canonical caller pattern:**
 
 ```c
 #include <Library/SecureZeroMemoryLib.h>
@@ -481,8 +579,6 @@ DeriveAndUseKey (
 
   //
   // Wipe the key on every exit path, including success.
-  // ZeroMem here would be eligible for dead-store elimination because
-  // Key is not read after this point.
   //
   SecureZeroMemory (Key, sizeof (Key));
   return Status;
@@ -508,11 +604,10 @@ Platform DSC integration:
   the post-call contents. This verifies that the *contract* of "the buffer is
   observably zero on return".
 - **Disassembly inspection**, performed manually during development on
-  the supported toolchains, confirming that the call survives `-O2`
-  (and `-O3 -flto` for GCC/Clang, `/O2 /GL` for MSVC) builds of
-  representative call sites in `CryptoPkg`.
+  the supported toolchains, confirming that the wipe is emitted and is not
+  reordered across a following store at default optimization level in `CryptoPkg`.
 - **What we deliberately do not promise**: a CI test that "proves"
-  optimization-induced elision on a specific compiler build. As Yang
+  optimization-induced elision or reordering on a specific compiler build. As Yang
   et al. document, such a test would be a brittle indicator of one
   toolchain version's behavior, not a stable measurement of the
   library's contract. The guarantee provided by this library is
@@ -569,7 +664,7 @@ Add the library mapping to your platform DSC:
   SecureZeroMemoryLib|MdePkg/Library/SecureZeroMemoryLib/SecureZeroMemoryLib.inf
 ```
 
-Should a future RFC adds a per-architecture ASM-trampoline backend, a new INF
+Should a future RFC add a per-architecture ASM-trampoline backend, a new INF
 path can be used to opt into it.
 
 ### For End Users

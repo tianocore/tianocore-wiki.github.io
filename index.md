@@ -1,13 +1,5 @@
 # Welcome to TianoCore
 
-```admonish caution "Wiki in Transition"
-This wiki is the new location for the TianoCore wiki previously located at:
-[https://github.com/tianocore/tianocore.github.io/wiki/EDK-II](https://github.com/tianocore/tianocore.github.io/wiki/EDK-II)
-
-The migration and refactoring of content is signficiant and still in progress. This means that this wiki will have
-some remaining broken links and missing images. This message will be removed when the migration is considered completed.
-```
-
 Welcome to TianoCore, the community supporting an open source implementation of
 [UEFI](reference/specs-standards/uefi.md).
 

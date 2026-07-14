@@ -41,6 +41,9 @@
   - Fixed typos and copy errors throughout.
 - 2026-07-01:
   - RFC approved to merge in the July 1, 2026 TianoCore Stewards meeting.
+- 2026-07-14:
+  - Change the label `breaking-change` to `impact:breaking-change` to align with the existing label name used in the
+    edk2 repository.
 
 ## Motivation
 
@@ -446,7 +449,7 @@ defined in this RFC. For these changes:
 - The Tracking Issue may be closed by the single PR that makes the change.
 - The PR **must** add the corresponding entry to `BREAKING-CHANGES.md`, and reviewers **must** verify it as part of
   normal PR review.
-- The PR **must** have a `breaking-change` label and link the Tracking Issue from the PR description.
+- The PR **must** have an `impact:breaking-change` label and link the Tracking Issue from the PR description.
 
 Apply the requirements in the [BREAKING-CHANGES.md File](#breaking-changesmd-file) and
 [GitHub Issue Templates](#github-issue-templates) sections, ignoring the deprecation-specific requirements (the
@@ -543,7 +546,7 @@ status set to `Deprecation Active` when this PR merges. The entry contains the d
   - The Tracking Issue: The milestone when all of the work for the breaking change will be complete. This is often the
     same milestone used for the Removal Issue but can be later if there are additional follow-up tasks after removal
     that are still related to the breaking change.
-- The PR that introduces the breaking change must have a `breaking-change` label.
+- The PR that introduces the breaking change must have an `impact:breaking-change` label.
 - The PR **must** explicitly link to the GitHub Tracking Issue in the "Integration Instructions" section of the PR
   description to ensure reviewers are aware of the deprecation tracking issue.
 - The PR **must** add or update the `BREAKING-CHANGES.md` entry for this change. Reviewers **must** verify the entry

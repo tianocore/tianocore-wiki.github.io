@@ -88,6 +88,7 @@
   - [EDK II Code Formatting](development/coding-standards/edk_ii_code_formatting.md)
 
 - [Contribution Guides](development/contribution-guides/automatic_pull_request_reviewer_details.md)
+  - [Breaking Change Process](development/contribution-guides/breaking_change_process.md)
   - [Bug Triage](development/contribution-guides/bug_triage.md)
   - [Code Contributions](development/contribution-guides/code_contributions.md)
   - [Code Reviews](development/contribution-guides/code_reviews.md)
@@ -163,6 +164,7 @@
   - [Change EDK II to BSD Patent License](governance/charter-policies/change_edk_ii_to_bsd_patent_license.md)
   - [Inclusive Language Guidelines](governance/charter-policies/inclusive_language_guidelines.md)
   - [RFC Process](rfc/text/0001-rfc-process.md)
+  - [RFC 0003: Breaking Change and Release Process](rfc/text/0003-edk2-breaking-change-and-release-process.md)
   - [RFC Template](rfc/template.md)
 
 - [Meetings Minutes](governance/meetings-minutes/community_meeting_minutes.md)

@@ -252,7 +252,7 @@ dependencies, see the [BaseTools build example](#i-want-to-build-basetools).
 Once any required dependencies are installed, the command to rebuild BaseTools (you may need to specify a different
 toolchain with `-t`) is:
 
-`python3 BaseTools/Edk2ToolsBuild.py -t GCC5`
+`python3 BaseTools/Edk2ToolsBuild.py -t GCC`
 
 ### Before Each Build Steps
 

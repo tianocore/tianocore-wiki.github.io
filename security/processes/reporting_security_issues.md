@@ -4,13 +4,6 @@
 The latest tracking and update of security issues for EDK II can be found at [GHSA-GitHub-Security-Advisories-Process](ghsa_github_security_advisories_process_draft.md).
 ```
 
-At present the repository tracked by Tianocore Infosec includes the main [EDK II repository](https://github.com/tianocore/edk2).
-For issues found in repos like [edk2-platforms](https://github.com/tianocore/edk2-platforms), it is recommended to reach
-out to the respective component who is named in the subdirectory - you can find a list of relevant companies in this
-domain at [UEFI.org - Reporting a Security Issue](https://uefi.org/security), for example.
-
-Also, it is encouraged to attach a patch that mitigates the issues with the bug report, if possible.
-
 ## How Security Issues are Evaluated
 
 When a Tianocore Security Issue is entered, the issue is evaluated by the **Infosec** group to determine if the issue is
@@ -24,6 +17,9 @@ If you believe you have found a security vulnerability (per [MITRE’s definitio
 please submit the report as an [EDK II security advisory](https://github.com/tianocore/edk2/security/advisories/new).
 Please include the requested information (as much as you can provide) to help us better understand the nature and scope
 of the possible issue.
+
+For issues found in [edk2-platforms](https://github.com/tianocore/edk2-platforms), please submit reports as an
+[edk2-platforms security advisory](https://github.com/tianocore/edk2-platforms/security/advisories/new) instead.
 
 The following will help us triage and advance the report more quickly:
 

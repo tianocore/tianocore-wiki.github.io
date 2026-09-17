@@ -1,4 +1,21 @@
-# Beagleboardpkg
+# Ampere Altra Platforms
+
+There are several systems and motherboards which are based around the Ampere
+Altra SoC:
+
+The ADLINK Ampere Altra Dev Kit is a single socket COM-HPC E-ATX board with 6
+DDR4 slots.
+
+The ASRock Rack ALTRAD8UD-1L2T is a single socket 'deep micro-ATX' motherboard
+with 8 DDR4 slots, 4 x16 PCIe 4.0 slots (with an Altra two are electrically x8;
+the Altra Max has 4 x16), 4 SlimSAS and 2 OCuLink ports.
+
+The ASRock Rack ALTRAD8UD2-1L2Q is similar to the ALTRAD8UD-1L2T but has 2 SFP28
+network ports instead of 10 GbE RJ-45 ports.
+
+The Ampere Mt. Jade system is a dual socket system. 
+
+######## REPLACE EVERYTHING UNDER THIS ###########################
 
 The [Beagle Board](http://beagleboard.org/) is a low cost highly capable
 single board computer. The Beagle Board is based on an OMAP3530 SoC

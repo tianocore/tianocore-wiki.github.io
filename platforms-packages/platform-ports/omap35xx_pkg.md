@@ -1,7 +1,0 @@
-# Omap35xxPkg
-
-Omap35xxPkg provides UEFI support For Texas Instrument OMAP35xx based
-platforms. This package contains drivers to support some of the OMAP35xx
-controllers (Flash, MMC, Gpio, etc.)
-
-### Source Repository

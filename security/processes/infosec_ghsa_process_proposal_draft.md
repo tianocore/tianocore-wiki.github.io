@@ -77,7 +77,9 @@ During this stage, the `Remediation Coordinator` will inform the `Reporter` that
 when patches will be available.
 
 The `Remediation Coordinator` should then create a new GHSA and a temporary fork for the Advisory. Each Advisory will
-have exactly one fork that may contain multiple branches, forked from EDK2.
+have exactly one fork that may contain multiple branches, forked from EDK2. If the "Start a temporary private fork"
+button is grayed out, contact the [EDKII InfoSec team
+lead](https://github.com/orgs/tianocore/teams/tianocore-infosec-team?query=role%3Amaintainer) for access.
 
 ![create temporary
 fork](../../images/infosec_ghsa_create_temporary_fork.png)

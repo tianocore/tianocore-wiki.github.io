@@ -1,98 +1,91 @@
-# RFC: Introduction of a Panic Library for EDK2
+# RFC: Introduce PanicLib
 
 ## Metadata
 
 - **RFC Number**: 000
-- **Title**: Introduction of a Panic Library for EDK2
+- **Title**: Introduce PanicLib
 - **Status**: Draft
 
 ## Change Log
 
 - 2026-07-22: Initial RFC created
+- 2026-10-13: Incorporated review feedback
 
 ## Motivation
 
-EDK2 firmware modules currently handle catastrophic early-boot failures inconsistently.
+EDK2 handles catastrophic initialization failures with inconsistent combinations of `ASSERT()`, `DEBUG()`, and
+`CpuDeadLoop()`. Diagnostics may omit source information or disappear when debug output is disabled.
 
-1. Inconsistent reporting:
-   - Inconsistent use of ASSERT, DEBUG macros, custom halt logic, and message formatting.
-   - ASSERT and DEBUG macros may be disabled by platform configuration.
-   - No clear correlation between error description and source location.
-2. Limited diagnostics:
-   - Generic error messages without clear source file and line.
-   - No standardized format for catastrophic failure output.
-   - Root cause is difficult to identify from console output alone.
-3. Early-boot constraints:
-   - Early boot failures require simple, reliable reporting before most services are available.
-   - Complex frameworks are not suitable early in boot.
-   - A lightweight mechanism with minimal dependencies is needed.
+Early boot needs a small, reliable interface that reports the source file and line when possible, then terminates
+execution. It must work before most firmware services are available.
 
 ## Technology Background
 
-- EDK2 code runs across multiple boot phases (SEC/PEI/DXE/MM), and each phase exposes a
-different set of services and debug facilities.
-- EDK2 commonly introduces cross-cutting functionality through library classes, allowing
-packages and platforms to select phase-appropriate implementations in DSC files.
-- This proposal follows that model by defining PanicLib as a small library-class interface
- with pluggable implementations, allowing minimal early-boot instances or optional platform-specific overrides.
+EDK2 runs across SEC, PEI, DXE, and MM, where different services are available. PanicLib follows the existing library
+class model so platforms can select a phase-appropriate implementation in their DSC files.
 
 ## Goals
 
-1. Provide a consistent interface for reporting unrecoverable firmware failures.
-2. Standardize panic diagnostics with filename and line number.
-3. Keep implementation lightweight enough for SEC/PEI use.
-4. Only target catastrophic failures, leaving recoverable error handling as is.
+1. Provide a consistent interface for unrecoverable initialization failures.
+2. Include the source filename and line number in diagnostics.
+3. Remain lightweight enough for SEC and PEI.
+4. Leave recoverable failures on existing error paths.
 
 ## Requirements
 
-1. Provide a public library class interface in MdePkg.
-2. Provide at least a base implementation that prints panic over serial and halts.
+1. Define a public PanicLib library class in MdePkg.
+2. Provide a base implementation that reports through `DEBUG()` and calls `CpuDeadLoop()`.
 3. Avoid dynamic allocation and complex dependencies.
-4. Allow platform owners to provide custom PanicLib instances for complex error handing.
+4. Allow platform-specific implementations.
+5. Require every consuming build configuration to select a concrete implementation. Neither build type nor
+   `MDEPKG_NDEBUG` may disable panic behavior.
+6. Require `PanicReport()` to receive non-null `FileName` and `Description` values and never return.
+7. Allow implementation-defined nested or reentrant behavior, but never permit a panic invocation to return.
 
 ## UEFI/PI Specification Impact
 
-- This RFC does not require UEFI or PI specification changes.
-- The behavior is implementation guidance for catastrophic internal firmware failures.
-- The proposal is orthogonal to specification-defined protocol behavior.
-- No specification extensions are required.
+PanicLib is an EDK2 implementation detail and requires no UEFI or PI specification changes.
 
 ## Backward Compatibility
 
-- Breaking changes: Will require a new library instance once drivers start consuming PanicLib.
-- Migration path: Incremental adoption by replacing selected catastrophic dead-loop patterns with panic calls.
-- Deprecation: No immediate deprecation required; legacy fatal handling can coexist during migration.
-- Compatibility layer: A NULL library instance can preserve opt-out behavior where needed.
+- Existing modules are unaffected until they consume PanicLib.
+- Adoption is incremental; existing fatal paths may coexist during migration.
+- Every consumer must resolve the base or a platform-specific implementation. No null implementation is provided.
 
 ## Platform/Package Impact
 
 - **MdePkg**: New library class header and declaration.
-- **MdeModulePkg**: Base implementation using SerialPort output and dead loop.
-- **Platforms**: Optional custom implementations and DSC/FDF integration updates.
+- **MdeModulePkg**: Base implementation using `DEBUG()` output and a dead loop.
+- **Platforms**: Select the base implementation or provide a custom implementation, with corresponding DSC/FDF
+  integration updates.
 - **Build tooling**: No tooling changes.
 
-## Unresolved Questions
+## Panic Usage Policy
 
-1. What exclusion policy should we apply for modules that should not adopt PanicLib during
-[Phase 2 of the Migration/Adoption Plan](#migrationadoption-plan)?
-    - For example: late DXE drivers with recoverable error paths, optional feature drivers, and modules where failure
-    can be reported to caller.
+Use `PANIC()` only when required firmware initialization fails, no recovery or error-propagation path exists, and
+continuing would leave the system in an undefined or insecure state.
 
-2. What normative classification test should reviewers use to decide PANIC() vs regular error handling?
-    - Candidate rule: use PANIC only when execution cannot safely continue and no valid recovery or escalation path
-    exists.
+Examples include:
 
-3. Which concrete decision criteria must all PANIC call sites satisfy?
-    - Suggested criteria: (a) invariant violation affecting core boot assumptions, (b) required critical resource/state
-    is unavailable, (c) continuing risks undefined or insecure state.
+- MM initialization fails after beginning a security-sensitive transition and recovery would leave SMRAM or another
+  MM protection unlocked.
+- Required processors fail to initialize, leaving the system without the CPU state needed to continue safely.
+- A required initialization invariant fails, making the resulting state unsafe for later phases.
 
-4. Should this RFC define a mandatory review checklist for new PANIC call sites?
-    - Example checklist: why recovery is impossible, what invariant failed, whether sensitive data is excluded from the
-    message, and whether a regular EFI_STATUS path was considered.
+Do not use `PANIC()` when the error can be returned, retried, rolled back, or isolated by disabling an optional
+feature. This normally excludes failures in late DXE and optional-feature drivers.
 
-5. How should existing ASSERT + CpuDeadLoop patterns be classified during migration?
-    - Should each call site be tagged as "convert to PANIC", "keep as ASSERT", or "convert to status-return" based on
-    the classification rules above?
+Existing `ASSERT()` plus `CpuDeadLoop()` call sites must be evaluated individually:
+
+- Convert to `PANIC()` only when the call site meets all of the criteria above in every build type.
+- Keep `ASSERT()` for development-time contract checks that do not require fatal behavior in release builds.
+- Convert to an `EFI_STATUS` or another error-reporting path when a caller can recover or make a policy decision.
+
+## Review Responsibility
+
+`PANIC()` needs no special review beyond the package's normal process. The package owner determines eligibility
+because they understand the available recovery paths. A change introducing `PANIC()` should explain what failed and
+why execution cannot continue safely.
 
 ## Prior Art/Related Work
 
@@ -106,40 +99,35 @@ packages and platforms to select phase-appropriate implementations in DSC files.
 ### Alternative 1: Continue using ASSERT/DEBUG plus local dead-loop logic
 
 - **Pros**: No new library class required.
-- **Cons**: Inconsistent behavior, weak diagnostics, and possible compile-time disablement of key output.
-- **Why not chosen**: Does not standardize fatal reporting and does not improve triage quality.
+- **Cons**: Behavior and diagnostics remain inconsistent, and output may be compiled out.
+- **Why not chosen**: It does not provide a consistent fatal-error interface.
 
 ### Alternative 2: Introduce a richer panic framework with callbacks/policies
 
-- **Pros**: More flexibility and possible extensibility.
-- **Cons**: Higher complexity, more dependencies, and poor fit for SEC/PEI constraints.
-- **Why not chosen**: Early boot needs a minimal, robust primitive.
+- **Pros**: More flexibility.
+- **Cons**: More complexity and dependencies, especially in SEC and PEI.
+- **Why not chosen**: Early boot needs a small primitive.
 
 ### Alternative 3: Implement PANIC into DebugLib
 
-- **Pros**: Compatibility with existing projects
+- **Pros**: Reuses the existing diagnostic interface and its platform-selected output implementation.
 - **Cons**:
-  - Custom panic functionality requires entire DebugLib replacement.
-  - Tightly couples output method (i.e. SerialLib) into DebugLib
-  - Platforms sometimes use NULL DebugLib in release builds
-- **Why not chosen**:
-  - PanicLib needs to work independent of platform DebugLib choices
+  - Custom panic behavior would require replacing the entire DebugLib instance.
+  - A null DebugLib or `MDEPKG_NDEBUG` could disable the panic operation with its diagnostics.
+- **Why not chosen**: PanicLib may use `DEBUG()` for output, but termination must remain independent of DebugLib.
 
-### Alternative 4: Route panics through a CPU exception handler
+### Alternative 4: Require all panics to use a CPU exception or interrupt
 
 - **Pros**:
-  - Centralized fatal path can capture architecture-specific context (for example, exception vector, fault address, and
-    CPU registers).
-  - Can improve post-mortem analysis when failure is already an exception-triggering condition.
-  - May align with existing platform exception-reporting flows.
+  - A dedicated handler can use an independent stack and capture architecture-specific context.
 - **Cons**:
-  - Exception handlers would need to be identified and implemented to handle PANIC paths, and that architecture-specific
-    work would require additional development time.
-  - Exception infrastructure availability and fidelity vary by phase and architecture (SEC/PEI/DXE/MM).
-  - Higher implementation complexity and risk around nesting/re-entrancy if panic occurs during exception handling.
+  - Exception and interrupt infrastructure availability varies by phase and architecture (SEC/PEI/DXE/MM).
+  - It adds complexity for platforms that only need a diagnostic followed by a halt or reset.
 - **Why not chosen**:
-  - PanicLib should be implemented first as the explicit, deterministic baseline for unrecoverable logic failures.
-  - Exception-handler integration can be implemented later as a complementary enhancement after PanicLib adoption.
+  - The platform-selected PanicLib instance chooses the mechanism. It may report and halt, reset, or raise an
+    exception or interrupt.
+  - Platforms that must tolerate a compromised stack should use an exception- or interrupt-based instance with an
+    independent stack.
 
 ## Implementation Design
 
@@ -149,7 +137,7 @@ This RFC introduces a simple PanicLib interface plus a macro convenience wrapper
 
 ```mermaid
 flowchart TD
-    A[PanicLib Interface in MdePkg\nPanicLib.h] --> B[Base SerialPort Implementation\nin MdeModulePkg]
+    A[PanicLib Interface in MdePkg\nPanicLib.h] --> B[Base DEBUG Implementation\nin MdeModulePkg]
     A --> C[Platform-Specific Custom Instance]
 ```
 
@@ -163,20 +151,27 @@ Function declaration:
 VOID
 EFIAPI
 PanicReport (
-IN CONST CHAR8  *FileName,
-IN UINTN        LineNumber,
-IN CONST CHAR8  *Description
+  IN CONST CHAR8  *FileName,
+  IN UINTN        LineNumber,
+  IN CONST CHAR8  *Description
 );
 ```
+
+`FileName` and `Description` are required and must not be `NULL`.
+
+`PanicReport()` must halt, reset, or transfer control to a handler that does so. It must never return.
+
+Nested and reentrant panic behavior is implementation-defined. An implementation may emit reduced diagnostics or
+terminate immediately, but a nested or reentrant invocation must not return.
 
 Convenience macro:
 
 ```c
 #define PANIC(Message) \
-    do { \
-    _PANIC(Message); \
-    ANALYZER_UNREACHABLE(); \
-    } while (FALSE)
+  do { \
+    PanicReport (__FILE__, __LINE__, (Message)); \
+    ANALYZER_UNREACHABLE (); \
+  } while (FALSE)
 ```
 
 #### Output Format
@@ -187,86 +182,62 @@ Panic messages use this standardized format:
 PANIC <FileName>(<LineNumber>): <Description>
 ```
 
-Example catastrophic outputs:
+Example:
 
 ```text
-PANIC UefiCpuPkg/PiSmmCpuDxeSmm/PiSmmCpuCommon.c(566): Incorrect number of processors!
-PANIC UefiCpuPkg/PiSmmCpuDxeSmm/PiSmmCpuCommon.c(1040): TileSize larger than 8KB
-PANIC MdeModulePkg/Universal/ResetSystemPei/ResetSystem.c(306): Failed to build or get the RecursionDepthPointer Hob
+PANIC UefiCpuPkg/CpuMpPei/CpuMpPei.c(58): Failed to get processor number when initializing the stack switch exception handlers.
 ```
-
-#### Usage Boundary
-
-PanicLib is only for catastrophic, unrecoverable firmware failures. Recoverable conditions should continue to use normal
-EFI status/error-handling paths.
 
 #### Implementation Strategy
 
-1. **Phase 1 (MdePkg)**: Add `MdePkg/Include/Library/PanicLib.h` and `MdePkg/Library/PanicLibNull/`.
-2. **Phase 2 (MdeModulePkg)**: Add `MdeModulePkg/Library/BasePanicLib/` (SerialPort implementation).
-3. **Phase 3 (Platform Adoption)**: Platforms select base instance or provide custom instance.
-
-#### Key Characteristics
-
-- Simplicity: single interface and minimal configuration.
-- Reliability: suitable for early boot with minimal infrastructure.
-- Debuggability: standardized human-readable output with source location.
-- Reproducibility support: overridable line-number macro.
-- Minimal dependencies: no dynamic memory required.
+1. **Phase 1 (MdePkg)**: Add `MdePkg/Include/Library/PanicLib.h`.
+2. **Phase 2 (MdeModulePkg)**: Add `MdeModulePkg/Library/BasePanicLib/` (`DEBUG()` implementation).
+3. **Phase 3 (Platform Adoption)**: Platforms select the base instance or provide a custom instance for every build
+   configuration that consumes PanicLib.
 
 #### Recommended Error Message Style
 
+- Pass a fixed string literal. `PANIC()` does not support variadic formatting or runtime values.
 - Use direct language that identifies the failed invariant or required dependency.
 - Keep messages short and actionable.
 - Avoid generic phrases such as "unexpected error".
-- Do not include secrets or sensitive runtime values.
 
 ### Code Examples
 
-Example 1: Processor validation
+The following function checks the processor-number lookup before using the result to select the processor's
+exception-stack context. If the lookup fails, the callback cannot safely continue initializing that processor's
+stack-switch exception handlers.
 
 ```c
-#include <Library/PanicLib.h>
-
 VOID
-ValidateProcessorCount (
-  IN UINTN  NumberOfProcessors,
-  IN UINTN  MaxNumberOfCpus
-)
+EFIAPI
+InitializeExceptionStackSwitchHandlers (
+  IN OUT VOID  *Buffer
+  )
 {
-  if (NumberOfProcessors != MaxNumberOfCpus) {
-    PANIC("Incorrect number of processors!");
+  EXCEPTION_STACK_SWITCH_CONTEXT  *SwitchStackData;
+  UINTN                           Index;
+  EFI_STATUS                      Status;
+
+  Status = MpInitLibWhoAmI (&Index);
+  if (EFI_ERROR (Status)) {
+    PANIC ("Failed to get processor number when initializing the stack switch exception handlers.");
+  }
+
+  SwitchStackData = (EXCEPTION_STACK_SWITCH_CONTEXT *)Buffer;
+
+  if ((SwitchStackData[Index].Status == EFI_NOT_STARTED) || (SwitchStackData[Index].Status == EFI_BUFFER_TOO_SMALL)) {
+    SwitchStackData[Index].Status = InitializeSeparateExceptionStacks (SwitchStackData[Index].Buffer, &SwitchStackData[Index].BufferSize);
   }
 }
 ```
 
-Example 2: Critical HOB retrieval
-
-```c
-#include <Library/PanicLib.h>
-#include <Library/HobLib.h>
-
-VOID
-InitializeResetDepth (
-  VOID
-)
-{
-  EFI_HOB_GUID_TYPE  *Hob;
-
-  Hob = GetFirstGuidHob(&mResetDepthGuid);
-  if (Hob == NULL) {
-      PANIC("Failed to build or get the RecursionDepthPointer Hob");
-  }
-}
-```
-
-Example 3: Base implementation concept
+Base implementation:
 
 ```c
 #include <Library/BaseLib.h>
+#include <Library/DebugLib.h>
 #include <Library/PanicLib.h>
-#include <Library/PrintLib.h>
-#include <Library/SerialPortLib.h>
 
 VOID
 EFIAPI
@@ -276,78 +247,50 @@ PanicReport (
   IN CONST CHAR8  *Description
 )
 {
-  CHAR8  Buffer[256];
+  DEBUG ((
+    DEBUG_ERROR,
+    "PANIC %a(%u): %a\n",
+    FileName,
+    (UINT32)LineNumber,
+    Description
+    ));
 
-  AsciiSPrint (
-      Buffer,
-      sizeof (Buffer),
-      "PANIC %a(%u): %a\r\n",
-      FileName,
-      (UINT32)LineNumber,
-      Description
-      );
-
-  SerialPortInitialize();
-  SerialPortWrite ((UINT8 *)Buffer, AsciiStrLen (Buffer));
-  CpuDeadLoop();
+  CpuDeadLoop ();
 }
 ```
 
+The base implementation uses the platform's selected DebugLib instance for best-effort diagnostics. `DEBUG()` may
+produce no output in some build configurations, but `CpuDeadLoop()` remains present and preserves the non-returning
+panic behavior.
+
 ## Testing Strategy
 
-1. Unit tests for message formatting and null-parameter handling.
-2. Integration tests across SEC/PEI/DXE/SMM call sites where practical.
-3. Platform tests for custom PanicLib instances.
-4. Security checks for accidental sensitive-data exposure in panic messages.
-5. Regression tests confirming existing non-panic error paths remain unchanged.
+1. Build the base implementation in representative debug and release configurations, including configurations that
+   define `MDEPKG_NDEBUG`.
+2. Integration tests across representative SEC/PEI/DXE/MM call sites where practical.
+3. Validate that `MDEPKG_NDEBUG` or a DebugLib instance that produces no output suppresses only the diagnostic. The
+   base PanicLib implementation must still reach `CpuDeadLoop()` and remain non-returning.
+4. Regression tests confirming existing non-panic error paths remain unchanged.
+
+Platforms are responsible for validating custom instances. Normal library-class resolution fails the build if a
+consumer has no instance.
 
 ## Migration/Adoption Plan
 
-1. **Phase 1**: Land interface and base implementation.
-2. **Phase 2**: Convert high-value catastrophic paths in core packages.
-3. **Phase 3**: Enable platform adoption guidance and examples.
-4. **Phase 4**: Long-term maintenance and consistency checks.
-
-Adoption details:
-
-- Timeline estimates: phased across regular package maintenance cycles.
-- Dependencies: library class declaration plus package integration updates.
-- Risk mitigation: start with narrow catastrophic call sites and review panic strings.
+1. Land the interface and base implementation.
+2. Incrementally convert initialization failures that meet the Panic Usage Policy.
+3. Let platforms select the base instance or add a custom instance as needed.
 
 ## Guide-Level Explanation
 
 ### For Package Developers
 
-- Use `PANIC()` only for unrecoverable conditions.
+- Use `PANIC()` only for unrecoverable initialization failures that would leave the system unable to continue safely.
 - Use precise, actionable panic descriptions.
-- Keep recoverable errors on normal status-return paths.
+- Keep recoverable errors and optional-feature failures on normal status-return paths.
 
 ### For Platform Developers
 
 - Choose base implementation or provide a custom PanicLib instance.
 - Integrate via standard library-class resolution in DSC/FDF.
-
-### For End Users (if applicable)
-
-- No direct feature interaction is expected.
-- Observable behavior is improved consistency and diagnostics when catastrophic boot failures occur.
-
-## Appendix A: Library Instance Directory Structure
-
-```text
-MdePkg/
-+- Include/
-|  +- Library/
-|     +- PanicLib.h
-+- Library/
-+- BasePanicLibNull/
-    +- PanicLib.inf
-    +- BasePanicLibNull.c
-
-MdeModulePkg/
-+- Library/
-+- BasePanicLib/
-    +- PanicLib.inf
-    +- BasePanicLib.c
-    +- BasePanicLibInternal.h
-```
+- Ensure the selected implementation halts or resets the system and never returns to the panic call site.

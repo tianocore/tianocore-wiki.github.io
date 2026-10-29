@@ -50,7 +50,7 @@ will use the extensions below, assigned by the DHCP server in a corporate enviro
 Unlike corporate networks, the DHCP server in a typical home network environment is only available for host IP
 configuration assignment. This means the boot file URI must be entered by the user instead of the DHCP HTTPBoot
 extensions.
-![Home Network Topology](../../Projects/NetworkPkg/images/Home.png)
+![Home Network Topology](../../Projects/NetworkPkg/Images/Home.png)
 
 The EDK II HTTP Boot driver provides a configuration page for the boot file URI setup.
 
@@ -58,10 +58,10 @@ The EDK II HTTP Boot driver provides a configuration page for the boot file URI 
 **HTTP Boot Configuration**, set the HTTP boot parameters such as the boot option title, IP start version and the URI
 address as below.
 ![HTTP Boot Configuration
-Page](../../Projects/NetworkPkg/images/URI_Address.PNG)
+Page](../../Projects/NetworkPkg/Images/URI_Address.PNG)
 2. Save the configuration and back to the main page, enter **Boot Manager** menu as below, select the new created boot
 option to start the HTTP Boot.
-![Boot Manager Menu](../../Projects/NetworkPkg/images/Boot_Option.PNG)
+![Boot Manager Menu](../../Projects/NetworkPkg/Images/Boot_Option.PNG)
 3. To delete the boot option, enter **Boot Maintenance Manager** -> **Boot Options** -> **Delete Boot Option**.
 
 ## RAM Disk Boot from HTTP

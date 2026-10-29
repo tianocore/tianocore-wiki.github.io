@@ -16,7 +16,7 @@ Capsule-on-Disk. The following content covers detailed analysis towards these 2 
 Boot trust regions is the similar concept of Trust Controlling Base (TCB) defined in TCG spec, which is considered as
 the collection of system resources (hardware and software) that is responsible for maintaining the security policy of
 the system.
-![Figure 1](../../images/Capsule-on-Disk-Trust-Region.jpg)
+![Figure 1](../../images/capsule-on-disk-trust-region.jpg)
 
 ## Implementation Details
 
@@ -26,7 +26,7 @@ Capsules are delivered from CapsuleUpdate() runtime service and saved in memory 
 requires memory content must be persistent across reset. After getting control, RTU module – CapsulePei is responsible
 for reassembling capsule image and create capsule HOBs for coming standard capsule authentication and processing module
 to consume.
-![Figure 2](../../images/Capsule-on-Disk-Capsule-In-Ram.jpg)
+![Figure 2](../../images/capsule-on-disk-capsule-in-ram.jpg)
 
 ### Capsule-on-Disk
 
@@ -40,7 +40,7 @@ to load capsule file from disk, then pass to RTU.
 
 Solution A relies on Capsule-in-RAM. After Capsule-on-Disk images are detected, images are loaded to memory and passed
 as Capsule in RAM. Platform must provide memory persistent reset flow to give control back to RTU while content intact.
-![Figure 3](../../images/Capsule-on-Disk-Solution-A.jpg)
+![Figure 3](../../images/capsule-on-disk-solution-a.jpg)
 
 #### Solution B
 
@@ -48,7 +48,7 @@ Comparing with solution A, Solution B keeps Capsule images in massive storage de
 during any types of reset. It eliminates the memory persistent reset requirement in Solution A. After firmware gets
 control after reset, it reuses PEI storage stack to load capsule image in memory and pass to later standard capsule
 authentication and processing module.
-![Figure 4](../../images/Capsule-on-Disk-Solution-B.jpg)
+![Figure 4](../../images/capsule-on-disk-solution-b.jpg)
 
 ## Security Analysis
 

@@ -108,7 +108,7 @@ function won't really process the packet, it only queues a new DPC Procedure and
 be dispatched at TPL_CALLBACK, and complete the whole task of the packet processing. With this technique, the deadlock
 is avoided by using a high level TPL event, and the packets are still processed in the required TPL_CALLBACK level.
 
-![ARP Receive](../../Projects/NetworkPkg/images/Dpc_Arp_Receive.png "Use
+![ARP Receive](../../Projects/NetworkPkg/Images/DPC_ARP_Receive.png "Use
 DPC in ARP driver")
 
 Still take the receive path of ARP for example. The ARP driver creates an event as the MNP receive token, whose notify

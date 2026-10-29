@@ -12,4 +12,4 @@ Below is an example of Windows WDS failure when SMBIOS is absent, the prompt mes
 communicating with the Windows Deployment Service server", but the failure is actually because of WDS client failed to
 read platform information from SMBIOS table. The firmware will also print debug warning message like "PXE: Failed to
 read system GUID from the smbios table!" in this situation.
-![WDS Error](../../images/WDS-error.png "WDS Error")
+![WDS Error](../../images/wds-error.png "WDS Error")

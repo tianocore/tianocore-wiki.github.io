@@ -86,7 +86,7 @@ then select most preferred offer among all the received offers.
 
 This section will briefly introduce the PXE boot process, please refer the section 2.2 of PXE v2.1 specification for a
 detailed step-by-step synopsis of the PXE protocol.
-![PXE Boot](../../Projects/NetworkPkg/images/PXE_Boot.png "PXE BOOT (PXE
+![PXE Boot](../../Projects/NetworkPkg/Images/PXE_Boot.png "PXE BOOT (PXE
 Spec V2.1 Figure 2-1)")
 The picture shows a typical IPv4 PXE boot flow (it's from PXE Spec V2.1 Figure 2-1).
 

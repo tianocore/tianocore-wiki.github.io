@@ -145,24 +145,24 @@ store although in a different buffer than the non-volatile UEFI variable cache.
 ### Previous UEFI Variable Cache
 
 ![Previous UEFI variable cache
-behavior](images/uefi-variable-runtime-cache/uefi_variable_cache_without_runtime_cache.png "Previous UEFI variable cache
+behavior](../../images/uefi-variable-runtime-cache/uefi_variable_cache_without_runtime_cache.png "Previous UEFI variable cache
 behavior")
 
 ### UEFI Variable Cache with Runtime Cache
 
-![UEFI variable cache runtime behavior](images/uefi-variable-runtime-cache/uefi_variable_cache_with_runtime_cache.png
+![UEFI variable cache runtime behavior](../../images/uefi-variable-runtime-cache/uefi_variable_cache_with_runtime_cache.png
 "UEFI variable runtime cache behavior")
 
 ### High-Level GetVariable () Flow with the Runtime Cache
 
 ![High-level GetVariable () flow with the runtime
-cache](images/uefi-variable-runtime-cache/uefi-rt-services-getvariable-with-runtime-cache.png "High-level GetVariable ()
+cache](../../images/uefi-variable-runtime-cache/uefi-rt-services-getvariable-with-runtime-cache.png "High-level GetVariable ()
 flow with the runtime cache")
 
 ### High-Level SetVariable () Flow with the Runtime Cache
 
 ![High-level SetVariable () flow with the runtime
-cache](images/uefi-variable-runtime-cache/uefi-rt-services-setvariable-with-runtime-cache.png "High-level SetVariable ()
+cache](../../images/uefi-variable-runtime-cache/uefi-rt-services-setvariable-with-runtime-cache.png "High-level SetVariable ()
 flow with the runtime cache")
 
 ## Runtime & SMM Cache Coherency

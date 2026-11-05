@@ -2,6 +2,32 @@
 
 |Component|CVE|Publication Date|EDK Impact|EDK2 Assessment|
 |---------|---|----------------|----------|---------------|
+|OpenSSL|[CVE-2026-35189](https://openssl-library.org/news/vulnerabilities/#CVE-2026-35189)|9/29/2026|No|Not a problem for EDK2. EDK2 TlsLib does not support certificate revocation lists for certificate validation.|
+|OpenSSL|[CVE-2026-35191](https://openssl-library.org/news/vulnerabilities/#CVE-2026-35191)|9/29/2026|No|Not a problem for EDK2. QUIC is disabled by default in the CryptoPkg configuration.|
+|OpenSSL|[CVE-2026-42772](https://openssl-library.org/news/vulnerabilities/#CVE-2026-42772)|9/29/2026|No|Not a problem for EDK2. QUIC is disabled by default in the CryptoPkg configuration.|
+|OpenSSL|[CVE-2026-54872](https://openssl-library.org/news/vulnerabilities/#CVE-2026-54872)|9/29/2026|No|Not a problem for EDK2. EDK2 does not perform a context switch.|
+|OpenSSL|[CVE-2026-54873](https://openssl-library.org/news/vulnerabilities/#CVE-2026-54873)|9/29/2026|No|Not a problem for EDK2. QUIC is disabled by default in the CryptoPkg configuration.|
+|OpenSSL|[CVE-2026-54875](https://openssl-library.org/news/vulnerabilities/#CVE-2026-54875)|9/29/2026|No|Not a problem for EDK2. SM2 is not used by EDK2 CryptoPkg.|
+|OpenSSL|[CVE-2026-72896](https://openssl-library.org/news/vulnerabilities/#CVE-2026-72896)|9/29/2026|No|Not a problem for EDK2. RFC3779 is disabled by default in the CryptoPkg configuration.|
+|OpenSSL|[CVE-2026-72897](https://openssl-library.org/news/vulnerabilities/#CVE-2026-72897)|9/29/2026|No|Not a problem for EDK2. EDK2 does not perform a context switch.|
+|OpenSSL|[CVE-2026-75804](https://openssl-library.org/news/vulnerabilities/#CVE-2026-75804)|9/29/2026|No|Not a problem for EDK2. QUIC is disabled by default in the CryptoPkg configuration.|
+|OpenSSL|[CVE-2026-75805](https://openssl-library.org/news/vulnerabilities/#CVE-2026-75805)|9/29/2026|No|Not a problem for EDK2. CMP is disabled by default in the CryptoPkg configuration.|
+|OpenSSL|[CVE-2026-75806](https://openssl-library.org/news/vulnerabilities/#CVE-2026-75806)|9/29/2026|No|Not a problem for EDK2. DTLS is disabled by default in the CryptoPkg configuration.|
+|OpenSSL|[CVE-2026-77696](https://openssl-library.org/news/vulnerabilities/#CVE-2026-77696)|9/29/2026|No|Not a problem for EDK2. SM2 is not used by EDK2 CryptoPkg.|
+|OpenSSL|[CVE-2026-84782](https://openssl-library.org/news/vulnerabilities/#CVE-2026-84782)|9/29/2026|No|Not a problem for EDK2. DTLS is disabled by default in the CryptoPkg configuration.|
+|OpenSSL|[CVE-2026-84783](https://openssl-library.org/news/vulnerabilities/#CVE-2026-84783)|9/29/2026|No|Not a problem for EDK2. EDK2 uses OpenSSL 3.X and does not support OpenSSL 4.0.|
+|OpenSSL|[CVE-2026-84784](https://openssl-library.org/news/vulnerabilities/#CVE-2026-84784)|9/29/2026|No|Not a problem for EDK2. QUIC is disabled by default in the CryptoPkg configuration.|
+|OpenSSL|[CVE-2026-14457](https://openssl-library.org/news/vulnerabilities/#CVE-2026-14457)|8/25/2026|No|Not a problem for EDK2. EDK2 does not enable RPK.|
+|OpenSSL|[CVE-2026-18798](https://openssl-library.org/news/vulnerabilities/#CVE-2026-18798)|8/25/2026|No|Not a problem for EDK2. EDK2 does not support QUIC.|
+|OpenSSL|[CVE-2026-54874](https://openssl-library.org/news/vulnerabilities/#CVE-2026-54874)|8/25/2026|No|Not a problem for EDK2. EDK2 does not support DTLS.|
+|OpenSSL|[CVE-2026-63072](https://openssl-library.org/news/vulnerabilities/#CVE-2026-63072)|8/25/2026|No|Not a problem for EDK2. EDK2 does not support CMS.|
+|OpenSSL|[CVE-2026-63073](https://openssl-library.org/news/vulnerabilities/#CVE-2026-63073)|8/25/2026|No|Not a problem for EDK2. EDK2 does not support CMP.|
+|OpenSSL|[CVE-2026-63074](https://openssl-library.org/news/vulnerabilities/#CVE-2026-63074)|8/25/2026|No|Not a problem for EDK2. EDK2 does not support CMP.|
+|OpenSSL|[CVE-2026-63075](https://openssl-library.org/news/vulnerabilities/#CVE-2026-63075)|8/25/2026|No|Not a problem for EDK2. EDK2 does not support QUIC.|
+|OpenSSL|[CVE-2026-63076](https://openssl-library.org/news/vulnerabilities/#CVE-2026-63076)|8/25/2026|No|Not a problem for EDK2. EDK2 does not support CMP.|
+|OpenSSL|[CVE-2026-75803](https://openssl-library.org/news/vulnerabilities/#CVE-2026-75803)|8/25/2026|No|Not a problem for EDK2. EDK2 does not use EVP_Cipher().|
+|OpenSSL|[CVE-2026-14456](https://openssl-library.org/news/vulnerabilities/#CVE-2026-14456)|8/13/2026|No|Not a problem for EDK2. EDK2 does not support QUIC.|
+|OpenSSL|[CVE-2026-54876](https://openssl-library.org/news/vulnerabilities/#CVE-2026-54876)|8/13/2026|No|Not a problem for EDK2. EDK2 does not support OCSP.|
 |OpenSSL|[CVE-2026-45447](https://openssl-library.org/news/vulnerabilities/#CVE-2026-45447)|6/9/2026|Yes|The affected code is used in Authenticode and PKCS7 Verification. Recommendation Take the CryptoPkg update to OpenSSL 3.5.7 (https://github.com/tianocore/edk2/pull/12669).|
 |OpenSSL|[CVE-2026-34180](https://openssl-library.org/news/vulnerabilities/#CVE-2026-34180)|6/9/2026|Yes|The code might pass a certificate or signature larger than 2 GB. Recommendation Take the CryptoPkg update to OpenSSL 3.5.7 (https://github.com/tianocore/edk2/pull/12669).|
 |OpenSSL|[CVE-2026-34181](https://openssl-library.org/news/vulnerabilities/#CVE-2026-34181)|6/9/2026|Yes|PKCS12 is used in TlsLib. Recommendation Take the CryptoPkg update to OpenSSL 3.5.7 (https://github.com/tianocore/edk2/pull/12669).|

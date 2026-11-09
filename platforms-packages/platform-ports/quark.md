@@ -1,9 +1,0 @@
-# Quark
-
-Intel® Quark Technology
-
-Intel® Galileo Gen 2 Development Board -
-[http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-overview.html](http://www.intel.com/content/www/us/en/embedded/products/galileo/galileo-overview.html)
-
-QuarkPlatformPkg Readme -
-[https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/QuarkPlatformPkg/Readme.md](https://github.com/tianocore/edk2-platforms/tree/master/Platform/Intel/QuarkPlatformPkg/Readme.md)

@@ -44,6 +44,8 @@
 - 2026-07-14:
   - Change the label `breaking-change` to `impact:breaking-change` to align with the existing label name used in the
     edk2 repository.
+- 2026-10-12:
+  - Add additional guidance on library class dependency addition breaking changes
 
 ## Motivation
 
@@ -459,21 +461,33 @@ Deprecation Issue, the Removal Issue, and the [Deprecation Timeline](#deprecatio
 
 A common non-removal breaking change is adding a new required library class dependency to an existing module (for
 example, `DxeCore` gaining a dependency on `MemoryBinLib`). Platforms that build the affected module must resolve the
-new library class in their DSC or the build fails with an unresolved library class. These changes fall into two cases
+new library class in their DSC or the build fails with an unresolved library class. These changes fall into three cases
 that differ in the effort required of platform owners, and the `BREAKING-CHANGES.md` entry **must** state which case
 applies.
 
 - **Single expected instance**: The new library class has a single canonical instance provided in-tree that satisfies
   every consumer (for example, a `NULL` library instance or a single implementation owned by the same package). The
   migration is clear: platforms add a library class mapping in their DSC that points to the provided instance.
-- **Platform-implemented**: The new library class defines an interface that platforms are expected to implement or
-  select among multiple instances (for example, board-specific behavior with no single correct instance). This has a
-  higher integration cost. The migration guidance **must** describe the interface contract, list any in-tree instances
-  that may be reused, and explain what a platform must decide or implement.
+- **Multiple instances, not platform-implemented**: The new library class has or will have several acceptable instances
+  that are centrally defined and do not require platform implementation. An example of this is `BaseMemoryLib` that
+  has several optimized variants for different scenarios which a platform must decide which to use in different
+  scenarios, but is not required to implement. The mitigation guidance **must** list the options and advise on which
+  instance should be used in different scenarios.
+- **Platform-implemented**: The new library class defines an interface that platforms are expected to implement (for
+  example, board-specific behavior with no single correct instance). This has a higher integration cost. The migration
+  guidance **must** describe the interface contract, list any in-tree instances that may be reused, and explain what a
+  platform must decide or implement.
 
-In both cases, prefer providing a default in-tree instance where practical (see
+In all cases, prefer providing a default in-tree instance where practical (see
 [Compatibility Wrappers](#3-compatibility-wrappers) and [Additive APIs](#1-additive-apis)) so that the majority of
 platforms fall into the lower-cost single-instance case.
+
+When any type of library dependency is added, the commits must be structured in such a way that the new library
+class and instance are created before the commit that adds the dependency. If the library class or instance are already
+defined, then this requirement is satisfied. The `BREAKING-CHANGES.md` entry **must** list the latest commit that added
+the library class and instance(s) (e.g. if several instances were added in different commits, the final such commit must
+be referenced) as the commit platforms are recommended to update to in order to pull the new library class into their
+DSC and potentially implement the library class.
 
 ### Deprecation Timeline
 

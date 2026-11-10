@@ -409,9 +409,10 @@
   - [Security Advisory](security/advisories/security_advisory.md)
   - [Third Party Security Advisories](security/advisories/third_party_security_advisories.md)
 
-- [Processes](security/processes/ghsa_github_security_advisories_process_draft.md)
-  - [Infosec GHSA Process Proposal (draft)](security/processes/infosec_ghsa_process_proposal_draft.md)
-  - [Security Advisory Process](security/processes/security_advisory_process.md)
+- [InfoSec GHSA Processes](security/processes/current_infosec_ghsa_process.md)
+  - [InfoSec GHSA Process Proposal 1 (draft)](security/processes/proposals/ghsa_github_security_advisories_process_draft.md)
+  - [InfoSec GHSA Process Proposal 2 (draft)](security/processes/proposals/infosec_ghsa_process_proposal_draft.md)
+  - [Original Security Advisory Process (archive)](security/processes/security_advisory_process.md)
 
 - [EDK II Security White Papers](security/tools-practices/edk_ii_security_white_papers.md)
   - [Host Based Firmware Analyzer](security/tools-practices/host_based_firmware_analyzer.md)

@@ -1,7 +1,17 @@
 # How to report a Security Issue
 
+```admonish warning
+DO NOT submit GHSA patches to the public repository!
+
+All GHSA related mitigations must be submitted to the private fork associated with the GHSA for review and embargo. If
+a private fork does not exist, please request one to be created. Mitigations will be made public as part of the GHSA
+disclosure process.
+
+For more information on the EDK II / EDK2 Platforms GHSA process see the [Infosec GHSA Process](current_infosec_ghsa_process.md)
+```
+
 ```admonish important
-The latest tracking and update of security issues for EDK II can be found at [GHSA-GitHub-Security-Advisories-Process](ghsa_github_security_advisories_process_draft.md).
+Due to the high number of GHSA submissions, the triage and mitigation timelines may be extended. Please work with the maintainers to ensure that all patches are applied to the private GHSA fork and reviewed as soon as possible.
 ```
 
 ## How Security Issues are Evaluated

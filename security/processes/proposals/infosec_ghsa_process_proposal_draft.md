@@ -43,11 +43,11 @@ A Security Advisory begins when a **reporter** reports a vulnerability.
 A `Reporter` will hit the `Security` tab on [Edk2](https://github.com/tianocore/edk2/security) to begin.
 
 ![Report a
-Vulnerability](../../images/infosec_ghsa_report_a_vulnerability.png)
+Vulnerability](../../../images/infosec_ghsa_report_a_vulnerability.png)
 
 Now the `Reporter` can begin submitting vulnerability details.
 ![Vulnerability
-Details](../../images/infosec_ghsa_submit_vulnerability_details.png)
+Details](../../../images/infosec_ghsa_submit_vulnerability_details.png)
 
 At this point the `Reporter` is waiting for response from the EDK2 Info Sec group.
 
@@ -82,7 +82,7 @@ button is grayed out, contact the [EDKII InfoSec team
 lead](https://github.com/orgs/tianocore/teams/tianocore-infosec-team?query=role%3Amaintainer) for access.
 
 ![create temporary
-fork](../../images/infosec_ghsa_create_temporary_fork.png)
+fork](../../../images/infosec_ghsa_create_temporary_fork.png)
 
 The `Remediation Developer` will perform their work and create a patch as soon as possible. If they have questions
 they should contact the `Remediation Reviewers` ASAP.
@@ -98,7 +98,7 @@ platforms and feedback.
 When the `Remediation Developer` is ready for a review, they will create a review on the private fork targeting the
 primary branch.
 
-![review](../../images/infosec_ghsa_targetable_branch.jpg)
+![review](../../../images/infosec_ghsa_targetable_branch.jpg)
 
 The pipelines are not expected to work. To reduce the work that will need to take place in the public, the `Remediation
 Developer` should run as many CI checks locally as they can (formatting, etc).
@@ -132,7 +132,7 @@ The `Security Advisory Writer` or `Remediation Coordination` or `Maintainer` may
 Coordinator` may then publish the GHSA and credit the appropriate parties.
 
 ![publish
-advisory](../../images/infosec_ghsa_publish_advisory.png)
+advisory](../../../images/infosec_ghsa_publish_advisory.png)
 
 ### Stage: Merge
 

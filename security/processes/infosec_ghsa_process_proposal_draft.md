@@ -1,143 +1,258 @@
 # Infosec GHSA Process Proposal
 
-Roles & Responsibilities:
+**Status: draft for community review, not adopted policy.**
 
-* *Reporter*
-  * Responsibility:
-    1. Submits a `potential vulnerability` to the Infosec group
-* *Remediation Coordinator*
-  * Responsibility:
-    1. Coordinates the community
-        * Finds a *remediation developer*
-        * Finds (ideally) 2x *Remediation Reviewers*
-    2. Acts as the one voice for responding to the *Reporter*
-3. Should be a [Tianocore Owner](https://github.com/orgs/tianocore/people?query=role%3Aowner) or coordinate with one.
-They are the only ones who can create a new GHSA
-* *Remediation Developer*
-  * Responsibility:
-    1. Patching the vulnerability
-    2. Testing the patch
-        * Must write up what tests they've ran and include information about Platforms / Conditions / Environment
-* *Remediation Reviewer*
-  * Responsibility:
-    1. *Subject matter experts* (SMEs) that should be available to answer questions posed by the *remediation developer*
-    2. Testing the patch
-        * Must write up what tests they've ran and include information about Platforms / Conditions / Environment
-* *Package Maintainer*
-  * Responsibility:
-    1. The final shepard of the patch from the advisory branch to main
-* *Security Advisory Writer*
-    1. This may be the same as the *Remediation Coordinator*
-    2. Either a maintainer or a member of this group may create a target branch and approve merge to it
-3. Needs to be a member of [Security Advisory
-Writer](https://github.com/orgs/tianocore/teams/security-advisory-writers/members)
+This proposal describes how EDK II participants investigate, remediate and
+disclose reported vulnerabilities through GitHub Security Advisories (GHSAs).
 
-## Stages
+## Principles
 
-The following are the stages that a vulnerability goes through until being patched.
+- The advisory and its appropriately restricted linked records are the official
+  record for decisions, responsibilities and disclosure commitments.
+- A report describes a potential vulnerability. A CVE identifier is not required
+  to begin investigation and does not, by itself, confirm a vulnerability.
+- Acceptance, private-fork creation, development start, review approval,
+  publication and upstream merge are separate events.
+- Keep unpublished reports and patches in authorized private channels until
+  the agreed disclosure window.
+- Publication and upstream merge do not establish that downstream products
+  have received or deployed a fix.
 
-### Stage: Report
+## Roles and responsibilities
 
-A Security Advisory begins when a **reporter** reports a vulnerability.
+The Coordinator confirms each participant's agreement to do the work and
+arranges the required access. One person may perform multiple roles, but a
+patch author cannot provide their own independent review approval.
 
-A `Reporter` will hit the `Security` tab on [Edk2](https://github.com/tianocore/edk2/security) to begin.
+Use GitHub's [advisory credits](https://docs.github.com/en/code-security/repository-security-advisories/creating-a-repository-security-advisory#about-credits-for-repository-security-advisories)
+to acknowledge contributions. Credit invitations are not work assignments,
+patch approvals or grants of private-advisory access.
 
-![Report a
-Vulnerability](../../images/infosec_ghsa_report_a_vulnerability.png)
+### Reporter
 
-Now the `Reporter` can begin submitting vulnerability details.
-![Vulnerability
-Details](../../images/infosec_ghsa_submit_vulnerability_details.png)
+- Submit the report, affected configurations and supporting evidence.
+- Answer investigation questions and, where possible, validate the proposed fix.
+- Coordinate disclosure and attribution with the Coordinator. Credit the Finder
+  separately when the person who discovered the issue is not the Reporter.
 
-At this point the `Reporter` is waiting for response from the EDK2 Info Sec group.
+### Coordinator
 
-Alternatively a report may be given by VINCE. In that case, the reporter should be directed
-to the github security page to submit the security issue for internal tracking.
+- Own the case from receipt through closure or publication and merge follow-through.
+- Find the Analyst, Developer and independent Reviewers; confirm their participation.
+- Be the point of contact for reporter updates and disclosure commitments.
+- Record decisions, assignments, blockers and agreed schedules in the advisory.
+- Arrange permissions with an authorized repository or organization owner.
+- Escalate stalled work and coordinate schedule changes.
 
-### Stage: Triage
+### Analyst
 
-When a new CVE is identified, a `Remediation Coordinator` must be designated.
+- Assess project applicability, security impact, affected revisions and evidence.
+- Investigate possible duplicates using the original reports and underlying
+  mechanism, not merely a shared package or CVE.
+- Record findings, uncertainties and a recommendation to accept, investigate
+  further or close. Hand the evidence to the Developer.
 
-The `Remediation Coordinator` must then find the following:
+At least one **Project Analyst** must participate: an Analyst listed as a
+maintainer, reviewer or steward in the current upstream `Maintainers.txt`, or
+a verified member of the
+[Tianocore InfoSec team](https://github.com/orgs/tianocore/teams/tianocore-infosec-team).
+Prefer relevant component expertise, but a package match is not mandatory.
+External researchers may also contribute analysis and receive Analyst credits.
+Project Analyst is a process qualification, not a separate GitHub credit type.
 
-1. `Remediation Developer`
-2. 2x `Remediation Reviewers` (ideally SMEs of the patch in the Infosec community)
+### Remediation Developer
 
-The `Remediation Developer` must find developers either within their own organization or within the Infosec community.
+- Accept the work and record the actual development-start date.
+- Develop the patch and document affected and fixed revisions.
+- Record tests, results, platforms, configurations and known limitations.
+- Follow the patch through private review, publication and upstream merge.
 
-Once these roles are filled, the process can move on to the `Fix` stage.
+### Remediation Reviewer
 
-If the submission is not found to be a CVE, the `Remediation Coordinator` must work with the submitter to close the
-issue. The `Reporter` is allowed to (and probably will) write up public documentation.
+- Provide relevant technical expertise during development.
+- Independently review the patch, security implications and regression risks.
+- Record testing and explicit approval or outstanding review requirements.
 
-### Stage: Fix
+### Remediation Verifier
 
-During this stage, the `Remediation Coordinator` will inform the `Reporter` that the 180 day embargo has begun. The
-`Remediation Coordinator` should provide the `Reporter` with up-to-date information and be the **ONLY** voice discussing
-when patches will be available.
+- Test the vulnerability or fix and record the revisions, configurations and results.
+- This function may be performed by a Reviewer, Reporter or another qualified
+  participant; it does not require an additional person or replace review approval.
 
-The `Remediation Coordinator` should then create a new GHSA and a temporary fork for the Advisory. Each Advisory will
-have exactly one fork that may contain multiple branches, forked from EDK2. If the "Start a temporary private fork"
-button is grayed out, contact the [EDKII InfoSec team
-lead](https://github.com/orgs/tianocore/teams/tianocore-infosec-team?query=role%3Amaintainer) for access.
+### Package Maintainer
 
-![create temporary
-fork](../../images/infosec_ghsa_create_temporary_fork.png)
+- Help resolve ownership, review and integration blockers.
+- Provide independent additional or final approval when two Reviewers cannot
+  be found, with the substitution recorded.
+- Shepherd the reviewed patch into the upstream primary branch.
 
-The `Remediation Developer` will perform their work and create a patch as soon as possible. If they have questions
-they should contact the `Remediation Reviewers` ASAP.
+### Security Advisory Writer
 
-The `Remediation Developer` must update the appropriate package [security vulnerabilities
-json](https://github.com/tianocore/edk2/blob/master/NetworkPkg/SecurityFixes.yaml) to indicate what is being patched.
+- Prepare the advisory's affected versions, description, references, CVE and credits.
+- Coordinate public-branch preparation and advisory publication.
+- Confirm publication permissions before the agreed handoff.
+- The Coordinator or an authorized maintainer may perform this function; it is
+  not a separate GitHub credit type.
 
-Ideally this should be completed within 90 days. Leaving another 90 days at minimum for testing across a wide range of
-platforms and feedback.
+### Decision authority and participant discovery
 
-### Stage: Review
+An authorized Package Maintainer or InfoSec lead makes acceptance and closure
+decisions based on the Project Analyst's recommendation, and approves any
+exception to the CVE-before-publication requirement. The Coordinator records
+the decision and approver. These decisions do not replace required patch reviews.
 
-When the `Remediation Developer` is ready for a review, they will create a review on the private fork targeting the
-primary branch.
+Use [Maintainers.txt](https://github.com/tianocore/edk2/blob/master/Maintainers.txt)
+to find contacts for the affected component. Involve InfoSec or the Tianocore
+Stewards when scope or ownership is unclear. Confirm expertise, availability and
+private access rather than treating a directory entry as an assignment.
 
-![review](../../images/infosec_ghsa_targetable_branch.jpg)
+## Records and timing
 
-The pipelines are not expected to work. To reduce the work that will need to take place in the public, the `Remediation
-Developer` should run as many CI checks locally as they can (formatting, etc).
+Record significant decisions in the private advisory discussion or an
+appropriately restricted linked record. Include the responsible person,
+decision, supporting evidence and actual event date, with a time zone,
+preferably UTC. Keep proposed targets separate from actual events.
 
-Example: PatchCheck, Uncrustify, etc
+At development kickoff, the Coordinator records and communicates:
 
-During this stage, the `Remediation Reviewers` must be responsive. If one or both reviewers are unresponsive, the
-`Remediation Coordinator` should contact them as soon as possible. If unresponsiveness continues, the `Remediation
-Coordinator` should involve a maintainer to push the patch forward quickly.
+1. The Developer's agreement and actual development-start date.
+2. The embargo-start date and disclosure date agreed with the Reporter.
+3. Development and testing/review targets.
+4. Responsible participants and the next reporter update.
 
-The `Remediation Coordinator` should encourage the `Reporter` to review the patch and verify if they are able to
-reproduce the original vulnerability.
+| Expectation | Starting point or condition |
+|---|---|
+| 180-day embargo | Embargo start agreed with the Reporter |
+| Development ideally completed within 90 days | Actual development kickoff |
+| At least a further 90 days for testing and feedback | Planned interval before disclosure |
+| Publication handoff within one day | Agreed publication window after readiness approval |
+| 24 hours for public review | Public upstream PR and patch are available |
+| Upstream merge promptly after public review | Review period elapsed and required approvals/checks satisfied |
 
-The review will be considered complete when both `Remediation Reviewers` or `maintainer` have accepted the patch. If two
-Remediation reviewers could not be found, then a maintainer may act as the additional or final approver.
+Plan development and testing together within the agreed embargo. If development
+and embargo start on different dates, record both. If the schedule cannot meet
+these expectations, the Coordinator and maintainer coordinate a revised plan
+with the Reporter and record the agreement before changing committed dates.
 
-### Stage: Publish
+Advisory acceptance, fork creation and CVE assignment do not start these clocks.
+Record the relevant start events explicitly.
 
-Once the review is complete, and the team is ready to publish. The rest should follow in quick succession (1 Day)
+## Workflow
 
-The `Remediation Coordinator` must work with (or be a) `Security Advisory Writer` or a maintainer to create a branch
-that follows the format "/security-advisory/cve-xxx-xxxx/advisory".
+### Report and triage
 
-This special branch will not be the final destination but simply a means to publish the branch so that the community can
-be advised and comment. However this branch must be merged in within 24 hours.
+The Reporter submits through
+[EDK2's Security page](https://github.com/tianocore/edk2/security).
 
-Next, the `Remediation Developer` should target the new branch. Then the Remediation Developer may close their previous
-reviewed PR that was targeting master.
+![Report a vulnerability](../../images/infosec_ghsa_report_a_vulnerability.png)
+![Submit vulnerability details](../../images/infosec_ghsa_submit_vulnerability_details.png)
 
-The `Security Advisory Writer` or `Remediation Coordination` or `Maintainer` may merge the new branch. Then `Remediation
-Coordinator` may then publish the GHSA and credit the appropriate parties.
+For reports received through VINCE or another channel, coordinate a private
+GitHub record with the Reporter and preserve the original reference. Reuse an
+existing advisory rather than creating a duplicate.
 
-![publish
-advisory](../../images/infosec_ghsa_publish_advisory.png)
+Acknowledge receipt, identify the Coordinator and assign a Project Analyst.
+Keep the report in triage while the initial assessment is pending.
 
-### Stage: Merge
+### Assessment and acceptance
 
-The final stage is to merge the patch into the primary branch. Here the *Remediation developer* will create a [pull
-request against](https://github.com/tianocore/edk2/pull/10928) the primary branch. Any final CI issues should be address
-and the community has 24 hours to comment before being merged in.
+The Project Analyst records project applicability, impact, affected revisions,
+reproduction evidence, possible duplicates and remaining uncertainties.
+Request additional information where needed.
 
-Once merged the process is complete.
+The Coordinator obtains and records the acceptance decision under the authority
+defined above. An authorized participant accepts the report through GitHub.
+For a maintainer-created draft, explicitly record the decision to proceed.
+
+For this process, **GitHub draft means Accepted, not yet published**. Acceptance
+means proceeding with coordinated investigation and remediation, not that every
+technical claim is established. Record unresolved questions and next actions.
+
+### Private fork and development
+
+An authorized participant checks whether a temporary private fork already exists
+and creates one if needed. Use one advisory fork, with multiple branches where
+necessary, and verify collaborator access.
+
+If "Start a temporary private fork" is unavailable, contact the
+[EDKII InfoSec team lead](https://github.com/orgs/tianocore/teams/tianocore-infosec-team?query=role%3Amaintainer).
+
+![Create a temporary private fork](../../images/infosec_ghsa_create_temporary_fork.png)
+
+Link the fork to the advisory. The Developer accepts the work, and the Coordinator
+records the kickoff, reviewers and schedule described above.
+
+Develop and test the patch privately. Prepare the applicable package security-fix
+record, such as [NetworkPkg/SecurityFixes.yaml](https://github.com/tianocore/edk2/blob/master/NetworkPkg/SecurityFixes.yaml),
+as part of the confidential change. Involve Reviewers early and escalate blockers
+through the Coordinator.
+
+### Fix review
+
+The Developer opens a pull request against the private fork's primary branch,
+including the patch, test results and known limitations.
+
+![Private-fork review target](../../images/infosec_ghsa_targetable_branch.jpg)
+
+Private-fork pipelines may be unavailable. Run applicable checks locally,
+including PatchCheck and Uncrustify where relevant, and record results.
+The Coordinator asks the Reporter to validate the fix and records their response
+or that validation remains unavailable.
+
+Review completes when both Reviewers approve, or a maintainer supplies the
+documented additional/final approval when two Reviewers cannot be found.
+Every required approver must be independent of the patch's author.
+
+### Publication readiness
+
+The Coordinator records readiness after confirming:
+
+- Required independent reviews and test evidence are complete.
+- Affected/fixed revisions, advisory text, references and credits are checked.
+- A CVE is assigned, or an authorized Package Maintainer or InfoSec lead has
+  approved a documented exception.
+- The applicable package security-fix record is prepared.
+- Disclosure timing is coordinated with the Reporter.
+- An authorized publisher and maintainer are available for the public handoff.
+- The publication and public-review schedule is recorded.
+
+### Publication and public review
+
+Within the agreed disclosure window, the Advisory Writer or an authorized
+maintainer prepares `security-advisory/<cve-id-lowercase>/advisory`.
+For an approved CVE exception, agree and record an alternative branch name.
+
+The Developer targets that branch with the reviewed change. Preserve private
+review evidence for authorized participants before closing superseded PRs.
+The authorized participant merges the change into the public advisory branch,
+and the Coordinator or authorized publisher publishes the GHSA with its
+references and credits. Coordinate these actions within the one-day handoff.
+
+![Publish the advisory](../../images/infosec_ghsa_publish_advisory.png)
+
+Open the upstream primary-branch PR when the public patch is available. Link
+the advisory and allow 24 hours for community review from PR and patch
+availability. Resolve outstanding CI failures and review requirements.
+
+### Upstream completion
+
+The maintainer merges the reviewed change into the upstream primary branch
+promptly after the public-review period and required checks are complete.
+Record the PR, actual merge commit and date; a branch name or its existence
+does not establish integration.
+
+The Coordinator confirms publication and all required upstream fix and backport
+merges with the maintainer and records final sign-off. Identify remaining
+limitations and downstream follow-up explicitly. Upstream completion does not
+mean all downstream products have received or deployed the fix.
+
+### Closure without remediation
+
+At any open stage, the Project Analyst may recommend closure. The Coordinator
+obtains the disposition decision under the authority defined above, records
+the rationale and supporting evidence, and informs the Reporter.
+For duplicates, link the canonical advisory while preserving access controls.
+
+An authorized participant closes the report on GitHub. Missing information or
+an unassigned CVE is not, by itself, grounds for rejection. Closure does not mean
+the issue was fixed or prevent the Reporter from publishing their own account.

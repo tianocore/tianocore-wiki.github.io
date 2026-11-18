@@ -6,13 +6,24 @@ This repository contains the documentation for TianoCore EDK II, structured as a
 
 ### Prerequisites
 
-Install mdBook:
+| Tool | Required Version |
+|------|------------------|
+| mdbook | 0.4.52 |
+| mdbook-admonish | 1.20.0 |
+| mdbook-mermaid | 0.15.0 |
+| mdbook-linkcheck | 0.7.7 |
+
+Install mdBook and dependencies:
 
 ```bash
-cargo install mdbook
+cargo install mdbook@0.4.52 mdbook-admonish@1.20.0 mdbook-mermaid@0.15.0 mdbook-linkcheck@0.7.7
 ```
 
-Or download a pre-built binary from [mdBook releases](https://github.com/rust-lang/mdBook/releases).
+Or download pre-built binaries from the associated release pages:
+- [mdBook](https://github.com/rust-lang/mdBook/releases)
+- [mdBook-admonish](https://github.com/tommilligan/mdbook-admonish/releases)
+- [mdBook-mermaid](https://github.com/badboy/mdbook-mermaid/releases)
+- [mdBook-linkcheck](https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases)
 
 ### Build and Serve
 

@@ -2,6 +2,14 @@
 
 |Component|CVE|Publication Date|EDK Impact|EDK2 Assessment|
 |---------|---|----------------|----------|---------------|
+|OpenSSL|[CVE-2026-35190](https://openssl-library.org/news/vulnerabilities/#CVE-2026-35190)|11/17/2026|No|Not a problem for EDK2. TlsLib does not expose the Suite B certificate flag.|
+|OpenSSL|[CVE-2026-107493](https://openssl-library.org/news/vulnerabilities/#CVE-2026-107493)|11/17/2026|No|Not a problem for EDK2. CryptoPkg does not support PEM-formatted X509 certificates.|
+|OpenSSL|[CVE-2026-124709](https://openssl-library.org/news/vulnerabilities/#CVE-2026-124709)|11/17/2026|No|Not a problem for EDK2. EDK2 does not support QUIC.|
+|OpenSSL|[CVE-2026-88822](https://openssl-library.org/news/vulnerabilities/#CVE-2026-88822)|11/10/2026|No|Not a problem for EDK2. EDK2 does not support QUIC.|
+|OpenSSL|[CVE-2026-88823](https://openssl-library.org/news/vulnerabilities/#CVE-2026-88823)|11/10/2026|No|Not a problem for EDK2. EDK2 does not support AES-GCM-SIV.|
+|OpenSSL|[CVE-2026-95691](https://openssl-library.org/news/vulnerabilities/#CVE-2026-95691)|11/10/2026|No|Not a problem for EDK2. EDK2 does not support QUIC.|
+|OpenSSL|[CVE-2026-95692](https://openssl-library.org/news/vulnerabilities/#CVE-2026-95692)|11/10/2026|No|Not a problem for EDK2. EDK2 does not support AES-GCM-SIV.|
+|OpenSSL|[CVE-2026-107496](https://openssl-library.org/news/vulnerabilities/#CVE-2026-107496)|11/10/2026|No|Not a problem for EDK2. EDK2 does not support CMS.|
 |OpenSSL|[CVE-2026-35189](https://openssl-library.org/news/vulnerabilities/#CVE-2026-35189)|9/29/2026|No|Not a problem for EDK2. EDK2 TlsLib does not support certificate revocation lists for certificate validation.|
 |OpenSSL|[CVE-2026-35191](https://openssl-library.org/news/vulnerabilities/#CVE-2026-35191)|9/29/2026|No|Not a problem for EDK2. QUIC is disabled by default in the CryptoPkg configuration.|
 |OpenSSL|[CVE-2026-42772](https://openssl-library.org/news/vulnerabilities/#CVE-2026-42772)|9/29/2026|No|Not a problem for EDK2. QUIC is disabled by default in the CryptoPkg configuration.|

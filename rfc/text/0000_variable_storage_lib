@@ -1,0 +1,341 @@
+# RFC: VariableStorageLib for StandaloneMm
+
+## Metadata
+
+- **RFC Number**: TBD
+- **Title**: VariableStorageLib for StandaloneMm
+- **Status**: Draft
+- **Author**: Yeoreum Yun (`@LeviYeoReum`)
+
+## Change Log
+
+- 2026-07-22: Initial RFC created
+
+## Motivation
+
+Deploying VariableService in StandaloneMm provides stronger protection for
+UEFI variables by isolating variable processing from the normal execution
+environment.
+
+Typical use cases include:
+  1. Protection of Secure Boot variables:
+      Secure Boot variables such as PK, KEK, db, dbx, SecureBoot, and
+      SetupMode must not be modified by the operating system or untrusted DXE drivers.
+
+  2. Integration with secure storage:
+      Some platforms provide secure storage mechanisms, such as eMMC RPMB
+      (Replay Protected Memory Block) or other platform-specific secure
+      storage solutions. These backends provide protection against
+      unauthorized modification while preserving the integrity of
+      security-critical variables.
+
+Although VariableService can already run in StandaloneMm, its persistence
+layer remains tightly coupled to the Firmware Volume Block (FVB)
+abstraction. The current implementation assumes an FVB/FTW-based storage
+model, with variable persistence and fault-tolerant writes implemented
+around that design.
+
+This assumption does not hold on all platforms. Some platforms store
+firmware variables through a dedicated storage management controller that
+is not directly accessible from the application processor. Communication
+with such storage is transactional rather than block based, making the
+existing FVB abstraction unsuitable.
+
+In these environments, StandaloneMm should act as a proxy that forwards
+variable operations to the underlying storage implementation instead of
+managing persistence through FVB.
+
+This RFC proposes introducing a VariableStorage Protocol together with
+VariableStorageRouterLib for StandaloneMm. This separates VariableService
+from the underlying storage implementation while preserving the existing
+VariableService semantics.
+
+Existing platforms can continue using the current FVB-based storage model
+without modification, while new platforms may provide alternative storage
+implementations through VariableStorageRouterLib and the VariableStorage Protocol.
+
+## Technology Background
+
+Historically, variable persistence in EDK II has been implemented on top
+of the Firmware Volume Block (FVB) abstraction, which was originally
+designed for flash-based firmware storage devices.
+
+When VariableService is deployed in StandaloneMm, variable service logic
+executes within an isolated and more trusted execution environment.
+However, the persistence layer continues to rely on the existing
+FVB/FTW-based storage model.
+
+While this model is suitable for many platforms, it does not accommodate
+platforms that use alternative storage mechanism. Some platforms rely
+on dedicated storage management controllers or secure storage mechanisms
+that provide their own integrity protection, replay protection, fault
+tolerance, and recovery capabilities. These storage implementations do
+not naturally fit the FVB abstraction.
+
+To support such platforms without changing VariableService semantics,
+VariableService should interact with storage through an abstract storage
+interface instead of depending directly on an FVB implementation.
+
+## Goals
+
+The primary goal of this proposal is to decouple VariableService from
+the underlying storage implementation while preserving the existing
+VariableService semantics.
+
+### VariableStorage Protocol
+
+The VariableStorage Protocol abstracts storage-specific functionality
+required by VariableService. It provides a common interface for storage
+backends while allowing each backend to implement its own persistence
+mechanism.
+
+The protocol is responsible for:
+  1. Variable access:
+    - GetVariable()
+    - SetVariable()
+    - GetNextVariableName()
+    - QueryVariableInfo()
+
+  2. Variable management:
+    - Variable locking
+    - Variable property management
+    - Variable statistics
+
+  3. Runtime cache management:
+    - Runtime cache initialization
+    - Runtime cache synchronization
+    - Runtime cache information queries
+
+  4. Storage notifications:
+    - ReadyToBoot
+    - ExitBootServices
+
+Storage notifications allow storage backends to perform implementation-
+specific actions, such as flushing pending updates, synchronizing caches,
+locking storage regions, sealing storage, or performing other state
+transitions required by the underlying storage implementation.
+
+The abstraction supports:
+    - Traditional FVB/FTW-based storage.
+    - Platform-specific secure storage implementations.
+
+VariableService remains responsible for variable service semantics,
+whereas the VariableStorage Protocol is responsible for storage
+persistence and backend-specific management.
+
+### VariableStorageRouterLib
+
+VariableStorageRouterLib is responsible for backend selection, whereas
+the VariableStorage Protocol defines the storage interface implemented
+by each backend.
+
+The default implementation simply forwards every request to a single
+VariableStorage Protocol instance. Platform-specific implementations
+may instead route requests to different storage backends according to
+platform policy.
+
+## Requirements
+
+A platform implementing a non-FVB variable storage backend must provide
+equivalent guarantees for persistence, integrity, fault tolerance, and
+atomic updates.
+
+Any implementation of a VariableStorage Protocol must preserve the
+semantics expected by VariableSmm and VariableStandaloneMm,
+regardless of the underlying storage technology. This includes variable
+persistence, integrity protection, fault tolerance, atomic updates, and
+any additional backend-specific requirements.
+
+## UEFI/PI Specification Impact
+
+No impact.
+
+## Backward Compatibility
+
+Existing platforms may continue using the default
+VariableStorageRouterBaseLib together with the FVB-based
+VariableStorage Protocol implementation without modification.
+
+Consequently, no behavioural changes are expected for existing
+platforms that continue using the traditional FVB backend.
+
+## Platform/Package Impact
+
+1. MdeModulePkg
+
+  MdeModulePkg will introduce the following components:
+    - VariableStorageRouterBaseLib
+    - VariableStorageFvbStandaloneMm
+    - VariableStorageFvbTraditionalMm
+
+  These drivers implement the VariableStorage Protocol for StandaloneMm and
+  TraditionalMm environments.
+
+2. Platforms
+
+  Platforms using VariableSmm or VariableStandaloneMm must provide:
+    - A VariableStorage Protocol implementation.
+    - A VariableStorageRouterLib implementation.
+
+  These components are selected by the platform through the DSC file,
+  allowing platforms to choose the appropriate storage backend and routing
+  policy.
+
+## Unresolved Questions
+
+Not Applicable.
+
+## Prior Art/Related Work
+
+Not Applicable.
+
+## Alternatives
+
+None.
+
+## Implementation Design
+
+The following components are introduced in MdeModulePkg:
+  - VariableStorageFvbStandaloneMm
+  - VariableStorageFvbTraditionalMm
+  - VariableStorageRouterBaseLib
+
+VariableStorageFvbStandaloneMm and VariableStorageFvbTraditionalMm implement
+the VariableStorage Protocol using the existing FVB-based storage model.
+These drivers encapsulate the reusable FVB-specific storage logic and
+may be used directly or as part of a storage solution.
+
+VariableStorageRouterBaseLib provides the default VariableStorageRouterLib
+implementation. It preserves the existing behaviour by forwarding all
+storage operations to a single VariableStorage Protocol instance.
+
+For example, VariableSmm forwards SetVariable() requests to
+VariableStorageRouterLib:
+
+EFI_STATUS
+EFIAPI
+SmmVariableSetVariable (
+  IN CHAR16    *VariableName,
+  IN EFI_GUID  *VendorGuid,
+  IN UINT32    Attributes,
+  IN UINTN     DataSize,
+  IN VOID      *Data,
+  IN BOOLEAN   FromTrusted
+  )
+{
+  return VariableStorageRouterLibSetVariable (
+           VariableName,
+           VendorGuid,
+           Attributes,
+           DataSize,
+           Data,
+           FromTrusted
+           );
+}
+
+Both VariableSmm and VariableStandaloneMm access storage
+exclusively through the VariableStorageRouterLib APIs. The router is
+responsible for selecting the appropriate storage backend, while each
+backend implements the VariableStorage Protocol.
+
+The following examples illustrate typical deployment models.
+
+**Default FVB backend**
+
+The default implementation uses VariableStorageRouterBaseLib, which forwards
+every storage request to the FVB-based VariableStorage Protocol implementation.
+This preserves the current VariableService behaviour without requiring platform
+changes:
+
+```
+        OS or UEFI (Normal world)       |        StandaloneMm (Secure world)
+  --------------------------------------|--------------------------------------
+                                        |
+                                        |             +------------------+
+    +------------------+                |             |       Flash      |
+    |  SetVariable()   |                |             |    (FVB based)   |
+    |  GetVariable()   |                |             +------------------+
+    +------------------+                |                       |
+             |                          |                       |
+             |                          |           +----------------------------+
+             |                          |           | VariableStorageFvb Driver  |
+             |                          |           | (VariableStorage Protocol) |
+             |                          |           +----------------------------+
+             |                          |                       |
+             |                          |         +--------------------------------+
+             |                          |         |    VariableStorageRouterLib    |
+  +-----------------------+             |         | (VariableStorageRouterBaseLib) |
+  | VariableSmmRuntimeDxe |             |         +--------------------------------+
+  +-----------------------+             |                       |
+             |                          |                       |
+             |                          |                       |
+             |                          |                       |
+             |                          |                       |
+             |                          |                       | Invoke VariableStorageRouterLib APIs
+             |                          |                       |
+             |                          |                       |
+             |                          |                       |
+             |                          |                       |
+             |                          |                       |
+    +---------------------+      MmCommunication       +------------------+
+    |  MmCommunicationDxe | <------------------------->|  VariableSmmDxe  |
+    +---------------------+                            +------------------+
+```
+
+**Platform-specific storage backend**
+
+Platforms may replace the FVB backend with a platform-defined VariableStorage
+Protocol implementation while using VariableStorageRouterBaseLib to forward
+storage requests to the platform-defined VariableStorage Protocol.
+
+The example below shows a platform accessing flash managed by a dedicated
+management controller through a platform-defined VariableStorage Protocol
+implementation that proxies storage requests to the management controller.
+
+```
+        OS or UEFI (Normal world)       |        StandaloneMm (Secure world)   |    Management Controller
+  --------------------------------------|--------------------------------------|--------------------------
+                                        |                                      |
+                                        |                                      |     +---------+
+    +------------------+                |                                      |     |  Flash  |
+    |  SetVariable()   |                |              ----------------------------->| (Proxy) |
+    |  GetVariable()   |                |              |                       |     +---------+
+    +------------------+                |              |                       |
+             |                          |              |                       |
+             |                          |    +----------------------------+    |
+             |                          |    |     VariableStorageProxy   |    |
+             |                          |    | (VariableStorage Protocol) |    |
+             |                          |    +----------------------------+    |
+             |                          |              |                       |
+             |                          |    +-------------------------------+ |
+             |                          |    |   VariableStorageRouterLib    | |
+  +-----------------------+             |    | (VariableStorageRouterBaseib) | |
+  | VariableSmmRuntimeDxe |             |    +-------------------------------+ |
+  +-----------------------+             |                       |              |
+             |                          |                       |              |
+             |                          |                       |              |
+             |                          |                       |              |
+             |                          |                       | Invoke VariableStorageRouterLib APIs
+             |                          |                       |              |
+             |                          |                       |              |
+             |                          |                       |              |
+             |                          |                       |              |
+             |                          |                       |              |
+             |                          |                       |              |
+    +---------------------+      MmCommunication       +------------------+    |
+    |  MmCommunicationDxe | <------------------------->|  VariableSmmDxe  |    |
+    +---------------------+                            +------------------+    |
+```
+
+## Testing Strategy
+
+Each VariableStorage implementation should be validated using
+[edk2-test's VariableServiceBBTest](https://github.com/tianocore/edk2-test/blob/master/uefi-sct/SctPkg/TestCase/UEFI/EFI/RuntimeServices/VariableServices/BlackBoxTest/VariableServicesBBTest.inf)
+
+## Migration/Adoption Plan
+
+Not Applicable
+
+## Guide-Level Explanation
+
+Not Applicable

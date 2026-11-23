@@ -59,11 +59,14 @@ held in draft pull requests within a TianoCore GitHub repository.
             admins with `@tianocore/tianocore-admins` and list the GitHub usernames for all collaborators that need
             permission to the `edk2-staging` branch.
 4. Create a draft pull request into the default branch on the repository from the "code first dev branch" (*step 3*).
-   - Apply the `type:code-first` label to the PR.
 5. Add a comment in the PR with a link to the GitHub issue created in *step 1*.
-   - It is also recommended to link the pull request to the issue following the methods described in
+   - It is required to link the pull request to the issue following the methods described in
 [Linking a pull request to an
 issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue).
+     - When the issue is linked successfully, it will appear as a link in the "Development" section of the pull request.
+       - Note: Establishing this link will automatically add a `type:code-first` label to the pull request. If for some
+         reason, this is added in error, or needs to be removed later and you lack sufficient privilege to do so,
+         leave a comment in the pull request explaining the situation so a maintainer can address it.
 6. Continue to develop the change in the "code first dev branch" until it is ready for review. Changes pushed to the
    branch will automatically update the PR.
 7. After all dependent specification changes have been approved and publicly published, the PR with code changes is

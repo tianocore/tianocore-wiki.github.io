@@ -1,4 +1,4 @@
-# Acronyms And Glossary
+# Acronyms and Glossary
 
 [Member-FAQ](../../community/support-onboarding/member_faq.md)
 
@@ -119,7 +119,7 @@ Core Root-of-Trust Module
 
 **CSM**
 Compatibility Support Module. The combination of EfiCompatibility,
-CompatibilitySmm , and Compatibility16. Portion of the Framework that
+CompatibilitySmm, and Compatibility16. Portion of the Framework that
 allows compatibility with non-EFI compliant operating systems to run on
 Framework firmware
 
@@ -137,7 +137,7 @@ The entry point that the dispatcher invokes
 
 **Driver**
 Modular chunk of firmware code that supports chipset or platform
-features. bReusable in multiple system contexts
+features. Reusable in multiple system contexts
 
 **DXE**
 Driver Execution Environment phase
@@ -165,8 +165,8 @@ Eclipse Public License
 Interface](Wikipedia:Extensible_Firmware_Interface) (EFI)**
 EFI is a specification that defines the interface between an operating
 system, option ROMs, and platform firmware. EFI was originally invented
-by Intel as the [Intel(R) Itainum](http://en.wikipedia.org/wiki/Itainum)
-BIOS replacement. EFI is now owned by a industry non-profit
+by Intel as the [Intel(R) Itanium](http://en.wikipedia.org/wiki/Itanium)
+BIOS replacement. EFI is now owned by an industry non-profit
 collaborative trade organization called [The UEFI
 Forum](http://www.uefi.org).
 
@@ -179,8 +179,8 @@ FAT32 File System Driver
 **FD**
 Firmware Device. A persistent physical repository that contains firmware
 code and/or data and that may provide NVS. For the purposes of this
-architecture specification, the topology of bFDs should be abstracted
-via bFVs.
+architecture specification, the topology of FDs should be abstracted
+via FVs.
 
 **FFS**
 Firmware File System. A binary storage format that is well suited to
@@ -193,7 +193,7 @@ See FD.
 See FV.
 
 **FIT**
-Firmware Interface Tableb.( Itanium systems only)
+Firmware Interface Table. (Itanium systems only)
 
 **Font**
 A translation between Unicode weights and glyphs. This "M" and this "M"
@@ -215,7 +215,7 @@ where individual files are SUMs
 
 **FV**
 There are one or more FVs in the FS. The FV containing the "reset
-vector" is known as the Boot Firmware Volume (BFV). A FV is a simple
+vector" is known as the Boot Firmware Volume (BFV). An FV is a simple
 Flash File System that starts with a header and contains files that are
 named by a GUID. The file system is flat and does not support
 directories. Each file is made up of a series of sections that support
@@ -288,7 +288,7 @@ Machine Check Architecture
 Module Development Environment
 
 **NMI**
-Non-maskable Iinterrupt
+Non-Maskable Interrupt
 
 **NRAM**
 Nonvolatile Random Access Memory
@@ -322,9 +322,9 @@ PE32, PE32+, or Common Object File Format. A defined standard file
 format for binary images
 
 **PEI**
-Pre-EFI Initialization phase. Set of drivers usually designed to
-initialize memory and the cpu so that DXE phase can run. sually the
-first bset of code run starting from reset.
+Pre-EFI Initialization phase. A set of drivers usually designed to
+initialize memory and the CPU so that DXE phase can run. Usually the
+first set of code run starting from reset.
 
 **PEI Foundation**
 A set of intrinsic services and an execution mechanism for sequenced
@@ -424,7 +424,7 @@ Trusted Computing Group
 Terse Executable image. An executable image format that is specific to
 the Framework. This format is used only in PEI and is used for storing
 executable images in a smaller amount of space than would be required by
-a full PE32+ image. Is a smaller more compact version of bPE32.
+a full PE32+ image. Is a smaller more compact version of PE32.
 
 **Thunk**
 The code to transition from native execution mode to 16-bit real mode
@@ -435,7 +435,7 @@ preboot LAN stack that interfaces to SNP and PXEBC
 
 **Unicode**
 A standard defining an association between numeric values known as
-"weights" and characters from the majority of the worlds currently used
+"weights" and characters from the majority of the world's currently used
 languages. See the Unicode specification for more information.
 
 **USB**

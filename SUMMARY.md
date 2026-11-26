@@ -299,6 +299,7 @@
 
 # Reference
 
+- [Rust and Memory Safety](reference/rust_and_memory_safety.md)
 - [Capsule Based System Firmware Update Implementation](reference/capsule_based_system_firmware_update_implementation.md)
 - [Capsule Based System Firmware Update Verify Generated Keys](reference/capsule_based_system_firmware_update_verify_generated_keys.md)
 
